@@ -2,7 +2,7 @@
 
 Contenidos del curso de Python impartido durante la fase de ampliación del equipo de UVigo Motorsport durante el curso 2022-2023.
 
-## Uso
+## Instrucciones de uso
 
 Acceder a los notebooks de Google Collab de la clase correspondiente.
 
