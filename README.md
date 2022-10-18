@@ -1,27 +1,11 @@
-# (Repository title)
+# Curso de Python UVigo Motorsport 22-23
 
-(Repository description)
+Contenidos del curso de Python impartido durante la fase de ampliación del equipo de UVigo Motorsport durante el curso 2022-2023.
 
-## Installation
+## Uso
 
-(Important info)
+Acceder a los notebooks de Google Collab de la clase correspondiente.
 
-### macOS / UNIX
+## Derechos de autor
 
-```bash
-# (Instructions)
-```
-
-### Windows
-
-```
-# (Instructions)
-```
-
-## Usage
-
-(Instructions)
-
-## Disclaimer
-
-(Further information)
+UVigo Motorsport se reserva la autoría de los contenidos aquí expuestos. Cualquier copia o distribución de los mismos deberá ser previamente consultada con los responsables de gestión del curso para su posterior autorización o denegación.
