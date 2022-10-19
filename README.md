@@ -8,7 +8,7 @@ Acceder a los notebooks de Google Collab de la clase correspondiente.
 
 Enlaces:
 * [Clase 1](https://colab.research.google.com/drive/1-y4bOy2hKvv4ksHrn_zI-LEx3K7PHCiN?usp=sharing)
-* Clase 2
+* [Clase 2](https://colab.research.google.com/drive/1r5tnGcpozFLhi0fJSvOVJLntPlWBxYri?usp=sharing)
 * Clase 3
 
 ## Derechos de autor
