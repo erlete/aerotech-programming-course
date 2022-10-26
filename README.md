@@ -1,15 +1,16 @@
 # Curso de Python UVigo Motorsport 22-23
 
-Contenidos del curso de Python impartido durante la fase de ampliación del equipo de UVigo Motorsport durante el curso 2022-2023.
+Contenidos del curso de Python impartido durante la fase de ampliación del equipo de UVigo Motorsport (curso 2022 - 2023).
 
 ## Instrucciones de uso
 
-Acceder a los notebooks de Google Collab de la clase correspondiente.
+Acceder a los Jupyter Notebooks de la clase correspondiente.
 
 Enlaces:
-* [Clase 1](https://colab.research.google.com/drive/1-y4bOy2hKvv4ksHrn_zI-LEx3K7PHCiN?usp=sharing)
-* [Clase 2](https://colab.research.google.com/drive/1r5tnGcpozFLhi0fJSvOVJLntPlWBxYri?usp=sharing)
-* [Clase 3](https://colab.research.google.com/drive/1s3LBLuF1QZ1r7aaftiWV5bLu04tApcYs?usp=sharing)
+
+* [Clase 1](lessons/lesson-1.ipynb)
+* [Clase 2](lessons/lesson-2.ipynb)
+* [Clase 3](lessons/lesson-3.ipynb)
 
 ## Derechos de autor
 
