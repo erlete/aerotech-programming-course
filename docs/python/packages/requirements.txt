@@ -1,0 +1,9 @@
+pip
+setuptools
+wheel
+six
+twine
+build
+numpy
+matplotlib
+scipy
