@@ -46,10 +46,10 @@ If none of the commands work, head to the [troubleshooting](#troubleshooting) se
 
 ## Troubleshooting
 
-It is possible that none of the three installers works for you. Do not worry about it. There is a fourth option: the [source installation](../source/README.md). It is a more complex process, but it is highly customizable and OS-independent. It is, however, significantly more complex for inexperienced users and thus, should only be used as a last resort in case none of the installers work.
+It is possible that none of the three installers works for you. Do not worry about it. There is a fourth option: the [source installation](../source). It is a more complex process, but it is highly customizable and OS-independent. It is, however, significantly more complex for inexperienced users and thus, should only be used as a last resort in case none of the installers work.
 
 ## Next Steps
 
-Now that Python is installed, you can proceed to the [Packages](../../packages/README.md) tutorial.
+Now that Python is installed, you can proceed to the [Packages](../../packages) tutorial.
 
 You can also find the documentation for the standard library [here](https://docs.python.org/3.11/).

@@ -20,7 +20,7 @@ Students are free to explore the repository as they wish, yet it is highly recom
 
 ## Next steps
 
-- [Python installation](./docs/python/interpreter/binary-installation/README.md)
+- [Python installation](./docs/python/interpreter/binary-installation)
 
 ## Disclaimer
 
