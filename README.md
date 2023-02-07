@@ -1,26 +1,59 @@
-# Basic Formation Course
+# Basic Formation Courses
 
-This repository contains all the necessary resources to achieve a basic formation on common DevOps tools and practices, Python programming and team collaboration for development teams.
+Welcome to the Basic Formation Courses repository! This repository contains all the necessary resources to achieve a basic formation on common DevOps tools and practices, Python programming and good collaboration practices for development teams.
 
-## Introduction
+It is intended to be a foundation for collaborative development. It can be really useful for students that are starting their career in the industry. It does not intend to replace any official courses, yet it covers a set of topics that can be used as a kickstart for further learning.
 
-This course is intended to be a foundation for collaborative development. It contains a set of selective picked software tools and practices that are commonly used in the industry. The course is divided in three main sections:
+## Structure
 
-1. **Setup**: This section contains the necessary tools to be installed in your computer to be able to follow the course.
-2. **Development**: This section contains the necessary resources to learn the basics of Python, Git and GitHub while using Visual Studio Code as editor tool.
-3. **Testing**: This section contains the practical evaluation of the course.
+### Environment Setup
 
-The first section is intended to be completed the first day of the course. The second section will be explained between the first and last days of the course, while students will be able to practice the concepts learned. The third section will be completed by the students during the last day of the course.
+This section covers the steps required to set up the collaborative environment for software development. It is divided into three subsections:
+
+1. **Version control**: introduction to Git usage through the GitHub platform, as well as GitHub-specific tools for team collaboration.
+   1. Git setup
+   2. Git and GitHub features
+   3. GitHub Desktop setup
+
+2. **Python**: introduction to the language and component setup.
+   1. Interpreter setup
+   2. Package manager setup
+   3. Virtual environment setup
+
+3. **Visual Studio Code**: introduction to the editor tool and component setup.
+   1. Editor setup
+   2. Extensions setup
+
+### Python Programming
+
+This section covers topics related to Python programming from basic to intermediate level. It is divided into three subsections:
+
+1. Standard **data types**, **control statements**, **functions** and **classes**
+2. **Error handling**, **file handling** and **external libraries usage**
+3. **Code stylization** and **final project**
+
+## Software Specifications
+
+Here are the specifications for the software tools used in this course:
+
+| Software | Version | Windows support | macOS support | Linux support | Optional |
+| :------: | :-----: | :-------------: | :-----------: | :-----------: | :------: |
+| [Python](https://www.python.org/) | [3.11.1](https://www.python.org/downloads/release/python-3111/) | Yes | Yes | Yes | No |
+| [Git](https://git-scm.com/) | 2.39.1+ | Yes | Yes | Yes | No |
+| [GitHub Desktop](https://desktop.github.com/) | 3.1.6+ | Yes | Yes | Yes[^1] | Yes |
+| [Visual Studio Code](https://code.visualstudio.com/) | [1.75.0+](https://code.visualstudio.com/Download) | Yes | Yes | Yes | Yes |
 
 ## How to follow the course?
 
-The course can be easily followed by reading the `README.md` files located at each one of the defined sections. Each `README.md` file contains a "Next steps" section with links to the following resources.
+The course can be easily followed by reading the `README.md` files located at each one of the defined sections. Each `README.md` file contains a "Next up" bottom section with links to the following resources.
 
-Students are free to explore the repository as they wish, yet it is highly recommended to follow the course in the order defined in the "Next steps" sections, since not doing so might lead to confusion, configuration errors and other undetermined issues.
+Students are free to explore the repository as they wish, yet it is highly recommended to follow the course in the order defined in the "Next up" sections, since not doing so might lead to confusion, configuration errors and other undetermined issues.
 
-## Next steps
+## Next up
 
-- [Python installation](./docs/python/interpreter/binary-installation)
+- [Version control](./docs/version/../version-control/github/README.md)
+
+---
 
 ## Disclaimer
 
@@ -31,3 +64,5 @@ Students are free to explore the repository as they wish, yet it is highly recom
 **Suggestions over the contents of this course are welcome, yet it is not assured that all (or any) suggestions will be implemented. Feel free to open an issue or a pull request to suggest any change.**
 
 **This repository is subject to the [GNU Affero General Public License v3](LICENSE). Feel free to explore its permissions and limitations at any time.**
+
+[^1]: Linux support is not explicitely provided by GitHub, but it can be installed through [this repository](https://github.com/shiftkey/desktop/releases).
