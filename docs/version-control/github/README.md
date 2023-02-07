@@ -19,7 +19,7 @@ However, it is easier to learn Git by using GitHub, since it provides a graphica
 
 *All features in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
 
-Before diving into the contents of Git and GitHub, go to the [Git installation page](../git/) and proceed with the installation.
+Before diving into the contents of Git and GitHub, go to the [Git installation page](../git/README.md) and proceed with the installation.
 
 ## Repositories (Git)
 

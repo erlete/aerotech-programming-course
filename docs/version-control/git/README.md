@@ -30,4 +30,4 @@ In order to install Git, it is only necessary to follow the installer procedure.
 
 ## Next steps
 
-- [Return to the GitHub tutorial](../github#repositories-git)
+- [Return to the GitHub tutorial](../github/README.md#repositories-git)
