@@ -1,6 +1,13 @@
+
+---
+
+<br>
 <div align=center>
     <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg"/>
 </div>
+<br>
+
+---
 
 # Git
 
