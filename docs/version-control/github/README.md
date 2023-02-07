@@ -12,13 +12,13 @@ However, it is easier to learn Git by using GitHub, since it provides a graphica
 
 A repository is the home for your code. It can be public or private, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
 
-![Repository](../media/github/github-repository.png)
+![Repository](../../../media/version-control/github/repository.png)
 
 ## Commits (Git)
 
 A commit represents any modification or set of modifications over a repository. It is the basic unit of change in Git, and it is used to track the history of a repository. A commit is made up of a commit message, which is a short description of the changes made, and the actual changes themselves.
 
-![Commit](../media/github/github-commit.png)
+![Commit](../../../media/version-control/github/commit.png)
 
 ## Branches (Git)
 
@@ -164,11 +164,11 @@ A fork is a copy of a repository. It is used to create a copy of a repository in
 
 Any repository can be forked as long as the user has access to it. Forking a repository is as simple as clicking the "Fork" button in the top-right corner of the repository page.
 
-![Fork button](../media/github/github-fork.png)
+![Fork button](../../../media/version-control/github/fork-1.png)
 
 Clicking that button will cause a new window to open, asking for details on how to fork the repository. The default options are usually fine, but you can change them if you want. Note that you cannot fork a repository into the same account it belongs to.
 
-![Fork options](../media/github/github-fork-2.png)
+![Fork options](../../../media/version-control/github/fork-2.png)
 
 The *"Copy only the `<branch>` branch only"* option can be used to only fork the main branch of the repository. This is useful in case the repository has multiple branches, and you only want to fork the stable one.
 
@@ -216,7 +216,7 @@ gitGraph
 
 When this happens, a **merge conflict** is generated. This is a situation in which the changes present in the source branch cannot be merged into the base branch, since they are incompatible. This is a very common situation, and it is important to know how to deal with it. Fortunately, Git provides with a simple solution to this problem: when a merge conflict is detected, the merge request is halted and the user is prompted to solve the conflict. This is done by modifying the conflicting file or files in order to make them compatible with the base branch.
 
-#### Merge Strategies (Git)
+### Merge Strategies (Git)
 
 There are three main ways to merge branches in Git, each one with its own advantages and disadvantages.
 
@@ -225,7 +225,6 @@ There are three main ways to merge branches in Git, each one with its own advant
 | Standard | Yes            | No                              |
 | Squash   | No             | No                              |
 | Rebase   | No             | Yes                             |
-
 
 Let's consider the following (conflictless) scenario:
 
@@ -338,15 +337,15 @@ gitGraph
 
 A pull request (PR) is a petition to merge a branch into another branch when the user does not have sufficient rights to commit directly to said branch
 
-![Pull request interface](../media/github/pr1.png)
+![Pull request interface](../../../media/version-control/github/pull-request-1.png)
 
 New PRs can be created using the *"New Pull Request"* button. After that, a new window will open:
 
-![New Pull Request](../media/github/pr2.png)
+![New Pull Request](../../../media/version-control/github/pull-request-2.png)
 
 They key information in this window is the bar that shows which branches are being compared, as well as whether they can be automatically merged:
 
-![Pull Request comparison](../media/github/pr3.png)
+![Pull Request comparison](../../../media/version-control/github/pull-request-3.png)
 
 These three concepts must be understood clearly in order to learn how to use pull requests:
 
@@ -361,7 +360,6 @@ Pull requests have got some key features that make them a indispensable tool for
 - They allow the user to review the changes before merging them into the target branch.
 - They allow the user to request changes to the changes before merging them into the target branch.
 - They allow automatic checks to be run on the changes before merging them into the target branch.
-
 
 ## Issues (GitHub)
 
