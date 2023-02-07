@@ -4,23 +4,23 @@ GitHub is an excellent collaboration tool for development teams and a great way 
 
 The platform is based on the core functionality of the Git version control system, but it is not the same as Git itself. GitHub is just an interface. Do not forget that.
 
-However, it is easier to learn Git by using GitHub, since it provides a graphical interface to perform most of the Git operations, which would be performed over the command line otherwise. Contents explained in this document that are part of the Git core functionality will be marked accordingly.
+However, it is easier to learn Git by using GitHub, since it provides a graphical interface to perform most of the Git operations, which would be performed over the command line otherwise.
 
-## Git and GitHub Features
+*All features in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
 
-### Repositories (Git)
+## Repositories (Git)
 
 A repository is the home for your code. It can be public or private, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
 
 ![Repository](../media/github/github-repository.png)
 
-### Commits (Git)
+## Commits (Git)
 
 A commit represents any modification or set of modifications over a repository. It is the basic unit of change in Git, and it is used to track the history of a repository. A commit is made up of a commit message, which is a short description of the changes made, and the actual changes themselves.
 
 ![Commit](../media/github/github-commit.png)
 
-### Branches (Git)
+## Branches (Git)
 
 Branches are parallel versions of a given state of a repository. They are the key to collaborative development, since they allow multiple developers to work on the same repository without affecting each other. Branches are created from a given commit in another branch, and they can be merged back into the original branch when the work is done.
 
@@ -158,7 +158,7 @@ gitGraph
     commit id: "actions-update-5"
 ```
 
-### Forks (Git)
+## Forks (Git)
 
 A fork is a copy of a repository. It is used to create a copy of a repository in your own account, so you can make changes to it without affecting the original repository. This is a great way to contribute to open-source projects, or even to create your own version of a project.
 
@@ -216,7 +216,7 @@ gitGraph
 
 When this happens, a **merge conflict** is generated. This is a situation in which the changes present in the source branch cannot be merged into the base branch, since they are incompatible. This is a very common situation, and it is important to know how to deal with it. Fortunately, Git provides with a simple solution to this problem: when a merge conflict is detected, the merge request is halted and the user is prompted to solve the conflict. This is done by modifying the conflicting file or files in order to make them compatible with the base branch.
 
-## Merge Strategies (Git)
+#### Merge Strategies (Git)
 
 There are three main ways to merge branches in Git, each one with its own advantages and disadvantages.
 
@@ -255,7 +255,7 @@ gitGraph
     merge B id: "Merge B into A"
 ```
 
-### Standard (Merge)
+#### Standard (Merge)
 
 This is the default strategy. **It mixes commits on the timeline**, which means that commits on both branches will preserve their original order.
 
@@ -282,7 +282,7 @@ gitGraph
 
 Although this strategy is the most common one, it might cause the commit log to be hard to understand, since multiple commits will suddenly appear on the base branch history in a non-linear order.
 
-### Squash
+#### Squash
 
 This strategy **does not mix commits on the timeline**, which means that commits on the base branch will keep their linearity.
 
@@ -307,7 +307,7 @@ gitGraph
     commit id: "Merge B into A (Change B1, Change B2)" type: HIGHLIGHT
 ```
 
-### Rebase
+#### Rebase
 
 This strategy **does not mix commits on the timeline**, which means that commits on the base branch will keep their linearity.
 
