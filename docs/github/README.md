@@ -2,23 +2,25 @@
 
 GitHub is an excellent collaboration tool for development teams and a great way to share your code with the world. It is also a great way to learn how to use Git, since it is the most popular Git repository hosting service.
 
-The platform is based on the core functionality of the Git version control system, which will be studied in the following sections. Consider this tutorial as an interface for Git, but learn to differentiate between GitHub tools and Git functionality.
+The platform is based on the core functionality of the Git version control system, but it is not the same as Git itself. GitHub is just an interface. Do not forget that.
 
-## GitHub Features
+However, it is easier to learn Git by using GitHub, since it provides a graphical interface to perform most of the Git operations, which would be performed over the command line otherwise. Contents explained in this document that are part of the Git core functionality will be marked accordingly.
 
-### Repository
+## Git and GitHub Features
+
+### Repositories (Git)
 
 A repository is the home for your code. It can be public or private, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
 
 ![Repository](../media/github/github-repository.png)
 
-### Commit
+### Commits (Git)
 
 A commit represents any modification or set of modifications over a repository. It is the basic unit of change in Git, and it is used to track the history of a repository. A commit is made up of a commit message, which is a short description of the changes made, and the actual changes themselves.
 
 ![Commit](../media/github/github-commit.png)
 
-### Branches
+### Branches (Git)
 
 Branches are parallel versions of a given state of a repository. They are the key to collaborative development, since they allow multiple developers to work on the same repository without affecting each other. Branches are created from a given commit in another branch, and they can be merged back into the original branch when the work is done.
 
@@ -156,7 +158,7 @@ gitGraph
     commit id: "actions-update-5"
 ```
 
-### Forks
+### Forks (Git)
 
 A fork is a copy of a repository. It is used to create a copy of a repository in your own account, so you can make changes to it without affecting the original repository. This is a great way to contribute to open-source projects, or even to create your own version of a project.
 
@@ -168,4 +170,87 @@ Clicking that button will cause a new window to open, asking for details on how 
 
 ![Fork options](../media/github/github-fork-2.png)
 
-The *"Copy only the `<branch>` branch only"* option can be used to only fork the main branch of the repository.
+The *"Copy only the `<branch>` branch only"* option can be used to only fork the main branch of the repository. This is useful in case the repository has multiple branches, and you only want to fork the stable one.
+
+## Merge Requests (Git)
+
+A merge request is a **low-level** petition to merge a branch into another one. A merge request is composed of a **base** branch and a **source** one. The base branch is the one that will receive the changes, while the source branch is the one that will be merged into the base branch.
+
+The low-level nature of merge requests is due to the fact that their objective is to determine whether or not the changes present in each branch are compatible, that is, whether the files they have modified share the same state. You might wonder why this would be a problem, so let's take a look at an example:
+
+1. There are two branches, `A` and `B`.
+2. There are two developers, `X` and `Y`.
+3. `X` commits changes to the `A` branch, while `Y` commits changes to the `B` branch.
+4. `X` modifies `File1` in the `A` branch, while `Y` modifies `File1` in the `B` branch.
+5. `Y` attempts to merge the `B` branch into the `A` branch.
+6. Which version of the file should be used? The one from `X` or the one from `Y`?
+
+```mermaid
+
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'A'
+        }
+    }
+}%%
+
+gitGraph
+    commit id: "Initial commit"
+    branch B
+    checkout A
+
+    commit id: "Modify File1 by X"
+    checkout B
+
+    commit id: "Modify File1 by Y"
+    checkout A
+    merge B id: "Merge B into A"
+```
+
+Note that this issue is not trivial, since `X` could have modified `File1` **after** `Y` did, but `Y` requested a merge after `X` performed the modification, so the last modification of `File1` does not match the last modification on the repository (new changes are overwritten).
+
+## Pull Requests (Git, GitHub)
+
+A pull request (PR) is a petition to merge a branch into another branch when the user does not have sufficient rights to commit directly to said branch
+
+![Pull request interface](../media/github/pr1.png)
+
+New PRs can be created using the *"New Pull Request"* button. After that, a new window will open:
+
+![New Pull Request](../media/github/pr2.png)
+
+They key information in this window is the bar that shows which branches are being compared, as well as whether they can be automatically merged:
+
+![Pull Request comparison](../media/github/pr3.png)
+
+These three concepts must be understood clearly in order to learn how to use pull requests:
+
+- **Base**: The branch that will **receive** the changes.
+- **Compare**: The branch that will **send** the changes.
+- **Ability to merge**: Whether the changes can be merged automatically or not.
+
+This last condition might raise doubts,
+
+Pull requests have got some key features that make them a indispensable tool for collaborative development:
+
+- They allow the user to review the changes before merging them into the target branch.
+- They allow the user to request changes to the changes before merging them into the target branch.
+- They allow automatic checks to be run on the changes before merging them into the target branch.
+
+
+## Issues (GitHub)
+
+## Projects (GitHub)
+
+## Discussions (GitHub)
+
+## Actions (GitHub)
+
+## Pages (GitHub)
+
+## Wikis (GitHub)
