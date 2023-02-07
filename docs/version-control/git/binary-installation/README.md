@@ -1,4 +1,6 @@
-![Git logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
+<div align=center>
+    <img src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.svg"/>
+</div>
 
 # Git
 

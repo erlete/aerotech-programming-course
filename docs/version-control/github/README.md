@@ -1,3 +1,7 @@
+<div align=center>
+    <img src="https://user-images.githubusercontent.com/76848729/217161630-5465e928-8479-40bd-a71f-966725cce869.svg"/>
+</div>
+
 # GitHub
 
 GitHub is an excellent collaboration tool for development teams and a great way to share your code with the world. It is also a great way to learn how to use Git, since it is the most popular Git repository hosting service.
