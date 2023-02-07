@@ -274,9 +274,9 @@ This is the default strategy. **It mixes commits on the timeline**, which means 
 
 gitGraph
     commit id: "Initial commit"
-    commit id: "Change B1"
+    commit id: "Change B1" type: HIGHLIGHT
     commit id: "Change A1"
-    commit id: "Change B2"
+    commit id: "Change B2" type: HIGHLIGHT
     commit id: "Merge B into A"
 ```
 
@@ -304,7 +304,7 @@ Furthermore, this strategy combines all the commits on the source branch into a 
 gitGraph
     commit id: "Initial commit"
     commit id: "Change A1"
-    commit id: "Merge B into A (Change B1, Change B2)"
+    commit id: "Merge B into A (Change B1, Change B2)" type: HIGHLIGHT
 ```
 
 ### Rebase
@@ -330,8 +330,8 @@ gitGraph
     commit id: "Initial commit"
     commit id: "Change A1"
     commit id: "Merge B into A"
-    commit id: "Change B1"
-    commit id: "Change B2"
+    commit id: "Change B1" type: HIGHLIGHT
+    commit id: "Change B2" type: HIGHLIGHT
 ```
 
 ## Pull Requests (Git, GitHub)
