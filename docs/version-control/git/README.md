@@ -17,9 +17,9 @@ Git is a free and open source distributed version control system designed to han
 
 | Operating system | Architecture | Portable | Installer |
 | :--------------: | :----------: | :------: | :-------: |
-| Windows          | x32          | No       | [Click here](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-32-bit.exe) |
-| Windows          | x32          | Yes      | [Click here](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe) |
-| Windows          | x64          | No       | [Click here](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-32-bit.7z.exe) |
-| Windows          | x64          | Yes      | [Click here](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-64-bit.7z.exe) |
-| macOS            | -            | -        | [Package manager](https://git-scm.com/download/mac) |
-| Linux            | -            | -        | [Package manager](https://git-scm.com/download/linux) |
+| Windows          | x32          | No       | [Download](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-32-bit.exe) |
+| Windows          | x32          | Yes      | [Download](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe) |
+| Windows          | x64          | No       | [Download](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-32-bit.7z.exe) |
+| Windows          | x64          | Yes      | [Download](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-64-bit.7z.exe) |
+| macOS            | -            | -        | [Package manager installation instructions](https://git-scm.com/download/mac) |
+| Linux            | -            | -        | [Package manager installation instructions](https://git-scm.com/download/linux) |
