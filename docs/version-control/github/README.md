@@ -19,6 +19,8 @@ However, it is easier to learn Git by using GitHub, since it provides a graphica
 
 *All features in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
 
+Before diving into the contents of Git and GitHub, go to the [Git installation page](../git/) and proceed with the installation.
+
 ## Repositories (Git)
 
 A repository is the home for your code. It can be public or private, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
