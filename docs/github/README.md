@@ -176,7 +176,7 @@ The *"Copy only the `<branch>` branch only"* option can be used to only fork the
 
 A merge request is a **low-level** petition to merge a branch into another one. A merge request is composed of a **base** branch and a **source** one. The base branch is the one that will receive the changes, while the source branch is the one that will be merged into the base branch.
 
-The low-level nature of merge requests is due to the fact that their objective is to determine whether or not the changes present in each branch are compatible, that is, whether the files they have modified share the same state. You might wonder why this would be a problem, so let's take a look at an example:
+The low-level nature of merge requests is due to the fact that their objective is to determine whether or not the changes present in each branch are compatible, that is, whether the **lines** of the files that have been modified share the same state. You might wonder why this would be a problem, so let's take a look at an example:
 
 1. There are two branches, `A` and `B`.
 2. There are two developers, `X` and `Y`.
@@ -185,8 +185,51 @@ The low-level nature of merge requests is due to the fact that their objective i
 5. `Y` attempts to merge the `B` branch into the `A` branch.
 6. Which version of the file should be used? The one from `X` or the one from `Y`?
 
-```mermaid
+Note that this issue is not trivial, since `X` could have modified `File1` **after** `Y` did, but `Y` requested a merge after `X` performed the modification, so the last modification of `File1` does not match the last modification on the repository (new changes are overwritten).
 
+```mermaid
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'A'
+        }
+    }
+}%%
+
+gitGraph
+    branch B
+
+    commit id: "Modify File1 by Y"
+    checkout A
+    commit id: "Some change"
+
+    commit id: "Modify File1 by X"
+    checkout B
+    commit id: "Some other change"
+    checkout A
+    merge B id: "Merge B into A"
+```
+
+When this happens, a **merge conflict** is generated. This is a situation in which the changes present in the source branch cannot be merged into the base branch, since they are incompatible. This is a very common situation, and it is important to know how to deal with it. Fortunately, Git provides with a simple solution to this problem: when a merge conflict is detected, the merge request is halted and the user is prompted to solve the conflict. This is done by modifying the conflicting file or files in order to make them compatible with the base branch.
+
+## Merge Strategies (Git)
+
+There are three main ways to merge branches in Git, each one with its own advantages and disadvantages.
+
+| Strategy | Linear history | Prioritizes most recent changes |
+| -------- | :------------: | :-----------------------------: |
+| Standard | Yes            | No                              |
+| Squash   | No             | No                              |
+| Rebase   | No             | Yes                             |
+
+
+Let's consider the following (conflictless) scenario:
+
+```mermaid
 %%{
     init: {
         'logLevel': 'debug',
@@ -202,17 +245,94 @@ The low-level nature of merge requests is due to the fact that their objective i
 gitGraph
     commit id: "Initial commit"
     branch B
+
+    commit id: "Change B1"
     checkout A
-
-    commit id: "Modify File1 by X"
+    commit id: "Change A1"
     checkout B
-
-    commit id: "Modify File1 by Y"
+    commit id: "Change B2"
     checkout A
     merge B id: "Merge B into A"
 ```
 
-Note that this issue is not trivial, since `X` could have modified `File1` **after** `Y` did, but `Y` requested a merge after `X` performed the modification, so the last modification of `File1` does not match the last modification on the repository (new changes are overwritten).
+### Standard (Merge)
+
+This is the default strategy. **It mixes commits on the timeline**, which means that commits on both branches will preserve their original order.
+
+```mermaid
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'A'
+        }
+    }
+}%%
+
+gitGraph
+    commit id: "Initial commit"
+    commit id: "Change B1"
+    commit id: "Change A1"
+    commit id: "Change B2"
+    commit id: "Merge B into A"
+```
+
+Although this strategy is the most common one, it might cause the commit log to be hard to understand, since multiple commits will suddenly appear on the base branch history in a non-linear order.
+
+### Squash
+
+This strategy **does not mix commits on the timeline**, which means that commits on the base branch will keep their linearity.
+
+Furthermore, this strategy combines all the commits on the source branch into a single one, which is later merged into the base branch. This greatly simplifies the understanding of the commit log.
+
+```mermaid
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'A'
+        }
+    }
+}%%
+
+gitGraph
+    commit id: "Initial commit"
+    commit id: "Change A1"
+    commit id: "Merge B into A (Change B1, Change B2)"
+```
+
+### Rebase
+
+This strategy **does not mix commits on the timeline**, which means that commits on the base branch will keep their linearity.
+
+This strategy is not commonly used, since it mixes parts of both the standard and squash ones. It adds all the commits from the source branch to the base branch in their particular order (not combined), but sets them as the most recent on the base branch.
+
+```mermaid
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'base',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'A'
+        }
+    }
+}%%
+
+gitGraph
+    commit id: "Initial commit"
+    commit id: "Change A1"
+    commit id: "Merge B into A"
+    commit id: "Change B1"
+    commit id: "Change B2"
+```
 
 ## Pull Requests (Git, GitHub)
 
