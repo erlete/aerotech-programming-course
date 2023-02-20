@@ -7,21 +7,20 @@ It is intended to be a foundation for collaborative development. It can be reall
 ## Structure
 
 ```mermaid
-
 %%{
     init: {
         'logLevel': 'debug',
-        'theme': 'base',
+        'theme': 'forest',
         'gitGraph': {
             'showBranches': true,
             'showCommitLabel':true,
-            'mainBranchName': 'course'
+            'mainBranchName': 'course-progress'
         }
     }
 }%%
 
 gitGraph
-   commit id: "Welcome!"
+   commit id: "Welcome!" type: HIGHLIGHT
 
    commit id: "Version control"
    branch version-control
@@ -29,7 +28,7 @@ gitGraph
    commit id: "Git setup"
    commit id: "Git and GitHub features"
    commit id: "GitHub Desktop setup"
-   checkout course
+   checkout course-progress
    merge version-control
 
    commit id: "Python"
@@ -38,7 +37,7 @@ gitGraph
    commit id: "Interpreter setup"
    commit id: "Package manager setup"
    commit id: "Virtual environment setup"
-   checkout course
+   checkout course-progress
    merge python
 
    commit id: "Visual Studio Code"
@@ -46,10 +45,10 @@ gitGraph
    checkout visual-studio-code
    commit id: "Editor setup"
    commit id: "Extensions setup"
-   checkout course
+   checkout course-progress
    merge visual-studio-code
 
-   commit id: "Python programming" type: HIGHLIGHT
+   commit id: "Python programming"
 ```
 
 ### Environment Setup
