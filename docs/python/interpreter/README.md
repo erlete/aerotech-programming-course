@@ -1,3 +1,48 @@
+```mermaid
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'forest',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'course-progress'
+        }
+    }
+}%%
+
+gitGraph
+   commit id: "Welcome!"
+
+   commit id: "Version control"
+   branch version-control
+   checkout version-control
+   commit id: "Git setup"
+   commit id: "Git and GitHub features"
+   commit id: "GitHub Desktop setup"
+   checkout course-progress
+   merge version-control
+
+   commit id: "Python"
+   branch python
+   checkout python
+   commit id: "Interpreter setup" type: HIGHLIGHT
+   commit id: "Package manager setup"
+   commit id: "Virtual environment setup"
+   checkout course-progress
+   merge python
+
+   commit id: "Visual Studio Code"
+   branch visual-studio-code
+   checkout visual-studio-code
+   commit id: "Editor setup"
+   commit id: "Extensions setup"
+   checkout course-progress
+   merge visual-studio-code
+
+   commit id: "Python programming"
+```
+
 # Python
 
 Python is a programming language that lets you work quickly and integrate systems more effectively. It is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
