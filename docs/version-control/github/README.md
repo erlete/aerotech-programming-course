@@ -350,9 +350,13 @@ gitGraph
 
 A pull request (PR) is a petition to merge a branch into another branch when the user does not have sufficient rights to commit directly to said branch
 
+Pull requests (usually known as PRs) are petitions to perform merge requests from one branch to another when the user does not have sufficient rights to perform them directly.
+
+PRs are listed in the pull request tab of a repository:
+
 ![Pull request interface](../../../media/version-control/github/pull-request-1.png)
 
-New PRs can be created using the *"New Pull Request"* button. After that, a new window will open:
+New PRs can be created clicking the *"New Pull Request"* button. After that, a new window will open:
 
 ![New Pull Request](../../../media/version-control/github/pull-request-2.png)
 
@@ -360,21 +364,17 @@ They key information in this window is the bar that shows which branches are bei
 
 ![Pull Request comparison](../../../media/version-control/github/pull-request-3.png)
 
-These three concepts must be understood clearly in order to learn how to use pull requests:
+Pull requests have got some key features that make them a indispensable tool for collaborative development. Some of the utilities they include are:
 
-- **Base**: The branch that will **receive** the changes.
-- **Compare**: The branch that will **send** the changes.
-- **Ability to merge**: Whether the changes can be merged automatically or not.
-
-This last condition might raise doubts,
-
-Pull requests have got some key features that make them a indispensable tool for collaborative development:
-
-- They allow the user to review the changes before merging them into the target branch.
-- They allow the user to request changes to the changes before merging them into the target branch.
-- They allow automatic checks to be run on the changes before merging them into the target branch.
+- Reviews of the proposed changes before merging them into the target branch.
+- Requests for additional changes before merging them into the target branch.
+- Automatic checks to be run on the changes before merging them into the target branch.
 
 ## Issues (GitHub)
+
+Issues are the standard method of problem report, enhancement proposal or simple organization tool. They are petitions that can be created using the issues' interface:
+
+![Issues interface](../../../media/version-control/github/issue-1.png)
 
 ## Projects (GitHub)
 
@@ -385,3 +385,7 @@ Pull requests have got some key features that make them a indispensable tool for
 ## Pages (GitHub)
 
 ## Wikis (GitHub)
+
+## Next up
+
+- [Python installation](../../python/interpreter/README.md)
