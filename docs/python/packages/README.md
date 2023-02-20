@@ -1,5 +1,50 @@
 # Python Packages Installation
 
+```mermaid
+%%{
+    init: {
+        'logLevel': 'debug',
+        'theme': 'forest',
+        'gitGraph': {
+            'showBranches': true,
+            'showCommitLabel':true,
+            'mainBranchName': 'course-progress'
+        }
+    }
+}%%
+
+gitGraph
+   commit id: "Welcome!"
+
+   commit id: "Version control"
+   branch version-control
+   checkout version-control
+   commit id: "Git setup"
+   commit id: "Git and GitHub features"
+   commit id: "GitHub Desktop setup"
+   checkout course-progress
+   merge version-control
+
+   commit id: "Python"
+   branch python
+   checkout python
+   commit id: "Interpreter setup"
+   commit id: "Package manager setup" type: HIGHLIGHT
+   commit id: "Virtual environment setup" type: HIGHLIGHT
+   checkout course-progress
+   merge python
+
+   commit id: "Visual Studio Code"
+   branch visual-studio-code
+   checkout visual-studio-code
+   commit id: "Editor setup"
+   commit id: "Extensions setup"
+   checkout course-progress
+   merge visual-studio-code
+
+   commit id: "Python programming"
+```
+
 Python packages are a collection of modules that extend the functionality of the language. They are usually installed using the default package manager, named `pip` (*Preferred Installer Program*) and are available on the [Python Package Index](https://pypi.org/). For example, take a look at the amazing [bidimensional](https://pypi.org/project/bidimensional/) package that provides a set of tools to work with bidimensional data.
 
 Many packages are already part of the **standard library** (the collection of default modules that are installed along with Python), but there are many, many others that have to be installed manually.
