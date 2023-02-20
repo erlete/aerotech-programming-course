@@ -1,3 +1,5 @@
+# Python
+
 ```mermaid
 %%{
     init: {
@@ -42,8 +44,6 @@ gitGraph
 
    commit id: "Python programming"
 ```
-
-# Python
 
 Python is a programming language that lets you work quickly and integrate systems more effectively. It is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
 
