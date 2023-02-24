@@ -48,13 +48,9 @@ gitGraph
 
 GitHub is an excellent collaboration tool for development teams and a great way to share your code with the world. It is also a great way to learn how to use Git, since it is the most popular Git repository hosting service.
 
-The platform is based on the core functionality of the Git version control system, but it is not the same as Git itself. GitHub is just an interface. Do not forget that.
+The platform is based on the core functionality of the Git version control system, but it is not the same as Git itself. GitHub is just an interface. Do not forget that. However, it is easier to learn Git by using GitHub, since it provides a graphical interface to perform most of the Git operations, which would be performed over the command line otherwise.
 
-However, it is easier to learn Git by using GitHub, since it provides a graphical interface to perform most of the Git operations, which would be performed over the command line otherwise.
-
-*All features in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
-
-**Before diving into the contents of Git and GitHub, go to the [Git installation page](../git/README.md) and proceed with the installation.**
+*In order to avoid confusion, all features described in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
 
 ## Repositories (Git)
 
