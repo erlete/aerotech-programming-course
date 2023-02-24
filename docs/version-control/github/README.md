@@ -60,13 +60,13 @@ However, it is easier to learn Git by using GitHub, since it provides a graphica
 
 A repository is the home for your code. It can be public or private, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
 
-![Repository](../../../media/version-control/github/repository.png)
+![Repository](/media/version-control/github/repository.png)
 
 ## Commits (Git)
 
 A commit represents any modification or set of modifications over a repository. It is the basic unit of change in Git, and it is used to track the history of a repository. A commit is made up of a commit message, which is a short description of the changes made, and the actual changes themselves.
 
-![Commit](../../../media/version-control/github/commit.png)
+![Commit](/media/version-control/github/commit.png)
 
 ## Branches (Git)
 
@@ -212,11 +212,11 @@ A fork is a copy of a repository. It is used to create a copy of a repository in
 
 Any repository can be forked as long as the user has access to it. Forking a repository is as simple as clicking the "Fork" button in the top-right corner of the repository page.
 
-![Fork button](../../../media/version-control/github/fork-1.png)
+![Fork button](/media/version-control/github/fork-1.png)
 
 Clicking that button will cause a new window to open, asking for details on how to fork the repository. The default options are usually fine, but you can change them if you want. Note that you cannot fork a repository into the same account it belongs to.
 
-![Fork options](../../../media/version-control/github/fork-2.png)
+![Fork options](/media/version-control/github/fork-2.png)
 
 The *"Copy only the `<branch>` branch only"* option can be used to only fork the main branch of the repository. This is useful in case the repository has multiple branches, and you only want to fork the stable one.
 
@@ -389,15 +389,15 @@ Pull requests (usually known as PRs) are petitions to perform merge requests fro
 
 PRs are listed in the pull request tab of a repository:
 
-![Pull request interface](../../../media/version-control/github/pull-request-1.png)
+![Pull request interface](/media/version-control/github/pull-request-1.png)
 
 New PRs can be created clicking the *"New Pull Request"* button. After that, a new window will open:
 
-![New Pull Request](../../../media/version-control/github/pull-request-2.png)
+![New Pull Request](/media/version-control/github/pull-request-2.png)
 
 They key information in this window is the bar that shows which branches are being compared, as well as whether they can be automatically merged:
 
-![Pull Request comparison](../../../media/version-control/github/pull-request-3.png)
+![Pull Request comparison](/media/version-control/github/pull-request-3.png)
 
 Pull requests have got some key features that make them a indispensable tool for collaborative development. Some of the utilities they include are:
 
@@ -409,7 +409,7 @@ Pull requests have got some key features that make them a indispensable tool for
 
 Issues are the standard method of problem report, enhancement proposal or simple organization tool. They are petitions that can be created using the issues' interface:
 
-![Issues interface](../../../media/version-control/github/issue-1.png)
+![Issues interface](/media/version-control/github/issue-1.png)
 
 ## Projects (GitHub)
 
