@@ -49,7 +49,7 @@ Git is a free and open source distributed version control system designed to han
 
 ## Download
 
-* [Windows x64 (direct download)](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/PortableGit-2.39.1-32-bit.7z.exe)
+* [Windows x64 (direct download)](https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe)
 * [Other downloads](https://git-scm.com/downloads)
 
 ## Installation
@@ -57,6 +57,17 @@ Git is a free and open source distributed version control system designed to han
 In order to install Git, it is only necessary to follow the installer procedure. There are plenty of customization options that can be explored, but for this course it is recommended to use default settings.
 
 If you are an advanced user, have specific IDE/editor customization settings or are just curious to see how things work, feel free to carefully explore the installation settings.
+
+### Validation
+
+You can check whether Git is installed using the `git` command:
+
+```powershell
+git --version
+>>> git version 2.39.2
+```
+
+If this command returns an error, it either means that Git was not installed successfully or that the `git` command is not linked to the program.
 
 ## Git and GitHub
 
