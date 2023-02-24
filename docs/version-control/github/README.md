@@ -20,7 +20,7 @@ gitGraph
    commit id: "Version control" type: HIGHLIGHT
    branch version-control
    checkout version-control
-   commit id: "Git setup" type: HIGHLIGHT
+   commit id: "Git setup"
    commit id: "Git and GitHub features" type: HIGHLIGHT
    commit id: "GitHub Desktop setup"
    checkout course-progress
