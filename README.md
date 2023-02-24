@@ -51,7 +51,7 @@ gitGraph
    commit id: "Python programming"
 ```
 
-### Environment Setup
+### Environment setup
 
 This section covers the steps required to set up the collaborative environment for software development. It is divided into three subsections:
 
@@ -69,7 +69,7 @@ This section covers the steps required to set up the collaborative environment f
    1. Editor setup
    2. Extensions setup
 
-### Python Programming
+### Python programming
 
 This section covers topics related to Python programming from basic to intermediate level. It is divided into three subsections:
 
@@ -77,26 +77,26 @@ This section covers topics related to Python programming from basic to intermedi
 2. **Error handling**, **file handling** and **external libraries usage**
 3. **Code stylization** and **final project**
 
-## Software Specifications
+## Software specifications
 
 Here are the specifications for the software tools used in this course:
 
 | Software | Version | Windows support | macOS support | Linux support | Optional |
 | :------: | :-----: | :-------------: | :-----------: | :-----------: | :------: |
-| [Python](https://www.python.org/) | [3.11.1](https://www.python.org/downloads/release/python-3111/) | Yes | Yes | Yes | No |
-| [Git](https://git-scm.com/) | 2.39.1+ | Yes | Yes | Yes | No |
+| [Python](https://www.python.org/) | [3.11.2](https://www.python.org/downloads/release/python-3111/) | Yes | Yes | Yes | No |
+| [Git](https://git-scm.com/) | 2.39.2+ | Yes | Yes | Yes | No |
 | [GitHub Desktop](https://desktop.github.com/) | 3.1.6+ | Yes | Yes | Yes[^1] | Yes |
 | [Visual Studio Code](https://code.visualstudio.com/) | [1.75.0+](https://code.visualstudio.com/Download) | Yes | Yes | Yes | Yes |
 
 ## How to follow the course?
 
-The course can be easily followed by reading the `README.md` files located at each one of the defined sections. Each `README.md` file contains a "Next up" bottom section with links to the following resources.
+The course is designed to cover several topics in a organized way. In order to do that, you only need to read a chapter until you reach the end, where you will find a link to the next one.
 
-Students are free to explore the repository as they wish, yet it is highly recommended to follow the course in the order defined in the "Next up" sections, since not doing so might lead to confusion, configuration errors and other undetermined issues.
+You are free to explore the repository as you wish, yet it is highly recommended to follow the course in the expected order, since not doing so might lead to confusion, configuration errors and other undetermined issues.
 
-## Next up
+## Git
 
-- [Version control](./docs/version/../version-control/github/README.md)
+First off, let's start by installing Git as our version control software. You will find all the necessary instructions in [the next chapter](/docs/version-control/git/README.md).
 
 ---
 
