@@ -25,7 +25,7 @@ gitGraph
    checkout course-progress
    merge version-control
 
-   commit id: "Python"
+   commit id: "Python setup"
    branch python
    checkout python
    commit id: "Interpreter setup"
@@ -34,7 +34,7 @@ gitGraph
    checkout course-progress
    merge python
 
-   commit id: "Visual Studio Code"
+   commit id: "Visual Studio Code" type: HIGHLIGHT
    branch visual-studio-code
    checkout visual-studio-code
    commit id: "Editor setup" type: HIGHLIGHT
@@ -62,6 +62,18 @@ Make sure to check the options that suggest adding VSC explorer integration. Thi
 
 Configuring VSC can either be easy or insanely hard. This is due to the immense amount of configuration options that if supports.
 
-Almost everything is customizable, from keyboard shortcuts to automated task procedures.
+Almost everything is customizable, from keyboard shortcuts to automated task procedures. Furthermore, as of January 2023, VSC supports multiple profiles, which means that you will be able to customize a profile specifically for an operating system or development environment.
 
+### Global Vs. Local configuration
 
+VSC supports multiple configuration scopes. The global configuration contains, for example, the user's keyboard shortcuts. On the other hand, a local configuration contains workspace-specific task definitions, editor options, etc.
+
+Note that local configuration has precedence over the global one, since it is more specific. Said configuration stores its parameters in a file named `.vscode/settings.json`, which is automatically created in a workspace when any setting is configured.
+
+Unless it is your responsibility to configure the workspace, you should not be worried about configurations, since VSC loads them automatically depending on the current workspace and global configuration. Just make sure not to edit them by mistake while you are adjusting your settings.
+
+## Extensions
+
+Extensions are the heart of the VSC community. There are millions of extensions that add non-native support for external platforms and languages (GitHub, Node, Python...) or useful tools (Linters, Themes, Testers...).
+
+You will learn how to install extensions in [the next chapter](../extensions/README.md).

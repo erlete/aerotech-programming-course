@@ -16,7 +16,7 @@
 gitGraph
    commit id: "Welcome!"
 
-   commit id: "Version control"
+   commit id: "Version control" type: HIGHLIGHT
    branch version-control
    checkout version-control
    commit id: "Git setup" type: HIGHLIGHT
@@ -25,7 +25,7 @@ gitGraph
    checkout course-progress
    merge version-control
 
-   commit id: "Python"
+   commit id: "Python setup"
    branch python
    checkout python
    commit id: "Interpreter setup"

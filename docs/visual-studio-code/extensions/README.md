@@ -25,7 +25,7 @@ gitGraph
    checkout course-progress
    merge version-control
 
-   commit id: "Python"
+   commit id: "Python setup"
    branch python
    checkout python
    commit id: "Interpreter setup"
@@ -34,7 +34,7 @@ gitGraph
    checkout course-progress
    merge python
 
-   commit id: "Visual Studio Code"
+   commit id: "Visual Studio Code" type: HIGHLIGHT
    branch visual-studio-code
    checkout visual-studio-code
    commit id: "Editor setup"

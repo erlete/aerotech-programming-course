@@ -25,7 +25,7 @@ gitGraph
    checkout course-progress
    merge version-control
 
-   commit id: "Python"
+   commit id: "Python setup" type: HIGHLIGHT
    branch python
    checkout python
    commit id: "Interpreter setup" type: HIGHLIGHT
