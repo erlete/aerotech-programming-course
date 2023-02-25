@@ -1,14 +1,12 @@
-from .header import report
+import importlib
+from os.path import basename
 
-try:
-    from ..exercise_1 import my_first_variable  # type: ignore
+i = basename(__file__)[-4]
+module = importlib.import_module(f".exercise_{i}", package="solutions")
 
-except ImportError:
-    report(1, "You have not defined variable `my_first_variable`")
+my_first_variable = getattr(module, "my_first_variable", None)
 
-else:
 
-    class TestExercise1:
-
-        def test(self):
-            assert my_first_variable == 69, "The value of `my_first_variable` is not correct"
+def test():
+    assert my_first_variable is not None, "You have not defined variable `my_first_variable`"
+    assert my_first_variable == 69, "The value of `my_first_variable` was not defined correctly"
