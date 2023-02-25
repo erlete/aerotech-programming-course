@@ -12,12 +12,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_1.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -28,12 +29,13 @@
                     "lessons/solutions/solution_tests/test_exercise_1.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -44,12 +46,13 @@
                     "lessons/solutions/solution_tests/test_exercise_1.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -73,12 +76,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_2.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -89,12 +93,13 @@
                     "lessons/solutions/solution_tests/test_exercise_2.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -105,12 +110,13 @@
                     "lessons/solutions/solution_tests/test_exercise_2.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -134,12 +140,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_3.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -150,12 +157,13 @@
                     "lessons/solutions/solution_tests/test_exercise_3.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -166,12 +174,13 @@
                     "lessons/solutions/solution_tests/test_exercise_3.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -195,12 +204,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_4.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -211,12 +221,13 @@
                     "lessons/solutions/solution_tests/test_exercise_4.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -227,12 +238,13 @@
                     "lessons/solutions/solution_tests/test_exercise_4.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -256,12 +268,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_5.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -272,12 +285,13 @@
                     "lessons/solutions/solution_tests/test_exercise_5.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -288,12 +302,13 @@
                     "lessons/solutions/solution_tests/test_exercise_5.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -317,12 +332,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_6.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -333,12 +349,13 @@
                     "lessons/solutions/solution_tests/test_exercise_6.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -349,12 +366,13 @@
                     "lessons/solutions/solution_tests/test_exercise_6.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -378,12 +396,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_7.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -394,12 +413,13 @@
                     "lessons/solutions/solution_tests/test_exercise_7.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -410,12 +430,13 @@
                     "lessons/solutions/solution_tests/test_exercise_7.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -439,12 +460,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_8.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -455,12 +477,13 @@
                     "lessons/solutions/solution_tests/test_exercise_8.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -471,12 +494,13 @@
                     "lessons/solutions/solution_tests/test_exercise_8.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -500,12 +524,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_9.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -516,12 +541,13 @@
                     "lessons/solutions/solution_tests/test_exercise_9.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -532,12 +558,13 @@
                     "lessons/solutions/solution_tests/test_exercise_9.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -561,12 +588,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_10.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -577,12 +605,13 @@
                     "lessons/solutions/solution_tests/test_exercise_10.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -593,12 +622,13 @@
                     "lessons/solutions/solution_tests/test_exercise_10.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -622,12 +652,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_11.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -638,12 +669,13 @@
                     "lessons/solutions/solution_tests/test_exercise_11.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -654,12 +686,13 @@
                     "lessons/solutions/solution_tests/test_exercise_11.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -683,12 +716,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_12.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -699,12 +733,13 @@
                     "lessons/solutions/solution_tests/test_exercise_12.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -715,12 +750,13 @@
                     "lessons/solutions/solution_tests/test_exercise_12.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -744,12 +780,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_13.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -760,12 +797,13 @@
                     "lessons/solutions/solution_tests/test_exercise_13.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -776,12 +814,13 @@
                     "lessons/solutions/solution_tests/test_exercise_13.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -805,12 +844,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_14.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -821,12 +861,13 @@
                     "lessons/solutions/solution_tests/test_exercise_14.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -837,12 +878,13 @@
                     "lessons/solutions/solution_tests/test_exercise_14.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -866,12 +908,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_15.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -882,12 +925,13 @@
                     "lessons/solutions/solution_tests/test_exercise_15.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -898,12 +942,13 @@
                     "lessons/solutions/solution_tests/test_exercise_15.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -927,12 +972,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_16.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -943,12 +989,13 @@
                     "lessons/solutions/solution_tests/test_exercise_16.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -959,12 +1006,13 @@
                     "lessons/solutions/solution_tests/test_exercise_16.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -988,12 +1036,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_17.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -1004,12 +1053,13 @@
                     "lessons/solutions/solution_tests/test_exercise_17.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -1020,12 +1070,13 @@
                     "lessons/solutions/solution_tests/test_exercise_17.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -1049,12 +1100,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_18.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -1065,12 +1117,13 @@
                     "lessons/solutions/solution_tests/test_exercise_18.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -1081,12 +1134,13 @@
                     "lessons/solutions/solution_tests/test_exercise_18.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -1110,12 +1164,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_19.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -1126,12 +1181,13 @@
                     "lessons/solutions/solution_tests/test_exercise_19.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -1142,12 +1198,13 @@
                     "lessons/solutions/solution_tests/test_exercise_19.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
@@ -1171,12 +1228,13 @@
                     "lessons\\solutions\\solution_tests\\test_exercise_20.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "linux": {
@@ -1187,12 +1245,13 @@
                     "lessons/solutions/solution_tests/test_exercise_20.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "osx": {
@@ -1203,12 +1262,13 @@
                     "lessons/solutions/solution_tests/test_exercise_20.py",
                     "--capture=no",
                     "--no-header",
-                    "--verbosity=2",
+                    "--verbosity=0",
                     "-r=fEX",
                     "--disable-warnings",
                     "--tb=line",
                     "--show-capture=all",
-                    "--assert=plain"
+                    "--assert=plain",
+                    "--maxfail=1"
                 ]
             },
             "problemMatcher": [],
