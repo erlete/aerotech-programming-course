@@ -98,3 +98,7 @@ Version: 3.13.0
 Publisher: SonarSource
 
 [Click here to download](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+
+## Python Programming
+
+As of now, you are all set to start learning Python programming. Go ahead and dive into [the first lesson](/lessons/introduction.ipynb).

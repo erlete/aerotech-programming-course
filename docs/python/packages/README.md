@@ -112,6 +112,6 @@ ERROR: No matching distribution found for numpy==
 
 The relevant part here is in the second line, which contains a list of all available versions for a package in the current Python interpreter version.
 
-## Next up
+## Visual Studio Code
 
-* [Visual Studio Code](../../visual-studio-code/editor/README.md)
+Visual Studio Code is a very popular code editor, and it has a very good support for Python. You will learn how to installed and configure it in [the next chapter](/docs/visual-studio-code/editor/README.md).
