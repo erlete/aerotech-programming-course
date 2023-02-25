@@ -1,11 +1,5 @@
-from .header import report
+import importlib
+from os.path import basename
 
-try:
-    pass
-
-except ImportError:
-    pass
-
-else:
-
-    pass
+i = basename(__file__)[-4]
+module = importlib.import_module(f".exercise_{i}", package="solutions")
