@@ -1,0 +1,4262 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Test exercise 1",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_1.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_1.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_1.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 2",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_2.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_2.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_2.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 3",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_3.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_3.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_3.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 4",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_4.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_4.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_4.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 5",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_5.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_5.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_5.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 6",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_6.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_6.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_6.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 7",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_7.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_7.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_7.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 8",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_8.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_8.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_8.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 9",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_9.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_9.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_9.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 10",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_10.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_10.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_10.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 11",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_11.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_11.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_11.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 12",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_12.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_12.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_12.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 13",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_13.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_13.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_13.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 14",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_14.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_14.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_14.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 15",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_15.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_15.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_15.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 16",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_16.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_16.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_16.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 17",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_17.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_17.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_17.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 18",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_18.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_18.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_18.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 19",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_19.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_19.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_19.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 20",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_20.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_20.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_20.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 21",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_21.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_21.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_21.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 22",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_22.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_22.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_22.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 23",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_23.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_23.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_23.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 24",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_24.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_24.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_24.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 25",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_25.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_25.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_25.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 26",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_26.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_26.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_26.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 27",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_27.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_27.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_27.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 28",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_28.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_28.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_28.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 29",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_29.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_29.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_29.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 30",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_30.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_30.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_30.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 31",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_31.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_31.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_31.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 32",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_32.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_32.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_32.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 33",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_33.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_33.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_33.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 34",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_34.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_34.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_34.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 35",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_35.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_35.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_35.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 36",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_36.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_36.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_36.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 37",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_37.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_37.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_37.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 38",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_38.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_38.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_38.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 39",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_39.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_39.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_39.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 40",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_40.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_40.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_40.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 41",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_41.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_41.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_41.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 42",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_42.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_42.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_42.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 43",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_43.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_43.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_43.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 44",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_44.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_44.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_44.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 45",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_45.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_45.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_45.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 46",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_46.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_46.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_46.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 47",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_47.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_47.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_47.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 48",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_48.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_48.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_48.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 49",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_49.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_49.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_49.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 50",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_50.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_50.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_50.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 51",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_51.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_51.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_51.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 52",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_52.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_52.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_52.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 53",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_53.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_53.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_53.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 54",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_54.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_54.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_54.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 55",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_55.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_55.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_55.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 56",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_56.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_56.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_56.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 57",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_57.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_57.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_57.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 58",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_58.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_58.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_58.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 59",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_59.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_59.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_59.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 60",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_60.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_60.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_60.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 61",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_61.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_61.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_61.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 62",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_62.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_62.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_62.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 63",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_63.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_63.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_63.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 64",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_64.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_64.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_64.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 65",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_65.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_65.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_65.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 66",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_66.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_66.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_66.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 67",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_67.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_67.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_67.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 68",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_68.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_68.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_68.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 69",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_69.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_69.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_69.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 70",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_70.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_70.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_70.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 71",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_71.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_71.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_71.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 72",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_72.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_72.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_72.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 73",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_73.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_73.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_73.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 74",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_74.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_74.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_74.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 75",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_75.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_75.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_75.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 76",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_76.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_76.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_76.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 77",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_77.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_77.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_77.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise78",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_78.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_78.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_78.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 79",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_79.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_79.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_79.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 80",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_80.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_80.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_80.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 81",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_81.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_81.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_81.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 82",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_82.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_82.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_82.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 83",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_83.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_83.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_83.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 84",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_84.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_84.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_84.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 85",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_85.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_85.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_85.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 86",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_86.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_86.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_86.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 87",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_87.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_87.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_87.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 88",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_88.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_88.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_88.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 89",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_89.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_89.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_89.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 90",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_90.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_90.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_90.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 91",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_91.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_91.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_91.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 92",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_92.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_92.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_92.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 93",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_93.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_93.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_93.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 94",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_94.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_94.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_94.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 95",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_95.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_95.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_95.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 96",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_96.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_96.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_96.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 97",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_97.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_97.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_97.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 98",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_98.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_98.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_98.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        },
+        {
+            "label": "Test exercise 99",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons\\solutions\\solution_tests\\test_exercise_99.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_99.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pytest",
+                    "lessons/solutions/solution_tests/test_exercise_99.py",
+                    "-vv",
+                    "-s"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        }
+    ]
+}
