@@ -2,14 +2,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Test exercise 1",
+            "label": "Test exercise 01",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_1.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_01.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -26,7 +26,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_1.py",
+                    "lessons/solutions/solution_tests/test_exercise_01.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -43,7 +43,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_1.py",
+                    "lessons/solutions/solution_tests/test_exercise_01.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -66,14 +66,14 @@
             }
         },
         {
-            "label": "Test exercise 2",
+            "label": "Test exercise 02",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_2.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_02.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -90,7 +90,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_2.py",
+                    "lessons/solutions/solution_tests/test_exercise_02.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -107,7 +107,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_2.py",
+                    "lessons/solutions/solution_tests/test_exercise_02.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -130,14 +130,14 @@
             }
         },
         {
-            "label": "Test exercise 3",
+            "label": "Test exercise 03",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_3.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_03.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -154,7 +154,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_3.py",
+                    "lessons/solutions/solution_tests/test_exercise_03.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -171,7 +171,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_3.py",
+                    "lessons/solutions/solution_tests/test_exercise_03.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -194,14 +194,14 @@
             }
         },
         {
-            "label": "Test exercise 4",
+            "label": "Test exercise 04",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_4.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_04.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -218,7 +218,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_4.py",
+                    "lessons/solutions/solution_tests/test_exercise_04.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -235,7 +235,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_4.py",
+                    "lessons/solutions/solution_tests/test_exercise_04.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -258,14 +258,14 @@
             }
         },
         {
-            "label": "Test exercise 5",
+            "label": "Test exercise 05",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_5.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_05.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -282,7 +282,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_5.py",
+                    "lessons/solutions/solution_tests/test_exercise_05.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -299,7 +299,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_5.py",
+                    "lessons/solutions/solution_tests/test_exercise_05.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -322,14 +322,14 @@
             }
         },
         {
-            "label": "Test exercise 6",
+            "label": "Test exercise 06",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_6.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_06.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -346,7 +346,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_6.py",
+                    "lessons/solutions/solution_tests/test_exercise_06.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -363,7 +363,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_6.py",
+                    "lessons/solutions/solution_tests/test_exercise_06.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -386,14 +386,14 @@
             }
         },
         {
-            "label": "Test exercise 7",
+            "label": "Test exercise 07",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_7.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_07.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -410,7 +410,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_7.py",
+                    "lessons/solutions/solution_tests/test_exercise_07.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -427,7 +427,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_7.py",
+                    "lessons/solutions/solution_tests/test_exercise_07.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -450,14 +450,14 @@
             }
         },
         {
-            "label": "Test exercise 8",
+            "label": "Test exercise 08",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_8.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_08.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -474,7 +474,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_8.py",
+                    "lessons/solutions/solution_tests/test_exercise_08.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -491,7 +491,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_8.py",
+                    "lessons/solutions/solution_tests/test_exercise_08.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -514,14 +514,14 @@
             }
         },
         {
-            "label": "Test exercise 9",
+            "label": "Test exercise 09",
             "type": "shell",
             "windows": {
                 "command": "python",
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons\\solutions\\solution_tests\\test_exercise_9.py",
+                    "lessons\\solutions\\solution_tests\\test_exercise_09.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -538,7 +538,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_9.py",
+                    "lessons/solutions/solution_tests/test_exercise_09.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
@@ -555,7 +555,7 @@
                 "args": [
                     "-m",
                     "pytest",
-                    "lessons/solutions/solution_tests/test_exercise_9.py",
+                    "lessons/solutions/solution_tests/test_exercise_09.py",
                     "--capture=no",
                     "--no-header",
                     "--verbosity=0",
