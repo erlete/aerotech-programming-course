@@ -417,6 +417,6 @@ Issues are the standard method of problem report, enhancement proposal or simple
 
 ## Wikis (GitHub)
 
-## Python
+## GitHub Desktop
 
-Python is a versatile programming language that is used in a wide variety of fields, such as web development, data science, machine learning, and many others. You will learn how to install and use it in [the next chapter](/docs/python/interpreter/README.md).
+GitHub Desktop represents the friendly, powerful desktop interface for GitHub, all from the comfort of your own computer environment. You will learn all about it in [the next chapter](/docs/version-control/github-desktop/README.md).
