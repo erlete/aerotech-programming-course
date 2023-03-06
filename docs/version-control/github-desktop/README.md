@@ -62,8 +62,8 @@ In order to install GitHub Desktop you only need to run the installer and add yo
 
 You can make sure the installation was successful by searching for "GitHub Desktop" in the list of installed applications.
 
-## Python
+## Repository Setup
 
-Python is a versatile programming language that is used in a wide variety of fields, such as web development, data science, machine learning, and many others. You will learn how to install and use it in [the next chapter](/docs/python/interpreter/README.md).
+In order to start editing the repository and adding your own developments, you will need to clone it in your computer. You will learn how to do that in [the next chapter](./SETUP.md).
 
 If you want to go back to [the previous chapter](../github/SETUP.md), go ahead!

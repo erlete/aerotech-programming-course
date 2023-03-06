@@ -6,6 +6,10 @@ The first step to start collaborating in GitHub is to create an account. You can
 - **Add a relevant image to your profile**: make sure to impact people visiting your profile with a relevant image. It surely adds a professional touch.
 - **Build up your Overview**: elaborate a curated overview description in order to describe your abilities and ambitions.
 
+## Forking the repository
+
+The next step is to fork this repository and make it all yours! No need to copy other branches apart from the `stable` one. In case you forgot how to fork a repository, don't worry, [I've got you covered](./README.md#forks-git).
+
 ## GitHub Desktop
 
 GitHub Desktop represents the friendly, powerful desktop interface for GitHub, all from the comfort of your own computer environment. You will learn all about it in [the next chapter](../github-desktop/README.md).
