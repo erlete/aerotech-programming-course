@@ -102,3 +102,5 @@ Publisher: SonarSource
 ## Python Programming
 
 As of now, you are all set to start learning Python programming. Go ahead and dive into [the first lesson](/lessons/introduction.ipynb).
+
+If you want to go back to [the previous chapter](../editor/README.md), go ahead!

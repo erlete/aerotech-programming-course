@@ -63,7 +63,7 @@ This section covers the steps required to set up the collaborative environment f
 2. **Python**: introduction to the language and component setup.
    1. Interpreter setup
    2. Package manager setup
-   3. Virtual environment setup
+   3. Virtual environment setup (future updates)
 
 3. **Visual Studio Code**: introduction to the editor tool and component setup.
    1. Editor setup
@@ -74,8 +74,8 @@ This section covers the steps required to set up the collaborative environment f
 This section covers topics related to Python programming from basic to intermediate level. It is divided into three subsections:
 
 1. Standard **data types**, **control statements**, **functions** and **classes**
-2. **Error handling**, **file handling** and **external libraries usage**
-3. **Code stylization** and **final project**
+2. **Error handling** and **external libraries usage**
+3. **Code stylization**
 
 ## Software specifications
 
