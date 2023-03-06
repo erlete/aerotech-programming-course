@@ -52,6 +52,8 @@ The platform is based on the core functionality of the Git version control syste
 
 *In order to avoid confusion, all features described in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
 
+First of all, take a look at [this article](https://blogs.motiondevelopment.top/blog/posts/git-and-github), which describes perfectly what this course is all about.
+
 ## Repositories (Git)
 
 A repository is the home for your code. It can be public or private, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
