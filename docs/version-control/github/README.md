@@ -1,4 +1,3 @@
-
 # GitHub
 
 ```mermaid
@@ -469,8 +468,10 @@ This functionality can be used for automatic PR revisions, for example, by imple
 
 These functionalities will not be covered in this course since they are not *absolutely* relevant, but they can be interesting to explore on your own, so feel free to do so!
 
-## GitHub Desktop
+## GitHub Setup
 
 GitHub Desktop represents the friendly, powerful desktop interface for GitHub, all from the comfort of your own computer environment. You will learn all about it in [the next chapter](../github-desktop/README.md).
+
+You will need to create a GitHub account in order to fully explore this course and all the possibilities that GitHub has to offer. Do it in [the next chapter](./SETUP.md).
 
 If you want to go back to [the previous chapter](../git/README.md), go ahead!
