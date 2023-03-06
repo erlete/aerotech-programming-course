@@ -1,6 +1,6 @@
-# Basic Formation Courses
+# Introduction to Collaborative Development
 
-Welcome to the Basic Formation Courses repository! This repository contains all the necessary resources to achieve a basic formation on common DevOps tools and practices, Python programming and good collaboration practices for development teams.
+Welcome to the Introduction to Collaborative Development course! This repository contains all necessary resources to achieve a basic formation in common development practices, Python programming and code editing skills.
 
 It is intended to be a foundation for collaborative development. It can be really useful for students that are starting their career in the industry. It does not intend to replace any official courses, yet it covers a set of topics that can be used as a kickstart for further learning.
 
