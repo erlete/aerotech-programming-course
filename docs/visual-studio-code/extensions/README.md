@@ -45,59 +45,20 @@ gitGraph
    commit id: "Python programming"
 ```
 
-## Markdown
+## VSCode Profiles
 
-**Name: GitHub Markdown Preview**
-Id: bierner.github-markdown-preview
-Description: Changes VS Code's built-in markdown preview to match GitHub
-Version: 0.3.0
-Publisher: Matt Bierner
+Since profiles are now supported, there is no need to install all extensions separately, a single profile can be imported with all the required extensions. I will provide you with two profiles dedicated to Python. Both include all extensions, but the first one also adds keyboard shortcuts, a custom theme and a few other interesting settings. If you already have a custom VSCode profile, no need to replace your beloved themes and settings with mine, just import the second profile.
 
-[Click here to download](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+- Extensions, theme and settings: `https://gist.github.com/erlete/91ebeeeccfe686b7ddfe4465ecd590fa`
+- Extensions alone: `https://gist.github.com/erlete/3a9cb57dc3bb95ed8a8e209188e329d9`
 
-## Jupyter Notebooks
+### Import the profile
 
-**Name: Jupyter**
-Id: ms-toolsai.jupyter
-Description: Jupyter notebook support, interactive programming and computing that supports Intellisense, debugging and more.
-Version: 2022.11.1003412109
-Publisher: Microsoft
+In order to import the profile, press `Ctrl + Shift + P`, which will open up the command palette. Write *"Profiles: Import Profile..."* and press `Enter`. Now paste one of the URLs above and press enter again. The sidebar will display the import settings. Now click *"Import Profile"* and you are all done!
 
-[Click here to download](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+### Activating the profile
 
-## Python
-
-**Name: Python Extension Pack**
-Id: donjayamanne.python-extension-pack
-Description: Popular Visual Studio Code extensions for Python
-Version: 1.7.0
-Publisher: Don Jayamanne
-
-[Click here to download](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
-
-**Name: Pylance**
-Id: ms-python.vscode-pylance
-Description: A performant, feature-rich language server for Python in VS Code
-Version: 2023.1.40
-Publisher: Microsoft
-
-[Click here to download](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-
-**Name: isort**
-Id: ms-python.isort
-Description: Import Organization support for Python files using `isort`.
-Version: 2022.8.0
-Publisher: Microsoft
-
-[Click here to download](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
-
-**Name: SonarLint**
-Id: SonarSource.sonarlint-vscode
-Description: SonarLint is an IDE extension that helps you detect and fix quality issues as you write code in C, C++, Java, JavaScript, PHP, Python, HTML and TypeScript.
-Version: 3.13.0
-Publisher: SonarSource
-
-[Click here to download](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+In order to activate the profile, click the gear icon on the lower left side of the screen. Select *"Profiles"* and click on *"Python (Windows)"*. Now wait for all the extensions to load up, which might take a while depending on the quality of your internet connection and the R/W speed of your computer.
 
 ## Python Programming
 
