@@ -87,7 +87,11 @@ As you can imagine, *"passed"* means that you successfully completed the exercis
 
 In order to track your progress through the course, you will need to commit changes to the repository. Specifically, you will need to create a dedicated branch **that matches the name of the lesson**, for example, in order to solve the exercises in the `data-types.ipynb` file you will need to create a branch named `data-types` and set it as active. After that, you can start adding commits, preferably **one per solved exercise**, since the objective is to practice commit creation.
 
+https://user-images.githubusercontent.com/76848729/223303969-d4fd2eba-8e04-4fc2-b56b-fa8197feab40.mp4
+
 Finally, once you complete the lesson, you will need to create a PR that merges your branch into `stable` (**in your fork, not to the original repository!!**). That PR will automatically execute complex combined tests for all the exercises. **Make sure none of them fail by testing them first via Visual Studio Code tests**. You can assign yourself to the PR and even label it if you want.
+
+https://user-images.githubusercontent.com/76848729/223303973-cafb2f42-68c3-46e5-bd15-b23b4a08233f.mp4
 
 ## Let's go!
 
