@@ -32,11 +32,11 @@ In order to execute tests, you will need to execute a specific task that matches
 
 Note that the last line instructs you to open the command palette of Visual Studio Code. Once you open it and search for *"Tasks: Run Task"*, you will be able to choose amongst plenty of tests.
 
-![Test selection](/media/lessons/tests-1.png)
+![Test selection](/.media/lessons/tests-1.png)
 
 Do not look for the test manually, just write its number and it will be selected automatically.
 
-![Test search](/media/lessons/tests-2.png)
+![Test search](/.media/lessons/tests-2.png)
 
 Last step is to press enter and the test will be executed in a dedicated terminal window. Here is what you would see when you still have not modified exercise 4:
 
@@ -89,9 +89,13 @@ In order to track your progress through the course, you will need to commit chan
 
 https://user-images.githubusercontent.com/76848729/223303969-d4fd2eba-8e04-4fc2-b56b-fa8197feab40.mp4
 
+_If the video is not rendered properly, open the file on the web browser._
+
 Finally, once you complete the lesson, you will need to create a PR that merges your branch into `stable` (**in your fork, not to the original repository!!**). That PR will automatically execute complex combined tests for all the exercises. **Make sure none of them fail by testing them first via Visual Studio Code tests**. You can assign yourself to the PR and even label it if you want.
 
 https://user-images.githubusercontent.com/76848729/223303973-cafb2f42-68c3-46e5-bd15-b23b4a08233f.mp4
+
+_If the video is not rendered properly, open the file on the web browser._
 
 ## Let's go!
 

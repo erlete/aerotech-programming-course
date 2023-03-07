@@ -1,0 +1,7 @@
+# Interpreter setup:
+pip>=22.3.1
+setuptools>5.3.2
+wheel==0.38.4
+six<100.0
+twine<=69.69.69ab
+build

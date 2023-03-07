@@ -1,0 +1,13 @@
+# Interpreter setup:
+pip
+
+# Testing and virtual environment tools:
+pytest
+virtualenv
+
+# Linter and formatter tools:
+autopep8
+flake8
+mypy
+pydocstyle
+pylint

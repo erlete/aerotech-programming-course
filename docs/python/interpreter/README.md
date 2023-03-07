@@ -58,17 +58,17 @@ There are plenty of Python versions, yet the 3.11.2 will be used for the tutoria
 
 First of all, **do not install Python without customizing the process**. Check the "Add python.exe to PATH" box and click on "Customize installation".
 
-![1-initial-screen](/media/python/interpreter/installers/1-initial-screen.png)
+![1-initial-screen](/.media/python/interpreter/installers/1-initial-screen.png)
 
-![2-path](/media/python/interpreter/installers/2-path.png)
+![2-path](/.media/python/interpreter/installers/2-path.png)
 
 Be sure to select all the optional features. They will include the documentation for the standard library, the Python package manager (`pip`), the graphical interface support (`tcl/tk`), and the Python development environment (`IDLE`). The test suite is not relevant for this matter, but install it as well. Click on "Next" to continue.
 
-![3-optional-features](/media/python/interpreter/installers/3-optional-features.png)
+![3-optional-features](/.media/python/interpreter/installers/3-optional-features.png)
 
 Check the Python file association and shortcut creation boxes. Also add the Python installation directory to the PATH environment variable. Standard library precompilation and debugging symbols are not explicitly required, but they are recommended. Click on "Install" to continue.
 
-![4-advanced-options](/media/python/interpreter/installers/4-advanced-options.png)
+![4-advanced-options](/.media/python/interpreter/installers/4-advanced-options.png)
 
 ### Validation
 

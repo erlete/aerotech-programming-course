@@ -57,13 +57,13 @@ First of all, take a look at [this article](https://blogs.motiondevelopment.top/
 
 A repository is the home for your code. It can be **public** or **private**, and it can contain as many files as you want (of course, with some limitations, such as individual file size and total repository size). It can also contain directories, which are used to organize said files.
 
-![Repository](/media/version-control/github/repository.png)
+![Repository](/.media/version-control/github/repository.png)
 
 ## Commits (Git)
 
 A commit represents **a modification or set of modifications** performed in a repository. It is the basic unit of change in Git, and it is used to **track the contribution history** of a repository. A commit always contains a **commit message**, which is a short description of the changes made, and the actual changes themselves. Additionally, it can contain another message, which is used as extended description when it is required.
 
-![Commit](/media/version-control/github/commit.png)
+![Commit](/.media/version-control/github/commit.png)
 
 ## Branches (Git)
 
@@ -211,11 +211,11 @@ Forks are **copies of a repository**. They are used to generate a fresh replica 
 
 Any repository can be forked as long as the user has access to it. Forking a repository is as simple as clicking the "Fork" button in the top-right corner of the repository page.
 
-![Fork button](/media/version-control/github/fork-1.png)
+![Fork button](/.media/version-control/github/fork-1.png)
 
 Clicking that button will cause a new window to open, asking for details on how to fork the repository. The default options are usually fine, but you can change them if you want. Note that you cannot fork a repository into the same account it belongs to.
 
-![Fork options](/media/version-control/github/fork-2.png)
+![Fork options](/.media/version-control/github/fork-2.png)
 
 The *"Copy only the `stable` branch only"* option can be used to only fork the main branch of the repository, in this case, named `stable`. This is useful in case the repository has multiple branches, and you only want to fork the most relevant one.
 
@@ -386,15 +386,15 @@ A pull request (PR) is a **petition to merge a branch into another branch when t
 
 PRs are listed in the pull request tab of a repository:
 
-![Pull request interface](/media/version-control/github/pull-request-1.png)
+![Pull request interface](/.media/version-control/github/pull-request-1.png)
 
 New PRs can be created clicking the *"New Pull Request"* button. After that, a new window will open:
 
-![New Pull Request](/media/version-control/github/pull-request-2.png)
+![New Pull Request](/.media/version-control/github/pull-request-2.png)
 
 They key information in this window is the bar that shows which branches are being compared, as well as whether they can be automatically merged. Note how it depicts both **base** and **compare (source)** branches, with a very descriptive arrow that indicates the direction of the changes.
 
-![Pull Request comparison](/media/version-control/github/pull-request-3.png)
+![Pull Request comparison](/.media/version-control/github/pull-request-3.png)
 
 We will take a deeper look at PRs after [Actions](#actions-github) have been explained.
 
@@ -402,17 +402,17 @@ We will take a deeper look at PRs after [Actions](#actions-github) have been exp
 
 Issues are the **standard method of problem report, enhancement proposal or simple organization tool**. They are petitions that can be created using the issues' interface:
 
-![Issues interface](/media/version-control/github/issue-1.png)
+![Issues interface](/.media/version-control/github/issue-1.png)
 
 In order to create a new issue, just click the big, green *"New issue"* button. A new interface will pop up:
 
-![Issue creation interface](/media/version-control/github/issue-2.png)
+![Issue creation interface](/.media/version-control/github/issue-2.png)
 
 The issue is composed of a **title** and a **description**. It is important to be clear while writing requests in these fields, since they have to be understandable to the rest of developers.
 
 Furthermore, there is a sidebar with multiple options on the right side of the screen:
 
-![Issue creation bar](/media/version-control/github/issue-3.png)
+![Issue creation bar](/.media/version-control/github/issue-3.png)
 
 All these fields have got a meaning:
 
@@ -428,9 +428,9 @@ Projects are a very useful tool for collaborative (and even individual) developm
 
 Projects can be created directly from your GitHub profile, and can later be linked to one or more repositories. Here is an example of a release schedule for multiple repositories:
 
-![Projects example 1](/media/version-control/github/project-1.png)
+![Projects example 1](/.media/version-control/github/project-1.png)
 
-![Projects example 2](/media/version-control/github/project-2.png)
+![Projects example 2](/.media/version-control/github/project-2.png)
 
 As you can see, there are multiple ways to organize information in Projects, which can aid developing by adding clarity over the tasks that have to be done.
 
@@ -440,15 +440,15 @@ Discussions are, essentially, **forums for the developers of a project**. They c
 
 They can be accessed through the tabs of most repositories:
 
-![Discussions main screen](/media/version-control/github/discussions-1.png)
+![Discussions main screen](/.media/version-control/github/discussions-1.png)
 
 A very good example of what Discussions are useful for is the Q&A system:
 
-![Questions and answers in Discussions](/media/version-control/github/discussions-2.png)
+![Questions and answers in Discussions](/.media/version-control/github/discussions-2.png)
 
 Furthermore, they can be used to pin tutorials for some specific functionalities that are implemented in the repository:
 
-![Discussion tutorials](/media/version-control/github/discussions-3.png)
+![Discussion tutorials](/.media/version-control/github/discussions-3.png)
 
 ## Actions (GitHub)
 
@@ -456,7 +456,7 @@ Actions are **the key for project automation and constant development**. They ar
 
 There is no need to dive into the complexity of actions in this course, since it would be excessively long. Let's just take a look at the Actions interface:
 
-![Actions interface](/media/version-control/github/actions-1.png)
+![Actions interface](/.media/version-control/github/actions-1.png)
 
 Each green/red dot represents an executed workflow, which is a script that contains a set of instructions to be executed remotely. These instructions can either pass or fail
 
