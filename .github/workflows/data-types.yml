@@ -1,12 +1,13 @@
 name: Data types lesson validation
 
 on:
-  push:
-    branches: [data-types]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   test-solutions:
     name: Test solution
+    if: startsWith(github.head_ref, "data-types")
     runs-on: ubuntu-latest
 
     strategy:

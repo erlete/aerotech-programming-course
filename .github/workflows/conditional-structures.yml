@@ -1,12 +1,13 @@
-name: Data types lesson validation
+name: Conditional structures lesson validation
 
 on:
-  push:
-    branches: [conditional-structures]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   test-solutions:
     name: Test solution
+    if: startsWith(github.head_ref, "conditional-structures")
     runs-on: ubuntu-latest
 
     strategy:

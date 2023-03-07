@@ -1,12 +1,13 @@
-name: Data types lesson validation
+name: Iteration structures lesson validation
 
 on:
-  push:
-    branches: [iteration-structures]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   test-solutions:
     name: Test solution
+    if: startsWith(github.head_ref, "iteration-structures")
     runs-on: ubuntu-latest
 
     strategy:

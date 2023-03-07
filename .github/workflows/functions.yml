@@ -1,12 +1,13 @@
-name: Data types lesson validation
+name: Functions lesson validation
 
 on:
-  push:
-    branches: [functions]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   test-solutions:
     name: Test solution
+    if: startsWith(github.head_ref, "functions")
     runs-on: ubuntu-latest
 
     strategy:
