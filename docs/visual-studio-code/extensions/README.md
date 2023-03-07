@@ -62,6 +62,6 @@ In order to activate the profile, click the gear icon on the lower left side of 
 
 ## Python Programming
 
-As of now, you are all set to start learning Python programming. Go ahead and dive into [the first lesson](/lessons/introduction.ipynb).
+As of now, you are all set to start learning Python programming. You will now understand how lessons are structured through [the introduction guide](/lessons/README.md).
 
 If you want to go back to [the previous chapter](../editor/README.md), go ahead!
