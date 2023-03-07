@@ -7,7 +7,7 @@ on:
 jobs:
   test-solutions:
     name: Test solution
-    if: startsWith(github.head_ref, "data-types")
+    if: startsWith(github.head_ref, 'data-types')
     runs-on: ubuntu-latest
 
     strategy:

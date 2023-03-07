@@ -7,7 +7,7 @@ on:
 jobs:
   test-solutions:
     name: Test solution
-    if: startsWith(github.head_ref, "functions")
+    if: startsWith(github.head_ref, 'functions')
     runs-on: ubuntu-latest
 
     strategy:

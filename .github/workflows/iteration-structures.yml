@@ -7,7 +7,7 @@ on:
 jobs:
   test-solutions:
     name: Test solution
-    if: startsWith(github.head_ref, "iteration-structures")
+    if: startsWith(github.head_ref, 'iteration-structures')
     runs-on: ubuntu-latest
 
     strategy:

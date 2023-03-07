@@ -7,7 +7,7 @@ on:
 jobs:
   test-solutions:
     name: Test solution
-    if: startsWith(github.head_ref, "conditional-structures")
+    if: startsWith(github.head_ref, 'conditional-structures')
     runs-on: ubuntu-latest
 
     strategy:

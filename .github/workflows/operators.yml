@@ -7,7 +7,7 @@ on:
 jobs:
   test-solutions:
     name: Test solution
-    if: startsWith(github.head_ref, "operators")
+    if: startsWith(github.head_ref, 'operators')
     runs-on: ubuntu-latest
 
     strategy:
