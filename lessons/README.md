@@ -83,6 +83,12 @@ lessons\solutions\solution_tests\test_exercise_04.py .
 
 As you can imagine, *"passed"* means that you successfully completed the exercise. There are multiple error variants, depending on the feedback required for each exercise. There can even be errors that are not defined in the tests (i.e. syntax errors). **Always make sure to read the error messages at least two times**.
 
+## Progress tracking
+
+In order to track your progress through the course, you will need to commit changes to the repository. Specifically, you will need to create a dedicated branch **that matches the name of the lesson**, for example, in order to solve the exercises in the `data-types.ipynb` file you will need to create a branch named `data-types` and set it as active. After that, you can start adding commits, preferably **one per solved exercise**, since the objective is to practice commit creation.
+
+Finally, once you complete the lesson, you will need to create a PR that merges your branch into `stable` (**in your fork, not to the original repository!!**). That PR will automatically execute complex combined tests for all the exercises. **Make sure none of them fail by testing them first via Visual Studio Code tests**. You can assign yourself to the PR and even label it if you want.
+
 ## Let's go!
 
 Now you are ready to take on the lessons and exercises, so go ahead and dive into [the first lesson](./introduction.ipynb).
