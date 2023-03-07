@@ -2,8 +2,52 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Setup testing",
+            "type": "shell",
+            "windows": {
+                "command": "python",
+                "args": [
+                    "-m",
+                    "pip",
+                    "install",
+                    "-Ur",
+                    "testing-requirements.txt"
+                ]
+            },
+            "linux": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pip",
+                    "install",
+                    "-Ur",
+                    "testing-requirements.txt"
+                ]
+            },
+            "osx": {
+                "command": "python3",
+                "args": [
+                    "-m",
+                    "pip",
+                    "install",
+                    "-Ur",
+                    "testing-requirements.txt"
+                ]
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        },
+        {
             "label": "Test Data Types lesson",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -98,6 +142,7 @@
         {
             "label": "Test Operations lesson",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -165,6 +210,7 @@
         {
             "label": "Test Conditional Structures lesson",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -226,6 +272,7 @@
         {
             "label": "Test Iteration Structures lesson",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -290,6 +337,7 @@
         {
             "label": "Test Functions lesson",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -357,6 +405,7 @@
         {
             "label": "Test Classes lesson",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -424,6 +473,7 @@
         {
             "label": "Test exercise 01",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -488,6 +538,7 @@
         {
             "label": "Test exercise 02",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -552,6 +603,7 @@
         {
             "label": "Test exercise 03",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -616,6 +668,7 @@
         {
             "label": "Test exercise 04",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -680,6 +733,7 @@
         {
             "label": "Test exercise 05",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -744,6 +798,7 @@
         {
             "label": "Test exercise 06",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -808,6 +863,7 @@
         {
             "label": "Test exercise 07",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -872,6 +928,7 @@
         {
             "label": "Test exercise 08",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -936,6 +993,7 @@
         {
             "label": "Test exercise 09",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1000,6 +1058,7 @@
         {
             "label": "Test exercise 10",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1064,6 +1123,7 @@
         {
             "label": "Test exercise 11",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1128,6 +1188,7 @@
         {
             "label": "Test exercise 12",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1192,6 +1253,7 @@
         {
             "label": "Test exercise 13",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1256,6 +1318,7 @@
         {
             "label": "Test exercise 14",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1320,6 +1383,7 @@
         {
             "label": "Test exercise 15",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1384,6 +1448,7 @@
         {
             "label": "Test exercise 16",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1448,6 +1513,7 @@
         {
             "label": "Test exercise 17",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1512,6 +1578,7 @@
         {
             "label": "Test exercise 18",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1576,6 +1643,7 @@
         {
             "label": "Test exercise 19",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1640,6 +1708,7 @@
         {
             "label": "Test exercise 20",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1704,6 +1773,7 @@
         {
             "label": "Test exercise 21",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1768,6 +1838,7 @@
         {
             "label": "Test exercise 22",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1832,6 +1903,7 @@
         {
             "label": "Test exercise 23",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1896,6 +1968,7 @@
         {
             "label": "Test exercise 24",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -1960,6 +2033,7 @@
         {
             "label": "Test exercise 25",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2024,6 +2098,7 @@
         {
             "label": "Test exercise 26",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2088,6 +2163,7 @@
         {
             "label": "Test exercise 27",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2152,6 +2228,7 @@
         {
             "label": "Test exercise 28",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2216,6 +2293,7 @@
         {
             "label": "Test exercise 29",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2280,6 +2358,7 @@
         {
             "label": "Test exercise 30",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2344,6 +2423,7 @@
         {
             "label": "Test exercise 31",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2408,6 +2488,7 @@
         {
             "label": "Test exercise 32",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2472,6 +2553,7 @@
         {
             "label": "Test exercise 33",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2536,6 +2618,7 @@
         {
             "label": "Test exercise 34",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2600,6 +2683,7 @@
         {
             "label": "Test exercise 35",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2664,6 +2748,7 @@
         {
             "label": "Test exercise 36",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2728,6 +2813,7 @@
         {
             "label": "Test exercise 37",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2792,6 +2878,7 @@
         {
             "label": "Test exercise 38",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2856,6 +2943,7 @@
         {
             "label": "Test exercise 39",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2920,6 +3008,7 @@
         {
             "label": "Test exercise 40",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -2984,6 +3073,7 @@
         {
             "label": "Test exercise 41",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -3048,6 +3138,7 @@
         {
             "label": "Test exercise 42",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -3112,6 +3203,7 @@
         {
             "label": "Test exercise 43",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
@@ -3176,6 +3268,7 @@
         {
             "label": "Test exercise 44",
             "type": "shell",
+            "dependsOn": "Setup testing",
             "windows": {
                 "command": "python",
                 "args": [
