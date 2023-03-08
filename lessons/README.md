@@ -27,7 +27,7 @@ In order to execute tests, you will need to execute a specific task that matches
 >
 > 1. Create a variable named `casted` that contains the value of the `value` variable casted to a string.
 >
-> - [Click here to open the script in the editor](./solutions/exercise_04.py)
+> - Click here to open the script in the editor
 > - Test the script using `Ctrl + Shift + P` > `Tasks: Run Task` > `Test exercise 04`
 
 Note that the last line instructs you to open the command palette of Visual Studio Code. Once you open it and search for *"Tasks: Run Task"*, you will be able to choose amongst plenty of tests.
