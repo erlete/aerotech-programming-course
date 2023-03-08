@@ -5,3 +5,14 @@ wheel==0.38.4
 six<100.0
 twine<=69.69.69ab
 build
+
+# External scientific libraries:
+bidimensional
+fs-mapping-tools
+matplotlib
+numpy
+scipy
+scikit-learn
+
+# Miscellaneous
+colorama

@@ -3,18 +3,12 @@ name: Operators lesson validation
 on:
   pull_request:
     types: [opened, synchronize]
+    paths: [lessons/operators/**]
 
 jobs:
   test-solutions:
     name: Test solution
-    if: startsWith(github.head_ref, 'operators')
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        index: ["13", "14", "15"]
-
-      fail-fast: false
 
     steps:
       - name: Checkout repository
@@ -25,8 +19,10 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Install library dependencies
-        run: python -m pip install -Ur requirements.txt
+      - name: Install testing dependencies
+        run: |
+          python -m pip install -Ur requirements/advanced-tests.txt
+          python -m pip install -Ur requirements/requirements.txt
 
-      - name: "Test exercise ${{matrix.index}}"
-        run: python -m pytest lessons/solutions/solution_tests/test_exercise_${{matrix.index}}.py --capture=no --no-header --verbosity=0 -r=fEX --disable-warnings --tb=line --show-capture=all --assert=plain --maxfail=1
+      - name: "Test exercises"
+        run: python -m pytest lessons/operators/exercises/tests --capture=no --no-header --verbosity=0 -r=fEX --disable-warnings --tb=line --show-capture=all --assert=plain
