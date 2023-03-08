@@ -11,8 +11,9 @@ bidimensional
 fs-mapping-tools
 matplotlib
 numpy
-scipy
+pooch>=1.7.0
 scikit-learn
+scipy
 
 # Miscellaneous
 colorama
