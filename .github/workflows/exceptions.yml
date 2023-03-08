@@ -1,0 +1,28 @@
+name: Exceptions lesson validation
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths: [lessons/exceptions/**]
+
+jobs:
+  test-solutions:
+    name: Test solution
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.3.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: 3.11
+
+      - name: Install testing dependencies
+        run: |
+          python -m pip install -Ur requirements/advanced-tests.txt
+          python -m pip install -Ur requirements/requirements.txt
+
+      - name: "Test exercises"
+        run: python -m pytest lessons/exceptions/exercises/tests --capture=no --no-header --verbosity=0 -r=fEX --disable-warnings --tb=line --show-capture=all --assert=plain
