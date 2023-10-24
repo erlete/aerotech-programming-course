@@ -9,7 +9,9 @@
                 "args": [
                     "-m",
                     "pydocstyle",
-                    "${file}"
+                    "lessons",
+                    "--match=\"exercise_.*\\.py\"",
+                    "--ignore=D100"
                 ]
             },
             "linux": {
@@ -17,7 +19,9 @@
                 "args": [
                     "-m",
                     "pydocstyle",
-                    "${file}"
+                    "lessons",
+                    "--match=\"exercise_.*\\.py\"",
+                    "--ignore=D100"
                 ]
             },
             "osx": {
@@ -25,7 +29,9 @@
                 "args": [
                     "-m",
                     "pydocstyle",
-                    "${file}"
+                    "lessons",
+                    "--match=\"exercise_.*\\.py\"",
+                    "--ignore=D100"
                 ]
             },
             "presentation": {
@@ -46,7 +52,11 @@
                 "args": [
                     "-m",
                     "flake8",
-                    "${file}"
+                    "lessons",
+                    "--exclude",
+                    "tests",
+                    "--disable-noqa",
+                    "--no-show-source"
                 ]
             },
             "linux": {
@@ -54,7 +64,11 @@
                 "args": [
                     "-m",
                     "flake8",
-                    "${file}"
+                    "lessons",
+                    "--exclude",
+                    "tests",
+                    "--disable-noqa",
+                    "--no-show-source"
                 ]
             },
             "osx": {
@@ -62,7 +76,11 @@
                 "args": [
                     "-m",
                     "flake8",
-                    "${file}"
+                    "lessons",
+                    "--exclude",
+                    "tests",
+                    "--disable-noqa",
+                    "--no-show-source"
                 ]
             },
             "presentation": {
