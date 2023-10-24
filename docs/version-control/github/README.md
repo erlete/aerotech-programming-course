@@ -1,5 +1,7 @@
 # GitHub
 
+> ***Estimated completion time: 20 minutes***
+
 ```mermaid
 %%{
     init: {
@@ -47,11 +49,28 @@ gitGraph
 
 GitHub is an excellent collaboration tool for development teams and a great way to share your code with the world. It is also a great way to learn how to use Git, since it is the most popular Git repository hosting service.
 
+## A social network for developers
+
 The platform is based on the core functionality of the Git version control system, but it is not the same as Git itself. GitHub is just an interface. Do not forget that. However, it is easier to learn Git by using GitHub, since it provides a graphical interface to perform most of the Git operations, which would be performed over the command line otherwise.
 
-*In order to avoid confusion, all features described in this document are followed by a reference to the software tool that implements them (Git, GitHub).*
+*[Here is a video](https://blogs.motiondevelopment.top/blog/posts/git-and-github) that shows how to earn lots of money using GitHub.*
 
-First of all, take a look at [this article](https://blogs.motiondevelopment.top/blog/posts/git-and-github), which describes perfectly what this course is all about.
+## Index
+
+Since the contents of this lesson are somewhat complex, here is an index for better orientation:
+
+- Repositories
+- Commits
+- Branches
+- Forks
+- Merge Requests and Merge Conflicts
+- Pull Requests
+- Issues
+- Projects
+- Discussions
+- Actions
+
+*In order to avoid confusion, all features described in this document are followed by a reference to the software tool that implements them (either Git, GitHub or both).*
 
 ## Repositories (Git)
 
@@ -67,11 +86,11 @@ A commit represents **a modification or set of modifications** performed in a re
 
 ## Branches (Git)
 
-Branches are **parallel versions of a given state of a repository**. They are the key to collaborative development, since **they allow multiple developers to work on the same repository without affecting each other**. Branches are created from a given commit in another branch, and they can be merged back into the original branch when the work is done.
+Branches are **parallel versions of any given state of a repository**. They are the key to collaborative development, since **they allow multiple developers to work on the same repository without affecting each other**. Branches are created from a given commit in another branch, and they can be merged back into the original branch when the work is done.
 
-A **main branch** is always present on every repository, since if there were no branches, no commits could be made. This branch is called `master` by default, but it can be renamed to any other name. This is a good practice to avoid using the default name, since [it can be considered offensive for some people](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main).
+A **main branch** is always present on every repository, since if there were no branches, no commits could be made. This branch is often called `master` by default, but it can be renamed to any other name. This is a good practice to avoid using the default name, since [it can be considered offensive for some people](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main).
 
-A common combination of branches are the `stable`-`dev` couple, which represent both stable versions of the repository and in-development versions, respectively.
+A common combination of branches are the `stable`-`dev` couple, which represent **stable versions** of the repository and **in-development ones**, respectively.
 
 ```mermaid
 
@@ -135,7 +154,7 @@ gitGraph
     commit
 ```
 
-Here is an example of a more complex branch system, such as the one used for an Autonomous System development:
+Here is an example of a more complex branch system that emulates Autonomous System development:
 
 ```mermaid
 %%{
@@ -207,7 +226,7 @@ gitGraph
 
 ## Forks (Git)
 
-Forks are **copies of a repository**. They are used to generate a fresh replica of a given state of the repository for your own purposes, so that **you can change it without affecting the original repository**. This is a great way to contribute to open-source projects, or even to create your own version of a project and develop it independently.
+Forks are **copies of a repository**. They are used to generate a fresh replica of the latest state of a repository for your own purposes, so that **you can change it without affecting the original repository**. This is a great way to contribute to open-source projects, or even to create your own version of a project and develop it independently.
 
 Any repository can be forked as long as the user has access to it. Forking a repository is as simple as clicking the "Fork" button in the top-right corner of the repository page.
 
@@ -461,12 +480,6 @@ There is no need to dive into the complexity of actions in this course, since it
 Each green/red dot represents an executed workflow, which is a script that contains a set of instructions to be executed remotely. These instructions can either pass or fail
 
 This functionality can be used for automatic PR revisions, for example, by implementing a workflow that tests your program against multiple versions of a language. If the workflow fails, you will not be allowed to merge the PR until you fix the changes.
-
-## Pages and Wikis (GitHub)
-
-[Pages](https://pages.github.com/) and [Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) are presentation tools for the repository. They can hold an interface for the project and all the required documents that explain how to use it.
-
-These functionalities will not be covered in this course since they are not *absolutely* relevant, but they can be interesting to explore on your own, so feel free to do so!
 
 ## GitHub Setup
 
