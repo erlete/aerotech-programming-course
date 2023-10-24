@@ -1,5 +1,7 @@
 # GitHub Desktop
 
+> ***Estimated completion time: 5 minutes***
+
 ```mermaid
 %%{
     init: {
@@ -51,16 +53,15 @@ I personally recommend its usage, specially for beginners, since it makes workin
 
 ## Download
 
-* [Windows x64 (direct download)](https://central.github.com/deployments/desktop/desktop/latest/win32)
-* [Other downloads](https://desktop.github.com/)
+This software can be downloaded through [its download page](https://desktop.github.com). Make sure to choose the correct operating system and hardware architecture version.
 
 ## Installation
 
-In order to install GitHub Desktop you only need to run the installer and add your profile configuration (your name and email). Furthermore, you might need to log in with your GitHub account in order to be able to access your remote repositories.
+In order to install GitHub Desktop you only need to run the installer and add your profile configuration (your name and email, same as in your GitHub account). Furthermore, you might need to log in with your GitHub account in order to be able to access your remote repositories.
 
 ### Validation
 
-You can make sure the installation was successful by searching for "GitHub Desktop" in the list of installed applications.
+You can make sure the installation was successful by searching for "GitHub Desktop" in the list of installed applications. It's a complicated process, I know.
 
 ## Repository Setup
 
