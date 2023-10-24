@@ -1,5 +1,7 @@
 # Visual Studio Code Extensions
 
+> ***Estimated completion time: 5 minutes***
+
 ```mermaid
 %%{
     init: {
@@ -47,18 +49,19 @@ gitGraph
 
 ## VSCode Profiles
 
-Since profiles are now supported, there is no need to install all extensions separately, a single profile can be imported with all the required extensions. I will provide you with two profiles dedicated to Python. Both include all extensions, but the first one also adds keyboard shortcuts, a custom theme and a few other interesting settings. If you already have a custom VSCode profile, no need to replace your beloved themes and settings with mine, just import the second profile.
+Since profiles are now supported, there is no need to install all extensions separately, a single profile can be imported with all the required extensions. The link below contains a VSCode profile that you can use for this lesson and even future development, since it contains multiple carefully selected extensions and settings that will make your life easier:
 
-- Extensions, theme and settings: `https://gist.github.com/erlete/91ebeeeccfe686b7ddfe4465ecd590fa`
-- Extensions alone: `https://gist.github.com/erlete/3a9cb57dc3bb95ed8a8e209188e329d9`
+`https://gist.github.com/erlete/af490864168c021ecad0957bc2d98bc1`
 
 ### Import the profile
 
-In order to import the profile, press `Ctrl + Shift + P`, which will open up the command palette. Write *"Profiles: Import Profile..."* and press `Enter`. Now paste one of the URLs above and press enter again. The sidebar will display the import settings. Now click *"Import Profile"* and you are all done!
+In order to import the profile, press `Ctrl + Shift + P`, which will open up the command palette. Write *"Profiles: Import Profile..."* and press `Enter`. Now paste the above URL and press enter again. The sidebar will display the import settings. Now click *"Import Profile"*, wait a couple seconds and it will be done!
 
 ### Activating the profile
 
-In order to activate the profile, click the gear icon on the lower left side of the screen. Select *"Profiles"* and click on *"Python (Windows)"*. Now wait for all the extensions to load up, which might take a while depending on the quality of your internet connection and the R/W speed of your computer.
+In order to activate the profile, click the gear icon on the lower left side of the screen. Select *"Profiles"* and click on *"Python"*. Now wait for all the extensions to download and load up, which might take a while depending on the quality of your internet connection and the R/W speed of your computer.
+
+If any of the extensions generates a popup or button that says a reload is required, go ahead and click it, or else the extension will not be loaded properly.
 
 ## Python Programming
 
