@@ -2,6 +2,22 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Run linters",
+            "dependsOn": [
+                "Run flake8",
+                "Run Pydocstyle"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "never",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            },
+            "problemMatcher": []
+        },
+        {
             "label": "Run Pydocstyle",
             "type": "shell",
             "windows": {
@@ -35,13 +51,14 @@
                 ]
             },
             "presentation": {
-                "echo": false,
+                "echo": true,
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "dedicated",
                 "showReuseMessage": false,
                 "clear": true
             },
+            "hide": true,
             "problemMatcher": []
         },
         {
@@ -87,10 +104,11 @@
                 "echo": true,
                 "reveal": "always",
                 "focus": true,
-                "panel": "shared",
+                "panel": "dedicated",
                 "showReuseMessage": false,
                 "clear": true
             },
+            "hide": true,
             "problemMatcher": [],
         },
         {
@@ -126,7 +144,6 @@
                     "requirements/basic-tests.txt"
                 ]
             },
-            "problemMatcher": [],
             "presentation": {
                 "echo": false,
                 "reveal": "silent",
@@ -135,7 +152,8 @@
                 "showReuseMessage": false,
                 "clear": false
             },
-            "hide": true
+            "hide": true,
+            "problemMatcher": []
         },
         {
             "label": "Set up advanced testing requirements",
@@ -170,7 +188,6 @@
                     "requirements/advanced-tests.txt"
                 ]
             },
-            "problemMatcher": [],
             "presentation": {
                 "echo": false,
                 "reveal": "silent",
@@ -179,7 +196,8 @@
                 "showReuseMessage": false,
                 "clear": false
             },
-            "hide": true
+            "hide": true,
+            "problemMatcher": []
         },
         {
             "label": "Ensure exercise file",
@@ -202,7 +220,6 @@
             "osx": {
                 "command": "[[ -f ${relativeFileDirname}/tests/test_${fileBasename} ]] || (echo ERROR: Make sure to run the task in a valid exercise file! && exit 1)"
             },
-            "problemMatcher": [],
             "presentation": {
                 "echo": true,
                 "reveal": "silent",
@@ -211,7 +228,8 @@
                 "showReuseMessage": false,
                 "clear": true
             },
-            "hide": true
+            "hide": true,
+            "problemMatcher": []
         },
         {
             "label": "Test exercise",
@@ -271,7 +289,6 @@
                     "--maxfail=1"
                 ]
             },
-            "problemMatcher": [],
             "presentation": {
                 "echo": false,
                 "reveal": "always",
@@ -279,7 +296,8 @@
                 "panel": "shared",
                 "showReuseMessage": false,
                 "clear": true
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Test exercise (no dependency checking)",
@@ -338,7 +356,6 @@
                     "--maxfail=1"
                 ]
             },
-            "problemMatcher": [],
             "presentation": {
                 "echo": false,
                 "reveal": "always",
@@ -346,7 +363,8 @@
                 "panel": "shared",
                 "showReuseMessage": false,
                 "clear": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
