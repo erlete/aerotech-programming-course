@@ -1,6 +1,3 @@
-# Interpreter setup:
-pip
-
 # Testing and virtual environment tools:
 pytest
 virtualenv
