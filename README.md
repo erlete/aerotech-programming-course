@@ -1,5 +1,7 @@
 # *UVigo Aerotech* Programming Course
 
+> ***Estimated completion time: 5 minutes***
+
 Welcome to the ***UVigo Aerotech*** basic formation course! This repository contains all necessary resources to achieve a basic formation in **common development practices**, **Python programming** and **code editing skills**.
 
 It is intended to be a foundation for collaborative development. **It can be really useful for students that are starting their career in the industry**. It does not intend to replace any official courses, yet it covers a set of topics that can be used as a kickstart for further learning.

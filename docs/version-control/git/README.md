@@ -1,5 +1,7 @@
 # Git
 
+> ***Estimated completion time: 5 minutes***
+
 ```mermaid
 %%{
     init: {
