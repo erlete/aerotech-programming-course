@@ -1,5 +1,7 @@
 # Visual Studio Code Installation
 
+> ***Estimated completion time: 5 minutes***
+
 ```mermaid
 %%{
     init: {
@@ -49,8 +51,7 @@ Visual Studio Code (VSC) is a relatively lightweight editor (not IDE) for code d
 
 ## Download
 
-* [Windows x64 (direct download)](https://az764295.vo.msecnd.net/stable/441438abd1ac652551dbe4d408dfcec8a499b8bf/VSCodeUserSetup-x64-1.75.1.exe)
-* [Other downloads](https://code.visualstudio.com/download#)
+This software can be downloaded through [its download page](https://code.visualstudio.com/download). Make sure to choose the correct operating system and hardware architecture version.
 
 ## Installation
 
