@@ -91,7 +91,7 @@ There are a few commands that should be known to any Python user:
 * `pip install <package>`: installs a package (i.e. `python -m pip install matplotlib`).
   * `pip install --upgrade <package>`: installs and upgrades a package (i.e. `python -m pip install --upgrade bidimensional`).
   * `pip install -r <requirements file>`: installs all packages specified in a requirements file (i.e. `python -m pip install -r requirements.txt`).
-* `pip uninstall <package>`: uninstalls a package (i.e. `python -m pip uninstall matplotlib`).
+* `pip uninstall <package>`: uninstalls a package (i.e. `python -m pip uninstall matplotlib`). *Take a look at a sample [requirements file](/requirements/requirements.txt) for Python development.*
 * `pip list`: displays all currently installed packages and versions.
 
 There is a particular trick to determine all available versions of a specific package:
