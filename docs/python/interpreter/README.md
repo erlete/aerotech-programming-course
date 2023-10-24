@@ -1,5 +1,7 @@
 # Python
 
+> ***Estimated completion time: 5 minutes***
+
 ```mermaid
 %%{
     init: {
@@ -51,8 +53,7 @@ There are plenty of Python versions, yet the 3.11.2 will be used for the tutoria
 
 ## Download
 
-* [Windows x64 (direct download)](https://www.python.org/ftp/python/3.11.2/python-3.11.2-amd64.exe)
-* [Other downloads](https://www.python.org/downloads/release/python-3112/)
+This software (version 3.11.2) can be downloaded through [its download page](https://www.python.org/downloads/release/python-3112). Make sure to choose the correct operating system and hardware architecture version.
 
 ## Installation
 
