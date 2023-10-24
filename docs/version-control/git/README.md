@@ -68,7 +68,7 @@ git --version
 >>> git version 2.39.2
 ```
 
-_If this command returns an error, it either means that Git was not installed successfully or that the `git` command is not linked to the program._
+If this command returns an error, it either means that Git was not installed successfully or that the `git` command is not linked to the program.
 
 ## Git and GitHub
 
