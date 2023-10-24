@@ -116,7 +116,8 @@
                 "panel": "dedicated",
                 "showReuseMessage": false,
                 "clear": false
-            }
+            },
+            "hide": true
         },
         {
             "label": "Set up advanced testing requirements",
@@ -159,7 +160,8 @@
                 "panel": "dedicated",
                 "showReuseMessage": false,
                 "clear": false
-            }
+            },
+            "hide": true
         },
         {
             "label": "Ensure exercise file",
@@ -190,7 +192,8 @@
                 "panel": "shared",
                 "showReuseMessage": false,
                 "clear": true
-            }
+            },
+            "hide": true
         },
         {
             "label": "Test exercise",
