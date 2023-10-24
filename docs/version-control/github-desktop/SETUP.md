@@ -1,5 +1,7 @@
 # Repository Setup
 
+> ***Estimated completion time: 5 minutes***
+
 You have already forked the repository, but it only exists on a remote server (GitHub's). It would be nice to have a local copy (in your PC) and be able to modify it as you wish, right? Let's do it.
 
 ## Cloning the repository
