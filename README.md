@@ -14,7 +14,7 @@ It is intended to be a foundation for collaborative development. It can be reall
         'gitGraph': {
             'showBranches': true,
             'showCommitLabel':true,
-            'mainBranchName': 'course-progress'
+            'mainBranchName': 'main'
         }
     }
 }%%
@@ -28,7 +28,7 @@ gitGraph
    commit id: "Git setup"
    commit id: "Git and GitHub features"
    commit id: "GitHub Desktop setup"
-   checkout course-progress
+   checkout main
    merge version-control
 
    commit id: "Python setup"
@@ -37,7 +37,7 @@ gitGraph
    commit id: "Interpreter setup"
    commit id: "Package manager setup"
    commit id: "Virtual environment setup"
-   checkout course-progress
+   checkout main
    merge python
 
    commit id: "Visual Studio Code"
@@ -45,7 +45,7 @@ gitGraph
    checkout visual-studio-code
    commit id: "Editor setup"
    commit id: "Extensions setup"
-   checkout course-progress
+   checkout main
    merge visual-studio-code
 
    commit id: "Python programming"
