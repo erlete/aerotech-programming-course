@@ -470,6 +470,6 @@ These functionalities will not be covered in this course since they are not *abs
 
 ## GitHub Setup
 
-You will need to create a GitHub account in order to fully explore this course and all the possibilities that GitHub has to offer. Do it in [the next chapter](./SETUP.md).
+You will need to create a GitHub account in order to fully explore this course and all the possibilities that GitHub has to offer. Do it in [**the next chapter**](./SETUP.md).
 
 If you want to go back to [the previous chapter](../git/README.md), go ahead!

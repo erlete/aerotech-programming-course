@@ -64,6 +64,6 @@ You can make sure the installation was successful by searching for "GitHub Deskt
 
 ## Repository Setup
 
-In order to start editing the repository and adding your own developments, you will need to clone it in your computer. You will learn how to do that in [the next chapter](./SETUP.md).
+In order to start editing the repository and adding your own developments, you will need to clone it in your computer. You will learn how to do that in [**the next chapter**](./SETUP.md).
 
 If you want to go back to [the previous chapter](../github/SETUP.md), go ahead!

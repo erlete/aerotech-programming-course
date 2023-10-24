@@ -83,6 +83,6 @@ If this command returns an error, it either means that Python was not installed 
 
 ## Python packages
 
-The Python language relies on collaborative development for additional functionality, which is manifested in the form of packages. You will learn about package installation in [the next chapter](../packages/README.md).
+The Python language relies on collaborative development for additional functionality, which is manifested in the form of packages. You will learn about package installation in [**the next chapter**](../packages/README.md).
 
 If you want to go back to [the previous chapter](/docs/version-control/github-desktop/README.md), go ahead!

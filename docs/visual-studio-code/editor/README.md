@@ -76,6 +76,6 @@ Unless it is your responsibility to configure the workspace, you should not be w
 
 Extensions are the heart of the VSC community. There are millions of extensions that add non-native support for external platforms and languages (GitHub, Node, Python...) or useful tools (Linters, Themes, Testers...).
 
-You will learn how to install extensions in [the next chapter](../extensions/README.md).
+You will learn how to install extensions in [**the next chapter**](../extensions/README.md).
 
 If you want to go back to [the previous chapter](/docs/python/packages/README.md), go ahead!

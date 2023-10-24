@@ -71,6 +71,6 @@ If this command returns an error, it either means that Git was not installed suc
 
 ## Git and GitHub
 
-Git is not as simple as its name. In fact, it is a very powerful tool that not many people know how to use. You will learn the basics of Git and its platform per excellence, GitHub, in [the next chapter](../github/README.md).
+Git is not as simple as its name. In fact, it is a very powerful tool that not many people know how to use. You will learn the basics of Git and its platform per excellence, GitHub, in [**the next chapter**](../github/README.md).
 
 If you want to go back to [the previous chapter](/README.md), go ahead!

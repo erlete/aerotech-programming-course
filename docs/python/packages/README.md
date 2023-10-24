@@ -114,6 +114,6 @@ The relevant part here is in the second line, which contains a list of all avail
 
 ## Visual Studio Code
 
-Visual Studio Code is a very popular code editor, and it has a very good support for Python. You will learn how to installed and configure it in [the next chapter](/docs/visual-studio-code/editor/README.md).
+Visual Studio Code is a very popular code editor, and it has a very good support for Python. You will learn how to installed and configure it in [**the next chapter**](/docs/visual-studio-code/editor/README.md).
 
 If you want to go back to [the previous chapter](../interpreter/README.md), go ahead!

@@ -98,7 +98,7 @@ You are free to explore the repository as you wish, yet it is highly recommended
 
 ## Git
 
-First off, let's start by installing Git as our version control software. You will find all the necessary instructions in [the next chapter](/docs/version-control/git/README.md).
+First off, let's start by installing Git as our version control software. You will find all the necessary instructions in [**the next chapter**](/docs/version-control/git/README.md).
 
 ---
 

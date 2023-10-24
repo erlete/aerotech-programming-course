@@ -12,6 +12,6 @@ The next step is to fork this repository and make it all yours! No need to copy 
 
 ## GitHub Desktop
 
-GitHub Desktop represents the friendly, powerful desktop interface for GitHub, all from the comfort of your own computer environment. You will learn all about it in [the next chapter](../github-desktop/README.md).
+GitHub Desktop represents the friendly, powerful desktop interface for GitHub, all from the comfort of your own computer environment. You will learn all about it in [**the next chapter**](../github-desktop/README.md).
 
 If you want to go back to [the previous chapter](./README.md), go ahead!
