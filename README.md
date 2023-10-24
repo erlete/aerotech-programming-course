@@ -57,17 +57,16 @@ gitGraph
 
 This section covers the steps required to set up the collaborative environment for software development. It is divided into three subsections:
 
-1. **Version control**: introduction to Git usage through the GitHub platform, as well as GitHub-specific tools for team collaboration
+1. **Version control**: introduction to Git usage through the GitHub platform, as well as GitHub-specific tools for team collaboration (50 minutes)
    1. Git setup
    2. Git and GitHub features
    3. GitHub Desktop setup
 
-2. **Python**: introduction to the language and component setup
+2. **Python**: introduction to the language and component setup (15 minutes)
    1. Interpreter setup
    2. Package manager setup
-   3. Virtual environment setup (future updates)
 
-3. **Visual Studio Code**: introduction to the editor tool and component setup
+3. **Visual Studio Code**: introduction to the editor tool and component setup (10 minutes)
    1. Editor setup
    2. Extensions and profiles setup
 
