@@ -1,5 +1,7 @@
 # Python Packages Installation
 
+> ***Estimated completion time: 10 minutes***
+
 ```mermaid
 %%{
     init: {
