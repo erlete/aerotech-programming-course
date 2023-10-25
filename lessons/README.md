@@ -15,7 +15,7 @@ Exercises will contain links to **dedicated scripts** (files where you will need
 
 ### Tests
 
-In order to execute tests, you will need to execute a specific task that matches the number of the exercise you are solving, for example, here is the description for exercise 4:
+In order to execute tests, you will need to execute a specific task that evaluates the exercise, for example, here is the description for exercise 4:
 
 > _Exercise 4: Type casting_
 >
@@ -77,9 +77,13 @@ lessons\solutions\solution_tests\test_exercise_04.py .
 
 As you can imagine, *"passed"* means that you successfully completed the exercise. There are multiple error variants, depending on the feedback required for each exercise. There can even be errors that are not defined in the tests (i.e. syntax errors). **Always make sure to read the error messages at least two times**.
 
+### Troubleshooting
+
+Due to the fact that the testing method depends on a high number of factors, such as multiple software versions and operating systems, the task might fail. In that case, just [open this file](/.vscode/tasks_fixer.py), replace the `INTERPRETER` variable **value** with the path to your Python interpreter (should look somewhat like "C:/Users/your_user/.../versions/3.11.4/python.exe") and execute the script with `Ctrl + Shift + P` > `Python: Run Python File in Terminal` and hit enter. Nothing should happen, but the next time you run an exercise test task, it will most probably work.
+
 ## Progress tracking
 
-In order to track your progress through the course, you will need to commit changes to the repository. Specifically, you will need to create a dedicated branch **that matches the name of the lesson**, for example, in order to solve the exercises in the `data-types.ipynb` file you will need to create a branch named `data-types` and set it as active. After that, you can start adding commits, preferably **one per solved exercise**, since the objective is to practice commit creation.
+In order to track your progress through the course, you will need to commit changes to the repository. Specifically, you will need to create a dedicated branch **that matches the name of the lesson**, for example, in order to solve the exercises in the `data-types` lesson directory you will need to create a branch named `data-types` and set it as active. After that, you can start adding commits, preferably **one per solved exercise**, since the objective is to practice commit creation.
 
 https://user-images.githubusercontent.com/76848729/223303969-d4fd2eba-8e04-4fc2-b56b-fa8197feab40.mp4
 
