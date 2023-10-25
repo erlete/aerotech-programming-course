@@ -12,4 +12,3 @@ for i in data:
     else:
         log.append("idk")
         
-print(log)
