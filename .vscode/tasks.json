@@ -200,42 +200,9 @@
             "problemMatcher": []
         },
         {
-            "label": "Ensure exercise file",
-            "type": "shell",
-            "windows": {
-                "command": "IF",
-                "args": [
-                    "NOT",
-                    "EXIST",
-                    "${relativeFileDirname}\\tests\\test_${fileBasename}",
-                    {
-                        "value": "(echo ERROR: Make sure to run the task in a valid exercise file! && exit 1)",
-                        "quoting": "weak"
-                    }
-                ]
-            },
-            "linux": {
-                "command": "[[ -f ${relativeFileDirname}/tests/test_${fileBasename} ]] || (echo ERROR: Make sure to run the task in a valid exercise file! && exit 1)"
-            },
-            "osx": {
-                "command": "[[ -f ${relativeFileDirname}/tests/test_${fileBasename} ]] || (echo ERROR: Make sure to run the task in a valid exercise file! && exit 1)"
-            },
-            "presentation": {
-                "echo": true,
-                "reveal": "silent",
-                "focus": true,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": true
-            },
-            "hide": true,
-            "problemMatcher": []
-        },
-        {
             "label": "Test exercise",
             "type": "shell",
             "dependsOn": [
-                "Ensure exercise file",
                 "Set up basic testing requirements"
             ],
             "windows": {
@@ -302,9 +269,6 @@
         {
             "label": "Test exercise (no dependency checking)",
             "type": "shell",
-            "dependsOn": [
-                "Ensure exercise file"
-            ],
             "windows": {
                 "command": "python",
                 "args": [
