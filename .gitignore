@@ -361,6 +361,7 @@ tags
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+!.vscode/tasks_fixer.py
 
 # Local History for Visual Studio Code
 .history/

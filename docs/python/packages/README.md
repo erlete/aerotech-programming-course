@@ -55,14 +55,6 @@ Learning to install packages, resolve their installation and versioning issues a
 
 ## Installation
 
-The `pip` package manager is usually installed along with Python, but it is easy to miss some step and skip its installation process, specially when using the source installation method.
-
-Due to this issue, Python provides with [a couple fallback installation methods](https://pip.pypa.io/en/stable/installation/#supported-methods), such as `ensurepip`, which ensures `pip` installation using a simple command:
-
-```bash
-python -m ensurepip --upgrade
-```
-
 You can check whether `pip` is installed using the following command:
 
 ```bash
@@ -71,7 +63,13 @@ python -m pip --version
 
 If it returns an error, `pip` is not installed. If it returns a numeric sequence, that means you have got said `pip` version installed.
 
-**About direct usage of the `pip` command**
+In a scenario where `pip` is not installed, there's no need to worry, since Python provides with [a couple fallback installation methods](https://pip.pypa.io/en/stable/installation/#supported-methods), such as `ensurepip`, which ensures `pip` installation using a simple command:
+
+```bash
+python -m ensurepip --upgrade
+```
+
+### Common `pip` usage issue
 
 It is possible to invoke `pip` directly, yet I strongly disencourage this practice. Note the difference between these two commands:
 
@@ -90,9 +88,11 @@ There are a few commands that should be known to any Python user:
 
 * `pip install <package>`: installs a package (i.e. `python -m pip install matplotlib`).
   * `pip install --upgrade <package>`: installs and upgrades a package (i.e. `python -m pip install --upgrade bidimensional`).
-  * `pip install -r <requirements file>`: installs all packages specified in a requirements file (i.e. `python -m pip install -r requirements.txt`).
-* `pip uninstall <package>`: uninstalls a package (i.e. `python -m pip uninstall matplotlib`). *Take a look at a sample [requirements file](/requirements/requirements.txt) for Python development.*
+  * `pip install -r <requirements file>`: installs all packages specified in a requirements file (i.e. `python -m pip install -r requirements.txt`). *Take a look at a sample [requirements file](/requirements/requirements.txt) for Python development.*
+* `pip uninstall <package>`: uninstalls a package (i.e. `python -m pip uninstall matplotlib`).
 * `pip list`: displays all currently installed packages and versions.
+
+### Getting all versions of a package
 
 There is a particular trick to determine all available versions of a specific package:
 

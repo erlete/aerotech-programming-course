@@ -51,7 +51,7 @@ gitGraph
 
 Since profiles are now supported, there is no need to install all extensions separately, a single profile can be imported with all the required extensions. The link below contains a VSCode profile that you can use for this lesson and even future development, since it contains multiple carefully selected extensions and settings that will make your life easier:
 
-`https://gist.github.com/erlete/9aff1e800b3d5a08cdaf29036592e385`
+`https://gist.github.com/erlete/43bffa5292ed5474b116a877129da049`
 
 ### Import the profile
 
