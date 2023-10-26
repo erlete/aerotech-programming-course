@@ -25,10 +25,8 @@ def splitter():
         
         time = pc() - start
         
-        timesum += time
-       
+        timesum += time       
         print(time)
-        
     print(timesum)
         
     # start1 = pc()
@@ -55,6 +53,5 @@ def splitter():
     plt.imshow(arrayblue)
     plt.show()
 
-    
-    
+
 splitter()
