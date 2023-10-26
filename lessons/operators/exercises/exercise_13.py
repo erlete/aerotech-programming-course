@@ -8,6 +8,6 @@ print(suma1)
 print(suma2)
 print(suma1 + suma2)
 
-distance = (suma1 + suma2) ** (1/2)
+distance = (suma1 + suma2) ** (0.5)
 
 print(distance)
