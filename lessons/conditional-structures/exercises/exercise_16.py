@@ -10,5 +10,5 @@ if n % 2 == 0:
     message += " and even"
 if n % 2 == 1:
     message += " and odd"
-    
+
 print(message)
