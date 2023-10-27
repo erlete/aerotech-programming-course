@@ -1,1 +1,1 @@
-my_first_variable = 69
+my_first_variable: int = 69
