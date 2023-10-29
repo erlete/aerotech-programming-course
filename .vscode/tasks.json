@@ -27,7 +27,7 @@
                     "pydocstyle",
                     "lessons",
                     "--match=\"exercise_.*\\.py\"",
-                    "--ignore=D100"
+                    "--convention=google"
                 ]
             },
             "linux": {
