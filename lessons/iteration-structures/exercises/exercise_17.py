@@ -1,6 +1,6 @@
-data = list(range(1, 101))  # Do not modify this line.
+data: list[int] = list(range(1, 101))  # Do not modify this line.
 
-log = []
+log: list[str] = []
 
 for i in data:
     if i % 15 == 0:
@@ -11,4 +11,3 @@ for i in data:
         log.append("Buzz")
     else:
         log.append("idk")
-        
