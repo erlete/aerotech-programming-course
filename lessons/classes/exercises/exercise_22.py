@@ -13,12 +13,12 @@ class Coordinate:
         y (float): coordinate y.
     """
 
-    def __init__(self, x, y):
+    def __init__(self, x: float, y: float) -> None:
         """Initialize a Coordinate instance.
 
         Args:
             x (float): coordinate x.
             y (float): coordinate y.
         """
-        self.x = x
-        self.y = y
+        self.x: float = x
+        self.y: float = y
