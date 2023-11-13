@@ -4,7 +4,12 @@ import matplotlib.pyplot as plt
 from time import perf_counter as pc
 
 
-def splitter():
+def splitter() -> list:
+    """Get the list of three color channel images.
+
+    Returns:
+        list: list of 3 images.
+    """
     img = scipy.datasets.face()
 
     plt.imshow(img)
@@ -37,5 +42,3 @@ def splitter():
     print(time)
     return split
 
-
-ej = splitter()
