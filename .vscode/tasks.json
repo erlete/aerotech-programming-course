@@ -3,59 +3,36 @@
     "tasks": [
         {
             "label": "Run linters",
+            "detail": "Execute flake8 and pydocstyle on all exercise files",
             "dependsOn": [
                 "Run flake8",
                 "Run Pydocstyle"
             ],
-            "presentation": {
-                "echo": false,
-                "reveal": "never",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": false
-            },
-            "problemMatcher": []
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
         },
         {
             "label": "Run Pydocstyle",
             "type": "shell",
-            "windows": {
-                "command": "python",
-                "args": [
-                    "-m",
-                    "pydocstyle",
-                    "lessons",
-                    "--match=\"exercise_.*\\.py\"",
-                    "--ignore=D100"
-                ]
-            },
-            "linux": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pydocstyle",
-                    "lessons",
-                    "--match=\"exercise_.*\\.py\"",
-                    "--ignore=D100"
-                ]
-            },
-            "osx": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pydocstyle",
-                    "lessons",
-                    "--match=\"exercise_.*\\.py\"",
-                    "--ignore=D100"
-                ]
-            },
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "pydocstyle",
+                "lessons",
+                "--match=\"exercise_.*\\.py\"",
+                "--convention=google",
+                "--ignore-self-only-init",
+                "--verbose"
+            ],
             "presentation": {
                 "echo": true,
                 "reveal": "always",
                 "focus": true,
                 "panel": "dedicated",
-                "showReuseMessage": false,
+                "showReuseMessage": true,
                 "clear": true
             },
             "hide": true,
@@ -64,198 +41,77 @@
         {
             "label": "Run flake8",
             "type": "shell",
-            "windows": {
-                "command": "python",
-                "args": [
-                    "-m",
-                    "flake8",
-                    "lessons",
-                    "--exclude",
-                    "tests",
-                    "--disable-noqa",
-                    "--no-show-source"
-                ]
-            },
-            "linux": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "flake8",
-                    "lessons",
-                    "--exclude",
-                    "tests",
-                    "--disable-noqa",
-                    "--no-show-source"
-                ]
-            },
-            "osx": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "flake8",
-                    "lessons",
-                    "--exclude",
-                    "tests",
-                    "--disable-noqa",
-                    "--no-show-source"
-                ]
-            },
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "flake8",
+                "src/lessons",
+                "--filename",
+                "[exercise_*.py]",
+                "--exclude",
+                "test_exercise_*.py",
+                "--disable-noqa",
+                "--no-show-source",
+                "--statistics"
+            ],
             "presentation": {
                 "echo": true,
                 "reveal": "always",
                 "focus": true,
                 "panel": "dedicated",
-                "showReuseMessage": false,
+                "showReuseMessage": true,
                 "clear": true
-            },
-            "hide": true,
-            "problemMatcher": [],
-        },
-        {
-            "label": "Set up basic testing requirements",
-            "type": "shell",
-            "windows": {
-                "command": "python",
-                "args": [
-                    "-m",
-                    "pip",
-                    "install",
-                    "-Ur",
-                    "requirements\\basic-tests.txt"
-                ]
-            },
-            "linux": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pip",
-                    "install",
-                    "-Ur",
-                    "requirements/basic-tests.txt"
-                ]
-            },
-            "osx": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pip",
-                    "install",
-                    "-Ur",
-                    "requirements/basic-tests.txt"
-                ]
-            },
-            "presentation": {
-                "echo": false,
-                "reveal": "silent",
-                "focus": false,
-                "panel": "dedicated",
-                "showReuseMessage": false,
-                "clear": false
             },
             "hide": true,
             "problemMatcher": []
         },
         {
-            "label": "Set up advanced testing requirements",
+            "label": "Install libraries",
+            "detail": "Install libraries from requirements file",
             "type": "shell",
-            "windows": {
-                "command": "python",
-                "args": [
-                    "-m",
-                    "pip",
-                    "install",
-                    "-Ur",
-                    "requirements\\advanced-tests.txt"
-                ]
-            },
-            "linux": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pip",
-                    "install",
-                    "-Ur",
-                    "requirements/advanced-tests.txt"
-                ]
-            },
-            "osx": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pip",
-                    "install",
-                    "-Ur",
-                    "requirements/advanced-tests.txt"
-                ]
-            },
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "pip",
+                "install",
+                "--upgrade",
+                "--force-reinstall",
+                "--no-cache-dir",
+                "--no-warn-script-location",
+                "--disable-pip-version-check",
+                "--requirement",
+                "requirements/requirements-${input:requirementsFile}.txt"
+            ],
             "presentation": {
-                "echo": false,
+                "echo": true,
                 "reveal": "silent",
                 "focus": false,
-                "panel": "dedicated",
+                "panel": "shared",
                 "showReuseMessage": false,
                 "clear": false
             },
-            "hide": true,
+            "hide": false,
             "problemMatcher": []
         },
         {
             "label": "Test exercise",
+            "detail": "Run pytest on current exercise file",
             "type": "shell",
-            "dependsOn": [
-                "Set up basic testing requirements"
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                "-m",
+                "pytest",
+                "${relativeFileDirname}/tests/test_${fileBasename}",
+                "--capture=no",
+                "--no-header",
+                "--verbosity=0",
+                "-r=fEX",
+                "--disable-warnings",
+                "--tb=line",
+                "--show-capture=all",
+                "--assert=plain",
+                "--maxfail=1"
             ],
-            "windows": {
-                "command": "python",
-                "args": [
-                    "-m",
-                    "pytest",
-                    "${relativeFileDirname}\\tests\\test_${fileBasename}",
-                    "--capture=no",
-                    "--no-header",
-                    "--verbosity=0",
-                    "-r=fEX",
-                    "--disable-warnings",
-                    "--tb=line",
-                    "--show-capture=all",
-                    "--assert=plain",
-                    "--maxfail=1"
-                ]
-            },
-            "linux": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pytest",
-                    "${relativeFileDirname}/tests/test_${fileBasename}",
-                    "--capture=no",
-                    "--no-header",
-                    "--verbosity=0",
-                    "-r=fEX",
-                    "--disable-warnings",
-                    "--tb=line",
-                    "--show-capture=all",
-                    "--assert=plain",
-                    "--maxfail=1"
-                ]
-            },
-            "osx": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pytest",
-                    "${relativeFileDirname}/tests/test_${fileBasename}",
-                    "--capture=no",
-                    "--no-header",
-                    "--verbosity=0",
-                    "-r=fEX",
-                    "--disable-warnings",
-                    "--tb=line",
-                    "--show-capture=all",
-                    "--assert=plain",
-                    "--maxfail=1"
-                ]
-            },
             "presentation": {
                 "echo": false,
                 "reveal": "always",
@@ -265,70 +121,19 @@
                 "clear": true
             },
             "problemMatcher": []
-        },
+        }
+    ],
+    "inputs": [
         {
-            "label": "Test exercise (no dependency checking)",
-            "type": "shell",
-            "windows": {
-                "command": "python",
-                "args": [
-                    "-m",
-                    "pytest",
-                    "${relativeFileDirname}\\tests\\test_${fileBasename}",
-                    "--capture=no",
-                    "--no-header",
-                    "--verbosity=0",
-                    "-r=fEX",
-                    "--disable-warnings",
-                    "--tb=line",
-                    "--show-capture=all",
-                    "--assert=plain",
-                    "--maxfail=1"
-                ]
-            },
-            "linux": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pytest",
-                    "${relativeFileDirname}/tests/test_${fileBasename}",
-                    "--capture=no",
-                    "--no-header",
-                    "--verbosity=0",
-                    "-r=fEX",
-                    "--disable-warnings",
-                    "--tb=line",
-                    "--show-capture=all",
-                    "--assert=plain",
-                    "--maxfail=1"
-                ]
-            },
-            "osx": {
-                "command": "python3",
-                "args": [
-                    "-m",
-                    "pytest",
-                    "${relativeFileDirname}/tests/test_${fileBasename}",
-                    "--capture=no",
-                    "--no-header",
-                    "--verbosity=0",
-                    "-r=fEX",
-                    "--disable-warnings",
-                    "--tb=line",
-                    "--show-capture=all",
-                    "--assert=plain",
-                    "--maxfail=1"
-                ]
-            },
-            "presentation": {
-                "echo": false,
-                "reveal": "always",
-                "focus": true,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": true
-            },
-            "problemMatcher": []
+            "type": "pickString",
+            "id": "requirementsFile",
+            "description": "Select requirement file to use as source",
+            "options": [
+                "basic",
+                "scientific",
+                "testing"
+            ],
+            "default": "basic"
         }
     ]
 }
