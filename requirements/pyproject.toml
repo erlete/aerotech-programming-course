@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerotech-programming-course"
+version = "3.0.0"
+description = "Basic formation for common development tools and methodologies (Git, GitHub, VSCode, Python). Specifically designed for UVigo Aerotech"
+
+readme = "README.md"
+license = { file = "LICENSE" }
+
+authors = [{ name = "Paulo Sanchez", email = "dev.szblzpaulo@gmail.com" }]
+maintainers = [{ name = "Paulo Sanchez", email = "dev.szblzpaulo@gmail.com" }]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Interpreters",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Topic :: Text Editors :: Integrated Development Environments (IDE)",
+    "Typing :: Typed",
+]
+
+requires-python = ">=3.11.6"
+dependencies = [
+    "pip>=23.0.0",
+    "setuptools>=68.0.0",
+    "wheel>=0.41.0",
+    "six>=1.16.0",
+    "twine>=4.0.0",
+    "build>=1.0.0",
+]
+
+[project.optional-dependencies]
+scientific = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+    "bidimensional>=1.9.1",
+    "pooch>=1.7.0",
+]
+testing = [
+    "pytest",
+    "pytest-cov",
+    "pytest-html",
+    "pycodestyle",
+    "pydocstyle",
+    "mypy",
+    "flake8",
+]
+all = [
+    "aerotech-programming-course[scientific-libraries]",
+    "aerotech-programming-course[testing]",
+]
+
+[project.urls]
+"Homepage" = "https://erlete.github.io/aerotech-programming-course"
+"Repository" = "https://github.com/erlete/aerotech-programming-course"
+"Bug Tracker" = "https://github.com/erlete/aerotech-programming-course/issues"

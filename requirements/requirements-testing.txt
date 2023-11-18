@@ -1,0 +1,7 @@
+pytest>=1.1.0
+pytest-cov>=4.1.0
+pytest-html>=4.1.0
+pycodestyle>=2.11.0
+pydocstyle>=6.3.0
+mypy>=1.7.0
+flake8>=6.1.0

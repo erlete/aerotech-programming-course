@@ -1,3 +1,0 @@
-# Testing and virtual environment tools:
-pytest
-virtualenv
