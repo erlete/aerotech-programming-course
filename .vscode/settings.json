@@ -1,0 +1,18 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.codeLensFontFamily": "Fira Code",
+    "editor.fontFamily": "Fira Code",
+    "editor.formatOnSave": false,
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDelete": false,
+    "explorer.excludeGitIgnore": true,
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "mypy.dmypyExecutable": "mypy",
+    "mypy.runUsingActiveInterpreter": true,
+    "python.createEnvironment.trigger": "off"
+}
