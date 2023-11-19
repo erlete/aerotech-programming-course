@@ -55,6 +55,7 @@ function generateChecklist(main, secondary) {
     - [${secondary == "exceptions" ? "x" : " "}] Exceptions
     - [${secondary == "libraries" ? "x" : " "}] Libraries
     - [${secondary == "code" ? "x" : " "}] Code style
+    - [${secondary == "project" ? "x" : " "}] Project
 `
 }
 

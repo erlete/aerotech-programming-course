@@ -2,7 +2,7 @@ import { generateURL } from "./modules/issue_report.js";
 
 Handlebars.partials = Handlebars.templates;
 
-const envContentCards = [
+let envContentCards = [
     {
         img_source: "./public/icons8/git.png",
         title: "Git setup",
@@ -32,10 +32,11 @@ const envContentCards = [
         link: ""
     }
 ];
+envContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);
 
 const envContentCardsDiv = {
-    title: "Progression steps",
-    description: "The following steps will guide you through the process of setting up your environment. Try to follow them in order to avoid any issues.",
+    title: "Progression",
+    description: "The following steps will guide you through the process of setting up your environment. Try to follow them in order to avoid any configuration issues.",
     content_cards: envContentCards
 };
 
@@ -105,12 +106,20 @@ const pyContentCards = [
         description: "Learn how to style your code to make it more readable and maintainable",
         issue_link: generateURL("python", "codestyle"),
         link: ""
+    },
+    {
+        img_source: "./public/icons8/project.png",
+        title: "Project",
+        description: "Apply your knowledge to a real-world project",
+        issue_link: generateURL("python", "project"),
+        link: ""
     }
 ];
+pyContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);
 
 const pyContentCardsDiv = {
-    title: "Progression steps",
-    description: "The following steps will guide you through the process of learning Python. Try to follow them in order to avoid any issues.",
+    title: "Progression",
+    description: "The following steps will guide you through the process of learning Python up to an intermediate level. Try to follow them in order to avoid any confusion.",
     content_cards: pyContentCards
 };
 
