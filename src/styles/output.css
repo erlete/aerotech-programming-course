@@ -963,9 +963,18 @@ select {
   border-width: 2px;
 }
 
+.border-solid {
+  border-style: solid;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-indigo-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(224 231 255 / var(--tw-border-opacity));
 }
 
 .bg-indigo-50 {
