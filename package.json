@@ -5,26 +5,27 @@
     "description": "Basic formation for common development tools and methodologies (Git, GitHub, VSCode, Python). Specifically designed for UVigo Aerotech",
     "icon": "public/aerotech/icon.png",
     "files": [
-      "src/**/*"
+        "src/**/*"
     ],
     "directories": {
-      "buildResources": "src/public"
+        "buildResources": "src/public"
     },
     "keywords": [
-      "aerotech",
-      "programming",
-      "course"
+        "aerotech",
+        "programming",
+        "course"
     ],
     "author": {
-      "name": "Paulo Sanchez",
-      "email": "dev.szblzpaulo@gmail.com"
+        "name": "Paulo Sanchez",
+        "email": "dev.szblzpaulo@gmail.com"
     },
     "license": "AGPL-3.0",
     "dependencies": {
-      "caniuse-lite": "^1.0.30001520"
+        "caniuse-lite": "^1.0.30001520"
     },
     "devDependencies": {
-      "@tailwindcss/forms": "^0.5.3",
-      "tailwindcss": "^3.3.0"
+        "@tailwindcss/forms": "^0.5.3",
+        "handlebars": "^4.7.8",
+        "tailwindcss": "^3.3.0"
     }
-  }
+}
