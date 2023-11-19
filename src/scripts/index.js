@@ -53,56 +53,56 @@ const pyContentCards = [
     {
         img_source: "./public/icons8/operators.png",
         title: "Operators",
-        description: "Learn about the different operators in Python",
+        description: "Understand different operators and operation preference",
         issue_link: generateURL("python", "operators"),
         link: ""
     },
     {
         img_source: "./public/icons8/conditional-structures.png",
         title: "Conditional structures",
-        description: "Learn about the different conditional structures in Python",
+        description: "Study conditional structures syntax and usage",
         issue_link: generateURL("python", "conditional"),
         link: ""
     },
     {
         img_source: "./public/icons8/iteration-structures.png",
         title: "Iteration structures",
-        description: "Learn about the different iteration structures in Python",
+        description: "Study iteration structures syntax and usage",
         issue_link: generateURL("python", "iteration"),
         link: ""
     },
     {
         img_source: "./public/icons8/functions.png",
         title: "Functions",
-        description: "Learn about the different functions in Python",
+        description: "Understand how functions work and how to create custom ones",
         issue_link: generateURL("python", "functions"),
         link: ""
     },
     {
         img_source: "./public/icons8/classes.png",
         title: "Classes",
-        description: "Learn about the different classes in Python",
+        description: "Learn about classes and the OOP paradigm in Python",
         issue_link: generateURL("python", "classes"),
         link: ""
     },
     {
         img_source: "./public/icons8/exceptions.png",
         title: "Exceptions",
-        description: "Learn about the different exceptions in Python",
+        description: "Understand how exceptions work and how to handle them",
         issue_link: generateURL("python", "exceptions"),
         link: ""
     },
     {
         img_source: "./public/icons8/libraries.png",
         title: "Libraries",
-        description: "Learn about the different libraries in Python",
+        description: "Discover some of the most useful libraries in Python and learn to use them",
         issue_link: generateURL("python", "libraries"),
         link: ""
     },
     {
         img_source: "./public/icons8/code-style.png",
         title: "Code style",
-        description: "Learn about the different code styles in Python",
+        description: "Learn how to style your code to make it more readable and maintainable",
         issue_link: generateURL("python", "codestyle"),
         link: ""
     }
