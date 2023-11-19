@@ -25,9 +25,9 @@ const BODY = {
 
 ## Desktop (complete the following information):
 
-    - **OS w/version (e.g. \`Windows 11\`, \`macOS Catalina\`...)**:
-    - **Browser w/version (e.g. \`Chrome 109.0.5414.165\`, \`Safari 17.1\`, ...)**:
-    - **Python version (e.g. \`3.11.6\`):
+- **OS w/version (e.g. \`Windows 11\`, \`macOS Catalina\`...)**:
+- **Browser w/version (e.g. \`Chrome 109.0.5414.165\`, \`Safari 17.1\`, ...)**:
+- **Python version (e.g. \`3.11.6\`):
 
 ## Additional context
 
