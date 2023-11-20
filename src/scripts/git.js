@@ -1,3 +1,7 @@
+import { setNavigationButtons } from "/scripts/modules/common_templates.js";
+
+setNavigationButtons("/", "/environment-setup/python/");
+
 const stepSlider = {
     name: "Git",
     download_description: `Just head to <a href="https://git-scm.com/downloads" class="text-indigo-800 font-bold">Git's download page</a> and download the installer. Make sure to select the correct operating system and architecture.`,
