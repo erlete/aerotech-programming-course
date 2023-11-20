@@ -48,11 +48,11 @@
       <!-- Title -->
       <div class="mb-12 text-center">
         <h1
-          class="block antialiased font-sans relative my-5 text-center text-4xl font-bold leading-tight tracking-normal text-black md:text-5xl">
+          class="block antialiased font-sans relative my-5 text-center text-4xl font-bold leading-tight tracking-normal text-title md:text-5xl">
           Python Setup
         </h1>
         <p
-          class="block antialiased font-sans relative my-5 mx-auto text-center text-lg font-normal leading-relaxed tracking-normal text-gray-600 md:text-xl lg:max-w-4xl">
+          class="block antialiased font-sans relative my-5 mx-auto text-center text-lg font-normal leading-relaxed tracking-normal text-text md:text-xl lg:max-w-4xl">
           Unlocking the power of programming, the easy way
         </p>
       </div>
@@ -63,42 +63,42 @@
           <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
             Introduction
           </h5>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text">
             Python is a programming language that lets you work quickly and integrate systems more effectively. It is a
             high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly
             readable. It uses English keywords frequently whereas other languages use punctuation, and it has fewer
             syntactical constructions than other languages.
           </div>
-          <hr class="my-6 border-blue-gray-50">
+          <hr class="my-6 border-subtitle">
 
           <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
             Why is Python important?
           </h5>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text">
             Python lets you do heavy work in just a few, easy-to-write lines of code. Since it is multi-paradigm
             (although OOP-dominant), you can use whichever programming style you are used to (e.g. functional). It is
             not the fastest of languages out there, but for sure the one that gives you more results for less effort.
           </div>
-          <hr class="my-6 border-blue-gray-50">
+          <hr class="my-6 border-subtitle">
 
           <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
             Managing Python versions
           </h5>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text">
             Since the language is constantly evolving, there are several versions of Python available, with the most
             recent being the 3.13.0. This constant upgrade troubles many Python users due to a very simple problem: they
             do not know how to properly manage Python versions. This is why in this course, you will use a tool named
             <code>pyenv</code> (a simple Python version manager).
           </div>
-          <hr class="my-6 border-blue-gray-50">
+          <hr class="my-6 border-subtitle">
 
           <div class="w-full flex items-center justify-center">
             <div x-data="{ openTab: 1 }" class="w-full">
               <div class="w-full">
                 <div class="mb-4 flex space-x-4 p-2 bg-secondary-100 rounded-lg shadow-md">
-                  <button x-on:click="openTab = 1" :class="{ 'bg-primary-500 text-black hover:text-[#4338ca]': openTab === 1 }"
+                  <button x-on:click="openTab = 1" :class="{ 'bg-primary-500 text-title hover:text-[#4338ca]': openTab === 1 }"
                   class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">Windows</p></button>
-                  <button x-on:click="openTab = 2" :class="{ 'bg-primary-500 text-black hover:text-[#4338ca]': openTab === 2 }"
+                  <button x-on:click="openTab = 2" :class="{ 'bg-primary-500 text-title hover:text-[#4338ca]': openTab === 2 }"
                   class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">UNIX/macOS</p></button>
                 </div>
 
@@ -116,19 +116,19 @@
               </div>
             </div>
           </div>
-          <hr class="my-6 border-blue-gray-50">
+          <hr class="my-6 border-subtitle">
 
           <!-- Python installation slider placeholder -->
           <div id="setup_step_slider_python"></div>
-          <hr class="my-6 border-blue-gray-50">
+          <hr class="my-6 border-subtitle">
 
           <!-- Navigation buttons placeholder -->
           <div id="navigation_buttons"></div>
-          <hr class="my-6 border-blue-gray-50">
+          <hr class="my-6 border-subtitle">
         </div>
       </div>
       <div class="w-full pt-5 px-4 mb-8 mx-auto ">
-        <div class="text-sm text-gray-700 py-1">
+        <div class="text-sm text-text py-1">
         </div>
       </div>
     </section>
