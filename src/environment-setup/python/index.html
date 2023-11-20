@@ -96,10 +96,10 @@
             <div x-data="{ openTab: 1 }" class="w-full">
               <div class="w-full">
                 <div class="mb-4 flex space-x-4 p-2 bg-indigo-100 rounded-lg shadow-md">
-                  <button x-on:click="openTab = 1" :class="{ 'bg-[#eeb027] text-black font-semibold': openTab === 1 }"
-                    class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">Windows</button>
-                  <button x-on:click="openTab = 2" :class="{ 'bg-[#eeb027] text-black font-semibold': openTab === 2 }"
-                    class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">UNIX/macOS</button>
+                  <button x-on:click="openTab = 1" :class="{ 'bg-[#eeb027] text-black hover:text-[#4338ca]': openTab === 1 }"
+                  class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">Windows</p></button>
+                  <button x-on:click="openTab = 2" :class="{ 'bg-[#eeb027] text-black hover:text-[#4338ca]': openTab === 2 }"
+                  class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">UNIX/macOS</p></button>
                 </div>
 
                 <div x-show="openTab === 1"

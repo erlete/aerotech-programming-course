@@ -100,7 +100,6 @@ code {
 a {
     color: #312e81;
     font-weight: 500;
-    text-decoration: underline;
     transition: all 0.3s ease-in-out;
 }
 

@@ -2,12 +2,12 @@
   <div x-data="{ openTab: 1 }" class="w-full">
     <div class="w-full">
       <div class="mb-4 flex space-x-4 p-2 bg-indigo-50 rounded-lg shadow-md">
-        <button x-on:click="openTab = 1" :class="{ 'bg-[#eeb027] text-black font-semibold': openTab === 1 }"
-          class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">1. Download</button>
-        <button x-on:click="openTab = 2" :class="{ 'bg-[#eeb027] text-black font-semibold': openTab === 2 }"
-          class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">2. Installation</button>
-        <button x-on:click="openTab = 3" :class="{ 'bg-[#eeb027] text-black font-semibold': openTab === 3 }"
-          class="flex-1 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue transition-all duration-300">3. Validation</button>
+        <button x-on:click="openTab = 1" :class="{ 'bg-[#eeb027] text-black hover:text-[#4338ca]': openTab === 1 }"
+          class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">1. Download</p></button>
+        <button x-on:click="openTab = 2" :class="{ 'bg-[#eeb027] text-black hover:text-[#4338ca]': openTab === 2 }"
+          class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">2. Installation</p></button>
+        <button x-on:click="openTab = 3" :class="{ 'bg-[#eeb027] text-black hover:text-[#4338ca]': openTab === 3 }"
+          class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">3. Validation</p></button>
       </div>
 
       <div x-show="openTab === 1"
