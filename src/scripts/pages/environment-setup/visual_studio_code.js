@@ -15,6 +15,7 @@ let template = Handlebars.templates.setup_step_slider;
 document.getElementById("setup_step_slider").outerHTML = template(stepSlider);
 
 const stepCollection = {
+    title: "VSCode Python profile setup",
     step_collection: [
         {
             title: `Open VSCode <a class="font-bold" href="https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette" target="_blank">Command Palette</a>`,
