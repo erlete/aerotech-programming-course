@@ -5,3 +5,5 @@ function setNavigationButtons(previousPageLink, nextPageLink, elementID = "navig
         next_page_link: nextPageLink
     });
 }
+
+export { setNavigationButtons };
