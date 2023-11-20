@@ -1413,7 +1413,7 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  color: #ffffff;
+  color: #eeb027;
   background-color: #1e1b4b;
   border-radius: 6px;
   word-break: normal;
@@ -1430,13 +1430,44 @@ pre {
   margin: 1em 0px;
 }
 
+/* code {
+    padding: 16px;
+    display: inline;
+    font-size: 85%;
+    line-height: 1.45;
+    color: #ffffff;
+    background-color: #1e1b4b;
+    border-radius: 6px;
+    font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    display: block;
+    white-space: pre-wrap;
+    margin: 1em 0px;
+} */
+
 code {
-  font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
-  font-size: 12px;
-  font-size: 1em;
+  background-color: #1e1b4b;
+  color: #eeb027;
   display: inline;
-  white-space: pre;
+  white-space: pre-wrap;
   font-weight: semibold;
+  font-size: 0.8em;
+  font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  padding: 0.2em 0.4em 0.4em 0.4em;
+  border-radius: 6px;
+}
+
+/* Links */
+
+a {
+  color: #312e81;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #4338ca;
+  transition: all 0.3s ease-in-out;
 }
 
 .hover\:border-solid:hover {
