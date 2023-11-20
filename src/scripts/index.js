@@ -40,7 +40,7 @@ const envContentCardsDiv = {
     content_cards: envContentCards
 };
 
-let template = Handlebars.templates.content_card_div;
+let template = Handlebars.templates.content_card_collection;
 document.getElementById("env_content_cards").outerHTML = template(envContentCardsDiv);
 
 const pyContentCards = [
@@ -123,5 +123,5 @@ const pyContentCardsDiv = {
     content_cards: pyContentCards
 };
 
-template = Handlebars.templates.content_card_div;
+template = Handlebars.templates.content_card_collection;
 document.getElementById("py_content_cards").outerHTML = template(pyContentCardsDiv);
