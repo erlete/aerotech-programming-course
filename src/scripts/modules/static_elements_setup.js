@@ -12,7 +12,9 @@ function setCurrentYear() {
     }
 }
 
-() => {
+function main() {
     setFooter();
     setCurrentYear();
 }
+
+main();
