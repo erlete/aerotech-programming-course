@@ -1,10 +1,7 @@
-function setNavigationButtons(previous_page_link, next_page_link, element_id = "navigation_buttons") {
+function setNavigationButtons(previousPageLink, nextPageLink, elementID = "navigation_buttons") {
     let template = Handlebars.templates.navigation_buttons;
-    document.getElementById(element_id).outerHTML = template({
-        previous_page_link: previous_page_link,
-        next_page_link: next_page_link
+    document.getElementById(elementID).outerHTML = template({
+        previous_page_link: previousPageLink,
+        next_page_link: nextPageLink
     });
 }
-
-export { setNavigationButtons };
-
