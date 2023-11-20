@@ -16,6 +16,13 @@
     user-select: none;
 }
 
+/* Allow all text selection */
+.select-all {
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -39,46 +46,35 @@
 
 /* Code blocks */
 pre {
-    margin-right: 0.1rem;
-    margin-left: 0.1rem;
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
-    padding: 0.5rem;
-    color: white;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: 1px solid #374151;
-    background: #374151;
-    font:12px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    color: #ffffff;
+    background-color: #1e1b4b;
+    border-radius: 6px;
+    margin-bottom: 0;
+    word-break: normal;
+    word-wrap: normal;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 12px;
+    font-family: monospace;
+    font-size: 1em;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
 }
 
 code {
-    margin-right: 0.1rem;
-    margin-left: 0.1rem;
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
-    color: white;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: 1px solid #374151;
-    background: #374151;
-    padding: 2px;
-    font:12px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
-}
-
-pre code {
-    margin-right: 0.1rem;
-    margin-left: 0.1rem;
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
-    padding: 0.5rem;
-    color: white;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border: 0px;
-    padding: 2px;
-    font:12px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+    font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-size: 12px;
+    font-size: 1em;
+    display: inline;
+    white-space: pre;
+    font-weight: semibold;
 }
