@@ -32,7 +32,7 @@ gitForm.addEventListener("click", () => {
     } else if (checked == 9) {
         gitAnswer.innerHTML = "<em>Just install it already and leave me alone.</em>";
     } else if (checked == 10) {
-        gitAnswer.innerHTML = "<b>You are just clicking everything, aren't you? Let's see who laughs now >:)</b>";
+        gitAnswer.innerHTML = "<b>You are just clicking everything, aren't you? Click this one then...</b>";
 
         // Rickroll time, baby!
         setTimeout(() => {
