@@ -1,4 +1,4 @@
-import { generateURL } from "./modules/issue_report.js";
+import { generateURL } from "/scripts/modules/issue_report.js";
 
 Handlebars.partials = Handlebars.templates;
 
