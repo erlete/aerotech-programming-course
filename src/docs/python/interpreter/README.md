@@ -47,13 +47,13 @@ gitGraph
    commit id: "Python programming"
 ```
 
-Python is a programming language that lets you work quickly and integrate systems more effectively. It is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
+Python is a programming language that lets you work quickly and integrate systems more effectively. It is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently whereas other languages use punctuation, and it has fewer syntactical constructions than other languages.
 
 There are plenty of Python versions, yet the 3.11.2 will be used for the tutorial.
 
 ## Download
 
-This software (version 3.11.2) can be downloaded through [its download page](https://www.python.org/downloads/release/python-3112). Make sure to choose the correct operating system and hardware architecture version.
+This software (version 3.11.6) can be downloaded through [its download page](https://www.python.org/downloads/release/python-3116/). Make sure to choose the correct operating system and hardware architecture version.
 
 ## Installation
 
