@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="prevent-select no-scrollbar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+
+  <link rel="stylesheet" href="/styles/output.css">
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
+  <script type="module" src="/scripts/pages/environment-setup/visual_studio_code.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+  <link rel="icon" href="/public/aerotech/icon.ico">
+</head>
+
+<body class="h-full w-full">
+  <!-- Header decoration -->
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex">
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only">UVigo Aerotech</span>
+          <img class="h-10 w-10" src="/public/aerotech/icon.png" alt="Aerotech Logo">
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://github.com/erlete/aerotech-programming-course" class="-m-1.5 p-1.5">
+          <span class="sr-only">GitHub Repository</span>
+          <img class="h-10 w-10" src="/public/github/github-mark.svg" alt="GitHub Project">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Background -->
+  <div class="h-full absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
+    <div
+      class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#6366f1] to-[#eeb027] opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+      style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%, 74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
+
+      <!-- Title -->
+      <div class="mb-12 text-center">
+        <h1
+          class="block antialiased font-sans relative my-5 text-center text-4xl font-bold leading-tight tracking-normal text-black md:text-5xl">
+          Visual Studio Code
+        </h1>
+        <p
+          class="block antialiased font-sans relative my-5 mx-auto text-center text-lg font-normal leading-relaxed tracking-normal text-gray-600 md:text-xl lg:max-w-4xl">
+          A powerful, open source editor suitable most development needs
+        </p>
+      </div>
+
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
+            Introduction
+          </h5>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+            Visual Studio Code (commonly known as VSCode) is a relatively lightweight editor (not IDE) for code
+            development. It is highly versatile and has got support for almost all platforms.
+          </div>
+          <hr class="my-6 border-blue-gray-50">
+
+          <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
+            Why is Visual Studio Code important?
+          </h5>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+            This might be a question for the more skeptical students. Why should I use VSCode instead of other editors
+            such as Notepad++, Sublime Text or the infamous Vim? The answer is simple: VSCode is a very powerful editor
+            that can be used for almost any programming language and development environment, mainly due to its endless
+            customization possibilities and the large community behind it. And this is not an opinion, <a
+              href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment"
+              target="_blank">but a fact</a>.
+          </div>
+          <hr class="my-6 border-blue-gray-50">
+
+          <!-- VSCode installation slider placeholder -->
+          <div id="setup_step_slider"></div>
+          <hr class="my-6 border-blue-gray-50">
+
+          <!-- Navigation buttons placeholder -->
+          <div id="navigation_buttons"></div>
+          <hr class="my-6 border-blue-gray-50">
+        </div>
+      </div>
+      <div class="w-full pt-5 px-4 mb-8 mx-auto ">
+        <div class="text-sm text-gray-700 py-1">
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
