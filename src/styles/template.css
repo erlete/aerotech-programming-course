@@ -36,3 +36,49 @@
     background-clip: text;
     color: transparent;
 }
+
+/* Code blocks */
+pre {
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #374151;
+    background: #374151;
+    font:12px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+}
+
+code {
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #374151;
+    background: #374151;
+    padding: 2px;
+    font:12px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+}
+
+pre code {
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border: 0px;
+    padding: 2px;
+    font:12px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+}
