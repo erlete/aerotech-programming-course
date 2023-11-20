@@ -70,20 +70,6 @@ pre {
     margin: 1em 0px;
 }
 
-/* code {
-    padding: 16px;
-    display: inline;
-    font-size: 85%;
-    line-height: 1.45;
-    color: #ffffff;
-    background-color: #1e1b4b;
-    border-radius: 6px;
-    font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
-    display: block;
-    white-space: pre-wrap;
-    margin: 1em 0px;
-} */
-
 code {
     background-color: #1e1b4b;
     color: #eeb027;
