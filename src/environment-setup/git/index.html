@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" class="prevent-select no-scrollbar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+
+  <link rel="stylesheet" href="/styles/output.css">
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
+  <script type="module" src="/scripts/git.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+  <link rel="icon" href="/public/aerotech/icon.ico">
+</head>
+
+<body class="h-full w-full">
+  <!-- Header decoration -->
+  <header class="absolute inset-x-0 top-0 z-50">
+    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex">
+        <a href="https://uvigoaerotech.com" class="-m-1.5 p-1.5">
+          <span class="sr-only">UVigo Aerotech</span>
+          <img class="h-10 w-10" src="/public/aerotech/icon.png" alt="Aerotech Logo">
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://github.com/erlete/aerotech-programming-course" class="-m-1.5 p-1.5">
+          <span class="sr-only">GitHub Repository</span>
+          <img class="h-10 w-10" src="/public/github/github-mark.svg" alt="GitHub Project">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Background -->
+  <div class="h-full absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
+    <div
+      class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#6366f1] to-[#eeb027] opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+      style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%, 74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
+
+      <!-- Title -->
+      <div class="mb-12 text-center">
+        <h1
+          class="block antialiased font-sans relative my-5 text-center text-4xl font-bold leading-tight tracking-normal text-black md:text-5xl">
+          Git Setup
+        </h1>
+        <p
+          class="block antialiased font-sans relative my-5 mx-auto text-center text-lg font-normal leading-relaxed tracking-normal text-gray-600 md:text-xl lg:max-w-4xl">
+          Adding version control to your day-to-day projects
+        </p>
+      </div>
+
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
+            Introduction
+          </h5>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+            Git is a free and open source distributed version control system designed to handle everything from small to
+            very large projects with speed and efficiency.
+          </div>
+          <hr class="my-6 border-blue-gray-50">
+
+          <h5 class="block antialiased tracking-normal font-sans text-xl leading-snug text-inherit mb-1 font-semibold">
+            Why is Git important?
+          </h5>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-gray-600">
+            This question is best answered by yourself. Just check the statements you could identify with while working
+            on one of your past projects (and if you haven't had any, throw in some imagination):
+
+            <form id="git-form" class="ml-8">
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox1" class="ml-1">I accidentally deleted a file and lost it forever</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox2" class="ml-1">I changed something and wanted to go back to the previous
+                  version</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox3"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox3" class="ml-1">My computer crashed and I lost all my work</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox1" name="checkbox4" value="checkbox4"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox4" class="ml-1">I lost track of what I was doing</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox1" name="checkbox5" value="checkbox5"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox5" class="ml-1">I wanted to know what I changed earlier</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox1" name="checkbox6" value="checkbox6"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox6" class="ml-1">My team made changes to the same file and we lost some of our
+                  work</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox1" name="checkbox7" value="checkbox7"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox7" class="ml-1">I had 20 different versions of the same file and I didn't know which
+                  one was
+                  the latest</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox1" name="checkbox8" value="checkbox8"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox8" class="ml-1">I believed my colleagues are not working as hard as I am</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox9" name="checkbox9" value="checkbox9"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox9" class="ml-1">I believed my colleagues broke something but they said they
+                  didn't</label>
+              </div>
+              <div class="mt-2">
+                <input type="checkbox" id="checkbox10" name="checkbox10" value="checkbox10"
+                  class="w-4 h-4 text-indigo-800 bg-gray-300 border-gray-400 rounded focus:ring-indigo-700 focus:ring-2">
+                <label for="checkbox10" class="ml-1">I wanted to work on a new feature but I was afraid of breaking
+                  something</label>
+              </div>
+            </form>
+
+            <p id="git-form-answer" class="mt-4">
+              You haven't checked any statements, so it seems like you do not need Git. That's great! But you are going
+              to install it anyway, so let's get to it.
+            </p>
+
+          </div>
+          <hr class="my-6 border-blue-gray-50">
+
+          <div id="setup_step_slider"></div>
+          <hr class="my-6 border-blue-gray-50">
+
+          <div class="flex items-center justify-between">
+            <!-- component -->
+            <!-- Button Component -->
+            <a href="https://websitecost.today/" target="_blank"
+              class="group relative overflow-hidden bg-[#eeb027] focus:ring-4 focus:ring-blue-300 inline-flex items-center px-7 py-2.5 rounded-lg text-black font-semibold justify-center">
+              <svg class="z-40 mr-2 -ml-1 w-3 h-3 transition-all duration-300 group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z" clip-rule="evenodd" />
+              </svg>
+              <span class="z-40">Previous page</span>
+              <div
+                class="absolute inset-0 h-[200%] w-[200%] rotate-45 translate-x-[-70%] transition-all group-hover:scale-100 bg-white/30 group-hover:translate-x-[50%] z-20 duration-1000">
+              </div>
+            </a>
+            <a href="https://websitecost.today/" target="_blank"
+              class="group relative overflow-hidden bg-[#eeb027] focus:ring-4 focus:ring-blue-300 inline-flex items-center px-7 py-2.5 rounded-lg text-black font-semibold justify-center">
+              <span class="z-40">Next page</span>
+              <svg class="z-40 ml-2 -mr-1 w-3 h-3 transition-all duration-300 group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" clip-rule="evenodd" />
+              </svg>
+              <div
+                class="absolute inset-0 h-[200%] w-[200%] rotate-45 translate-x-[-70%] transition-all group-hover:scale-100 bg-white/30 group-hover:translate-x-[50%] z-20 duration-1000">
+              </div>
+            </a>
+          </div>
+          <hr class="my-6 border-blue-gray-50">
+        </div>
+      </div>
+      <div class="w-full pt-5 px-4 mb-8 mx-auto ">
+        <div class="text-sm text-gray-700 py-1">
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
