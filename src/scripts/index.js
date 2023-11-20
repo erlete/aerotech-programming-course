@@ -104,7 +104,7 @@ const pyContentCards = [
         img_source: "./public/icons8/code-style.png",
         title: "Code style",
         description: "Learn how to style your code to make it more readable and maintainable",
-        issue_link: generateURL("python", "codestyle"),
+        issue_link: generateURL("python", "code"),
         link: ""
     },
     {
