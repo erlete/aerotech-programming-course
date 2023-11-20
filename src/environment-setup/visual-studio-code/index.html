@@ -5,13 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
 
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="/styles/output.css">
+
+  <!-- Handlebars scripts -->
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="/scripts/templates.js"></script>
-  <script type="module" src="/scripts/pages/environment-setup/visual_studio_code.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
-  <link rel="icon" href="/public/aerotech/icon.ico">
+
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script defer type="module" src="/scripts/pages/environment-setup/visual_studio_code.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
 </head>
 
 <body class="h-full w-full">
@@ -113,6 +119,9 @@
         <div class="text-sm text-text py-1">
         </div>
       </div>
+
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
     </section>
   </div>
 </body>

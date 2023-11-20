@@ -5,13 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
 
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="/styles/output.css">
+
+  <!-- Handlebars scripts -->
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="/scripts/templates.js"></script>
-  <script type="module" src="/scripts/pages/environment-setup/python.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
-  <link rel="icon" href="/public/aerotech/icon.ico">
+
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script defer type="module" src="/scripts/pages/environment-setup/python.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
 </head>
 
 <body class="h-full w-full">
@@ -96,10 +102,16 @@
             <div x-data="{ openTab: 1 }" class="w-full">
               <div class="w-full">
                 <div class="mb-4 flex space-x-4 p-2 bg-secondary-100 rounded-lg shadow-md">
-                  <button x-on:click="openTab = 1" :class="{ 'bg-primary-500 text-title hover:text-[#4338ca]': openTab === 1 }"
-                  class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">Windows</p></button>
-                  <button x-on:click="openTab = 2" :class="{ 'bg-primary-500 text-title hover:text-[#4338ca]': openTab === 2 }"
-                  class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300"><p class="transition-all duration-300 hover:text-[#4338ca]">UNIX/macOS</p></button>
+                  <button x-on:click="openTab = 1"
+                    :class="{ 'bg-primary-500 text-title hover:text-[#4338ca]': openTab === 1 }"
+                    class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300">
+                    <p class="transition-all duration-300 hover:text-[#4338ca]">Windows</p>
+                  </button>
+                  <button x-on:click="openTab = 2"
+                    :class="{ 'bg-primary-500 text-title hover:text-[#4338ca]': openTab === 2 }"
+                    class="flex-1 py-2 px-4 rounded-md font-semibold transition-all duration-300">
+                    <p class="transition-all duration-300 hover:text-[#4338ca]">UNIX/macOS</p>
+                  </button>
                 </div>
 
                 <div x-show="openTab === 1"
@@ -109,7 +121,7 @@
                 </div>
 
                 <div x-show="openTab === 2"
-                class="transition-all duration-300 bg-secondary-100 p-4 rounded-lg shadow-md border-l-4 border-secondary-900">
+                  class="transition-all duration-300 bg-secondary-100 p-4 rounded-lg shadow-md border-l-4 border-secondary-900">
                   <!-- Pyenv installation (UNIX/macOS) placeholder -->
                   <div id="setup_step_slider_unix_macos"></div>
                 </div>
@@ -131,6 +143,9 @@
         <div class="text-sm text-text py-1">
         </div>
       </div>
+
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
     </section>
   </div>
 </body>
