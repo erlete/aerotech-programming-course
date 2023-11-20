@@ -4,9 +4,9 @@ setNavigationButtons("/", "/environment-setup/python/");
 
 const stepSlider = {
     name: "Git",
-    download_description: `Just head to <a href="https://git-scm.com/downloads" class="text-indigo-800 font-bold">Git's download page</a> and download the installer. Make sure to select the correct operating system and architecture.`,
-    installation_description: `In order to install Git, it is only necessary to follow the installer procedure. There are plenty of customization options, but I personally recommend to keep them as default.`,
-    validation_description: `In order to validate your git installation, you just need to open up your command line prompt and type <code>git --version</code>. If you get a response similar to <code>git version 2.39.2</code>, then you are good to go!`
+    download_description: `Head to <a href="https://git-scm.com/downloads" target="_blank">Git's download page</a> and download the installer. Make sure to select the correct operating system and architecture.`,
+    installation_description: `<b>Follow the default installer procedure.</b> There are plenty of customization options, but I personally recommend to keep them as they are. If you are an experienced user, feel free to customize the installation to your liking, but embrace any possible consequences.`,
+    validation_description: `Open your command line prompt and type: <pre>git --version</pre>If you get a response similar to <code>git version 2.39.2</code>, then you are good to go!`
 }
 
 let template = Handlebars.templates.setup_step_slider;

@@ -6,7 +6,7 @@ const stepSliderWindows = {
     name: "<code>pyenv-win</code> (Windows)",
     download_description: "No manual download is required for this software, since it is automatically downloaded during the installation process through PowerShell.",
     installation_description: `Open PowerShell <b>in administrator mode</b> and paste the following command: <pre class="select-all">Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"</pre>You can get more details on this command <a href="https://pyenv-win.github.io/pyenv-win/docs/installation.html#powershell" target="_blank">in the official software documentation page</a>. If the previous method did not work for you, <a href="https://pyenv-win.github.io/pyenv-win/docs/installation.html" target="_blank">check the other available installation methods</a>.`,
-    validation_description: `Open your command line prompt and type the following command: <pre>pyenv --version</pre> If you get a response similar to <code>pyenv 3.1.1</code>, then you are good to go!`
+    validation_description: `Open your command line prompt and type the following command: <pre>pyenv --version</pre>If you get a response similar to <code>pyenv 3.1.1</code>, then you are good to go!`
 }
 
 let template = Handlebars.templates.setup_step_slider;
