@@ -1,7 +1,7 @@
-function setFooter() {
-    const element = document.getElementById("footer");
+function outerHTMLSetter(elementID, templateName) {
+    const element = document.getElementById(elementID);
     if (element) {
-        element.outerHTML = Handlebars.templates.footer();
+        element.outerHTML = Handlebars.templates[templateName]();
     }
 }
 
@@ -13,7 +13,8 @@ function setCurrentYear() {
 }
 
 function main() {
-    setFooter();
+    outerHTMLSetter("header", "header");
+    outerHTMLSetter("footer", "footer");
     setCurrentYear();
 }
 
