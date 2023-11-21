@@ -1,6 +1,6 @@
 import { setNavigationButtons } from "/scripts/modules/common_templates.js";
 
-setNavigationButtons("/environment-setup/visual-studio-code", "/");
+setNavigationButtons("/environment-setup/visual-studio-code.html", "/");
 
 const stepSlider = {
     name: "GitHub Desktop",

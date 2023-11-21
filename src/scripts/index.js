@@ -8,28 +8,28 @@ let envContentCards = [
         title: "Git setup",
         description: "How to set up Git for version control",
         issue_link: generateURL("environment", "git"),
-        link: "/environment-setup/git"
+        link: "/environment-setup/git.html"
     },
     {
         img_source: "./public/icons8/python.png",
         title: "Python setup",
         description: "How to install up Python in your system using PyEnv",
         issue_link: generateURL("environment", "python"),
-        link: "/environment-setup/python"
+        link: "/environment-setup/python.html"
     },
     {
         img_source: "./public/icons8/vscode.png",
         title: "Visual Studio Code setup",
         description: "How to set up Visual Studio Code and its extensions",
         issue_link: generateURL("environment", "vscode"),
-        link: "/environment-setup/visual-studio-code"
+        link: "/environment-setup/visual-studio-code.html"
     },
     {
         img_source: "./public/icons8/github-desktop.png",
         title: "GitHub Desktop setup",
         description: "How to install and configure GitHub Desktop for simpler development",
         issue_link: generateURL("environment", "ghdesktop"),
-        link: "/environment-setup/github-desktop"
+        link: "/environment-setup/github-desktop.html"
     }
 ];
 envContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);

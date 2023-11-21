@@ -1,6 +1,6 @@
 import { setNavigationButtons } from "/scripts/modules/common_templates.js";
 
-setNavigationButtons("/environment-setup/python", "/environment-setup/github-desktop/");
+setNavigationButtons("/environment-setup/python.html", "/environment-setup/github-desktop.html");
 
 Handlebars.partials = Handlebars.templates;
 

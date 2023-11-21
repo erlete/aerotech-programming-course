@@ -1,6 +1,6 @@
 import { setNavigationButtons } from "/scripts/modules/common_templates.js";
 
-setNavigationButtons("/environment-setup/git", "/environment-setup/visual-studio-code/");
+setNavigationButtons("/environment-setup/git.html", "/environment-setup/visual-studio-code.html");
 
 const stepSliderWindows = {
     name: "<code>pyenv-win</code> (Windows)",
