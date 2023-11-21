@@ -41,7 +41,7 @@ const envContentCardsDiv = {
 };
 
 let template = Handlebars.templates.content_card_collection;
-document.getElementById("env_content_cards").outerHTML = template(envContentCardsDiv);
+document.getElementById("env_content_cards").innerHTML = template(envContentCardsDiv);
 
 const pyContentCards = [
     {
@@ -124,7 +124,7 @@ const pyContentCardsDiv = {
 };
 
 template = Handlebars.templates.content_card_collection;
-document.getElementById("py_content_cards").outerHTML = template(pyContentCardsDiv);
+document.getElementById("py_content_cards").innerHTML = template(pyContentCardsDiv);
 
 const verContentCards = [
     {
@@ -207,7 +207,7 @@ const verContentCardsDiv = {
 };
 
 template = Handlebars.templates.content_card_collection;
-document.getElementById("ver_content_cards").outerHTML = template(verContentCardsDiv);
+document.getElementById("ver_content_cards").innerHTML = template(verContentCardsDiv);
 
 const lockedElements2 = Array.from(document.getElementsByClassName("locked"));
 

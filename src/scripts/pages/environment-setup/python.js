@@ -10,7 +10,7 @@ const stepSliderWindows = {
 }
 
 let template = Handlebars.templates.setup_step_slider;
-document.getElementById("setup_step_slider_windows").outerHTML = template(stepSliderWindows);
+document.getElementById("setup_step_slider_windows").innerHTML = template(stepSliderWindows);
 
 const stepSliderUNIXmacOS = {
     name: "<code>pyenv</code> (UNIX/macOS)",
@@ -20,7 +20,7 @@ const stepSliderUNIXmacOS = {
 }
 
 template = Handlebars.templates.setup_step_slider;
-document.getElementById("setup_step_slider_unix_macos").outerHTML = template(stepSliderUNIXmacOS);
+document.getElementById("setup_step_slider_unix_macos").innerHTML = template(stepSliderUNIXmacOS);
 
 const stepSliderPython = {
     name: "Python (through <code>pyenv</code>)",
@@ -30,4 +30,4 @@ const stepSliderPython = {
 }
 
 template = Handlebars.templates.setup_step_slider;
-document.getElementById("setup_step_slider_python").outerHTML = template(stepSliderPython);
+document.getElementById("setup_step_slider_python").innerHTML = template(stepSliderPython);

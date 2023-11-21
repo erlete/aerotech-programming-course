@@ -10,4 +10,4 @@ const stepSlider = {
 }
 
 let template = Handlebars.templates.setup_step_slider;
-document.getElementById("setup_step_slider").outerHTML = template(stepSlider);
+document.getElementById("setup_step_slider").innerHTML = template(stepSlider);

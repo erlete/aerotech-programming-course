@@ -12,7 +12,7 @@ const stepSlider = {
 }
 
 let template = Handlebars.templates.setup_step_slider;
-document.getElementById("setup_step_slider").outerHTML = template(stepSlider);
+document.getElementById("setup_step_slider").innerHTML = template(stepSlider);
 
 const stepCollection = {
     title: "VSCode Python profile setup",
@@ -50,4 +50,4 @@ const stepCollection = {
 stepCollection.step_collection.forEach((step, index) => step.index = index + 1);
 
 template = Handlebars.templates.step_collection;
-document.getElementById("extensions_setup").outerHTML = template(stepCollection);
+document.getElementById("extensions_setup").innerHTML = template(stepCollection);
