@@ -60,7 +60,7 @@ pre {
     margin-bottom: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-family: Monaco, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
     font-size: 12px;
     font-family: monospace;
     font-size: 1em;
@@ -77,7 +77,7 @@ code {
     white-space: pre-wrap;
     font-weight: semibold;
     font-size: 0.8em;
-    font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+    font-family: Monaco, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
     padding: 0.2em 0.4em 0.4em 0.4em;
     border-radius: 6px;
 }
@@ -92,4 +92,34 @@ a {
 a:hover {
     color: #4338ca;
     transition: all 0.3s ease-in-out;
+}
+
+@layer components {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-sans font-semibold text-title antialiased block relative leading-tight tracking-normal max-w-4xl mx-auto my-4;
+    }
+    h1 {
+        @apply text-5xl font-bold;
+    }
+    h2 {
+        @apply text-4xl;
+    }
+    h3 {
+        @apply text-3xl;
+    }
+    h4 {
+        @apply text-2xl;
+    }
+    h5 {
+        @apply text-xl;
+    }
+    h6 {
+        @apply text-lg;
+    }
+    p {
+        @apply text-base;
+    }
+    hr {
+        @apply my-6 border-subtitle;
+    }
 }

@@ -729,6 +729,67 @@ select {
   --tw-backdrop-sepia:  ;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+  max-width: 56rem;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h6 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(64 73 85 / var(--tw-border-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -848,6 +909,16 @@ select {
   margin-bottom: 2rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .-ml-1 {
   margin-left: -0.25rem;
 }
@@ -882,10 +953,6 @@ select {
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .mb-8 {
@@ -936,8 +1003,12 @@ select {
   margin-top: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .block {
@@ -1058,6 +1129,10 @@ select {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
 }
 
 .flex-1 {
@@ -1367,16 +1442,6 @@ select {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1426,21 +1491,12 @@ select {
   line-height: 1.375;
 }
 
-.leading-tight {
-  line-height: 1.25;
-}
-
 .tracking-normal {
   letter-spacing: 0em;
 }
 
 .tracking-tight {
   letter-spacing: -0.025em;
-}
-
-.\!text-title {
-  --tw-text-opacity: 1 !important;
-  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
 }
 
 .text-green-400 {
@@ -1460,11 +1516,6 @@ select {
 .text-secondary-800 {
   --tw-text-opacity: 1;
   color: rgb(55 48 163 / var(--tw-text-opacity));
-}
-
-.text-subtitle {
-  --tw-text-opacity: 1;
-  color: rgb(64 73 85 / var(--tw-text-opacity));
 }
 
 .text-text {
@@ -1580,7 +1631,7 @@ pre {
   margin-bottom: 16px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-family: Monaco, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   font-size: 12px;
   font-size: 1em;
   display: block;
@@ -1596,7 +1647,7 @@ code {
   white-space: pre-wrap;
   font-weight: semibold;
   font-size: 0.8em;
-  font-family: Monaco,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-family: Monaco, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   padding: 0.2em 0.4em 0.4em 0.4em;
   border-radius: 6px;
 }
@@ -1612,6 +1663,20 @@ a {
 a:hover {
   color: #4338ca;
   transition: all 0.3s ease-in-out;
+}
+
+/* Progression */
+
+.unlocked {
+  display: auto;
+}
+
+.locked {
+  display: none;
+}
+
+.redacted {
+  font-family: 'Flow Block', sans-serif;
 }
 
 .hover\:bg-secondary-800:hover {
@@ -1678,11 +1743,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
