@@ -126,39 +126,31 @@ const pyContentCardsDiv = {
 template = Handlebars.templates.content_card_collection;
 document.getElementById("py_content_cards").outerHTML = template(pyContentCardsDiv);
 
-const unlockedElements = Array.from(document.getElementsByClassName("unlocked"));
-const lockedElements = Array.from(document.getElementsByClassName("locked"));
+const lockedElements2 = Array.from(document.getElementsByClassName("locked"));
 
-if (window.location.origin.includes("localhost")) {
-    unlockedElements.forEach(element => element.classList.replace("unlocked", "locked"));
-    lockedElements.forEach(element => element.classList.replace("locked", "unlocked"));
-}
+if (!window.location.href.includes("localhost")) {
+    function disableLinks(element) {
+        if (element.tagName === "A") {
+            element.href = "javascript:void(0);";
+            element.target = "";
+        }
 
-const lockedElements2 = Array.from(document.getElementsByClassName("unlocked"));
-// disable all links (replace href with #)
-// also do it recursively for all children
-function disableLinks(element) {
-    if (element.tagName === "A") {
-        element.href = "javascript:void(0);";
-        element.target = "";
+        for (let i = 0; i < element.children.length; i++) {
+            disableLinks(element.children[i]);
+        }
     }
-    for (let i = 0; i < element.children.length; i++) {
-        disableLinks(element.children[i]);
+
+    lockedElements2.forEach(element => disableLinks(element));
+
+    document.getElementById("locked-title").innerText += " (locked until you complete the previous steps)";
+} else {
+    function enableElements(element) {
+        element.classList.remove("locked");
+
+        for (let i = 0; i < element.children.length; i++) {
+            enableElements(element.children[i]);
+        }
     }
+
+    lockedElements2.forEach(element => enableElements(element));
 }
-
-lockedElements2.forEach(element => disableLinks(element));
-
-// // set each ascii character of every element.innerText to a random character recursively
-// function scrambleText(element) {
-//     if (element.innerText.length > 0) {
-//         element.innerText = element.innerText.split("").map(() => String.fromCharCode(Math.floor(Math.random() * 94) + 33)).join("");
-//     }
-//     for (let i = 0; i < element.children.length; i++) {
-//         scrambleText(element.children[i]);
-//     }
-// }
-
-// lockedElements2.forEach(element => scrambleText(element));
-
-// the function before also changes html tags, so we need to fix them

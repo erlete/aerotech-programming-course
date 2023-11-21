@@ -94,6 +94,11 @@ a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+/* Progression */
+.locked {
+    font-family: 'Flow Block', sans-serif;
+}
+
 @layer components {
     h1, h2, h3, h4, h5, h6 {
         @apply font-sans font-semibold text-title antialiased block relative leading-tight tracking-normal max-w-4xl mx-auto my-4;
