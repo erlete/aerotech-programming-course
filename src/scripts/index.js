@@ -225,7 +225,8 @@ if (!window.location.href.includes("localhost")) {
 
     lockedElements2.forEach(element => disableLinks(element));
 
-    document.getElementById("locked-title").innerText += " (locked until you complete the previous steps)";
+    let lockedTitles = Array.from(document.getElementsByClassName("locked-title"));
+    lockedTitles.forEach(element => element.innerText += " (locked until you complete the previous steps)");
 } else {
     function enableElements(element) {
         element.classList.remove("locked");
