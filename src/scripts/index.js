@@ -49,70 +49,70 @@ const pyContentCards = [
         title: "Data types",
         description: "Learn about the different data types in Python",
         issue_link: generateURL("python", "data"),
-        link: "/python/data-types.html"
+        link: "/python-programming/data-types.html"
     },
     {
         img_source: "./public/icons8/operators.png",
         title: "Operators",
         description: "Understand different operators and operation preference",
         issue_link: generateURL("python", "operators"),
-        link: "/python/operators.html"
+        link: "/python-programming/operators.html"
     },
     {
         img_source: "./public/icons8/conditional-structures.png",
         title: "Conditional structures",
         description: "Study conditional structures syntax and usage",
         issue_link: generateURL("python", "conditional"),
-        link: "/python/conditional-structures.html"
+        link: "/python-programming/conditional-structures.html"
     },
     {
         img_source: "./public/icons8/iteration-structures.png",
         title: "Iteration structures",
         description: "Study iteration structures syntax and usage",
         issue_link: generateURL("python", "iteration"),
-        link: "/python/iteration-structures.html"
+        link: "/python-programming/iteration-structures.html"
     },
     {
         img_source: "./public/icons8/functions.png",
         title: "Functions",
         description: "Understand how functions work and how to create custom ones",
         issue_link: generateURL("python", "functions"),
-        link: "/python/functions.html"
+        link: "/python-programming/functions.html"
     },
     {
         img_source: "./public/icons8/classes.png",
         title: "Classes",
         description: "Learn about classes and the OOP paradigm in Python",
         issue_link: generateURL("python", "classes"),
-        link: "/python/classes.html"
+        link: "/python-programming/classes.html"
     },
     {
         img_source: "./public/icons8/exceptions.png",
         title: "Exceptions",
         description: "Understand how exceptions work and how to handle them",
         issue_link: generateURL("python", "exceptions"),
-        link: "/python/exceptions.html"
+        link: "/python-programming/exceptions.html"
     },
     {
         img_source: "./public/icons8/libraries.png",
         title: "Libraries",
         description: "Discover some of the most useful libraries in Python and learn to use them",
         issue_link: generateURL("python", "libraries"),
-        link: "/python/libraries.html"
+        link: "/python-programming/libraries.html"
     },
     {
         img_source: "./public/icons8/code-style.png",
         title: "Code style",
         description: "Learn how to style your code to make it more readable and maintainable",
         issue_link: generateURL("python", "code"),
-        link: "/python/code-style.html"
+        link: "/python-programming/code-style.html"
     },
     {
         img_source: "./public/icons8/project.png",
         title: "Project",
         description: "Apply your knowledge to a real-world project",
         issue_link: generateURL("python", "project"),
-        link: "/python/project.html"
+        link: "/python-programming/project.html"
     }
 ];
 pyContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);
