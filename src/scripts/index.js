@@ -49,70 +49,70 @@ const pyContentCards = [
         title: "Data types",
         description: "Learn about the different data types in Python",
         issue_link: generateURL("python", "data"),
-        link: ""
+        link: "/python/data-types.html"
     },
     {
         img_source: "./public/icons8/operators.png",
         title: "Operators",
         description: "Understand different operators and operation preference",
         issue_link: generateURL("python", "operators"),
-        link: ""
+        link: "/python/operators.html"
     },
     {
         img_source: "./public/icons8/conditional-structures.png",
         title: "Conditional structures",
         description: "Study conditional structures syntax and usage",
         issue_link: generateURL("python", "conditional"),
-        link: ""
+        link: "/python/conditional-structures.html"
     },
     {
         img_source: "./public/icons8/iteration-structures.png",
         title: "Iteration structures",
         description: "Study iteration structures syntax and usage",
         issue_link: generateURL("python", "iteration"),
-        link: ""
+        link: "/python/iteration-structures.html"
     },
     {
         img_source: "./public/icons8/functions.png",
         title: "Functions",
         description: "Understand how functions work and how to create custom ones",
         issue_link: generateURL("python", "functions"),
-        link: ""
+        link: "/python/functions.html"
     },
     {
         img_source: "./public/icons8/classes.png",
         title: "Classes",
         description: "Learn about classes and the OOP paradigm in Python",
         issue_link: generateURL("python", "classes"),
-        link: ""
+        link: "/python/classes.html"
     },
     {
         img_source: "./public/icons8/exceptions.png",
         title: "Exceptions",
         description: "Understand how exceptions work and how to handle them",
         issue_link: generateURL("python", "exceptions"),
-        link: ""
+        link: "/python/exceptions.html"
     },
     {
         img_source: "./public/icons8/libraries.png",
         title: "Libraries",
         description: "Discover some of the most useful libraries in Python and learn to use them",
         issue_link: generateURL("python", "libraries"),
-        link: ""
+        link: "/python/libraries.html"
     },
     {
         img_source: "./public/icons8/code-style.png",
         title: "Code style",
         description: "Learn how to style your code to make it more readable and maintainable",
         issue_link: generateURL("python", "code"),
-        link: ""
+        link: "/python/code-style.html"
     },
     {
         img_source: "./public/icons8/project.png",
         title: "Project",
         description: "Apply your knowledge to a real-world project",
         issue_link: generateURL("python", "project"),
-        link: ""
+        link: "/python/project.html"
     }
 ];
 pyContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);
@@ -132,70 +132,70 @@ const verContentCards = [
         title: "Repositories",
         description: "Understand what a repository is, both locally and remotely",
         issue_link: generateURL("version-control", "repositories"),
-        link: "/version-control/repositories/"
+        link: "/version-control/repositories.html"
     },
     {
         img_source: "./public/icons8/commits.png",
         title: "Commits",
         description: "Learn about the minimal unit of change in version control",
         issue_link: generateURL("version-control", "commits"),
-        link: "/version-control/commits/"
+        link: "/version-control/commits.html"
     },
     {
         img_source: "./public/icons8/branches.png",
         title: "Branches",
         description: "Understand how branches work and how to use them",
         issue_link: generateURL("version-control", "branches"),
-        link: "/version-control/branches/"
+        link: "/version-control/branches.html"
     },
     {
         img_source: "./public/icons8/forks.png",
         title: "Forks",
         description: "Learn how to fork a repository and how to use it",
         issue_link: generateURL("version-control", "forks"),
-        link: "/version-control/forks/"
+        link: "/version-control/forks.html"
     },
     {
         img_source: "./public/icons8/merge-requests.png",
         title: "Merge requests",
         description: "Study how to merge requests operate and how their conflicts are resolved",
         issue_link: generateURL("version-control", "merge-requests"),
-        link: "/version-control/merge-requests/"
+        link: "/version-control/merge-requests.html"
     },
     {
         img_source: "./public/icons8/pull-requests.png",
         title: "GitHub Pull requests",
         description: "Understand why GitHub Pull Requests play a significant role in open-source projects",
         issue_link: generateURL("version-control", "pull-requests"),
-        link: "/version-control/pull-requests/"
+        link: "/version-control/pull-requests.html"
     },
     {
         img_source: "./public/icons8/issues.png",
         title: "GitHub Issues",
         description: "Learn how to create a GitHub Issue and what to include in it",
         issue_link: generateURL("version-control", "issues"),
-        link: "/version-control/issues/"
+        link: "/version-control/issues.html"
     },
     {
         img_source: "./public/icons8/projects.png",
         title: "GitHub Projects",
         description: "Understand how GitHub Projects influence the development of a repository",
         issue_link: generateURL("version-control", "projects"),
-        link: "/version-control/projects/"
+        link: "/version-control/projects.html"
     },
     {
         img_source: "./public/icons8/discussions.png",
         title: "GitHub Discussions",
         description: "Study how GitHub Discussions serve as a communication channel between developers",
         issue_link: generateURL("version-control", "discussions"),
-        link: "/version-control/discussions/"
+        link: "/version-control/discussions.html"
     },
     {
         img_source: "./public/icons8/actions.png",
         title: "GitHub Actions",
         description: "Learn the potential of GitHub Actions and how to use them",
         issue_link: generateURL("version-control", "actions"),
-        link: "/version-control/actions/"
+        link: "/version-control/actions.html"
     }
 ];
 verContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);
