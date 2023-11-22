@@ -51,8 +51,3 @@ function nextStep() {
         }, 300);
     }
 }
-
-module.exports = {
-    previousStep,
-    nextStep
-}
