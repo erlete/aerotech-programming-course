@@ -5,7 +5,7 @@ const STEPS = [
     `Paste the path into the <code>.user-path</code> file and save it`,
     `Switch to the <b>GitHub Desktop</b> app`,
     `You will see that the <code>src/.user-path</code> file has been modified`,
-    `Select the change (if it's not already selected) and enter a commit Summary (title)`,
+    `<b>Select the change</b> (if it's not already selected) and <b>enter a commit Summary</b> (title)`,
     `Click the <b>"Commit to <code>stable</code>"</b> button`,
     `Click the <b>"Push origin"</b> button`,
     `That's it, you have made your first commit and pushed it to the remote GitHub server! It's really that easy`
