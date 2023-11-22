@@ -6,5 +6,13 @@ function setNavigationButtons(previousPageLink, nextPageLink, elementID = "navig
     });
 }
 
-export { setNavigationButtons };
+function setTitle(title, subtitle, elementID = "title") {
+    let template = Handlebars.templates.title;
+    document.getElementById(elementID).innerHTML = template({
+        title: title,
+        subtitle: subtitle
+    });
+}
+
+export { setNavigationButtons, setTitle };
 

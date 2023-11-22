@@ -15,6 +15,7 @@ function setCurrentYear() {
 function main() {
     innerHTMLSetter("header", "header");
     innerHTMLSetter("footer", "footer");
+    innerHTMLSetter("background", "background");
     setCurrentYear();
 }
 

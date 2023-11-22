@@ -1,4 +1,7 @@
+import { setTitle } from "/scripts/modules/common_templates.js";
 import { generateURL } from "/scripts/modules/issue_report.js";
+
+setTitle("Aerotech Programming Course", "The course where you'll learn the basics of collaborative development from the ground up")
 
 Handlebars.partials = Handlebars.templates;
 

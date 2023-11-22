@@ -1,3 +1,7 @@
+import { setTitle } from "/scripts/modules/common_templates.js";
+
+setTitle("Section Exercise", "Complete the Environment Setup section by deploying a local server in a local copy of the course repository using Python")
+
 const STEPS = [
     `<a href="https://github.com/signup" target="_blank">Create a new GitHub</a> account. If you are already registered, <a href="https://github.com/login" target="_blank">log into your profile</a>. Each GitHub account needs to have a recognizable display name (the @username can be whichever you want). For example, <a href="https://github.com/erlete" target="_blank">"Paulo Sánchez (@erlete)"</a> is a decent display name; <a href="https://github.com/lkubi" target="_blank">"Luis Pérez (@lkubi)"</a> is also good, even though the username is a bit more complex. However, just take a look at <a href="https://github.com/what-a-stupid-username" target="_blank">"@What-a-stupid-username"</a>`,
     `Open <a href="https://github.com/erlete/aerotech-programming-course/" target="_blank">this repository in GitHub</a>`,

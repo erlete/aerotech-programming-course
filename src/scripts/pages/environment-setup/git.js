@@ -1,5 +1,6 @@
-import { setNavigationButtons } from "/scripts/modules/common_templates.js";
+import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
 
+setTitle("Git Setup", "Adding version control to your day-to-day projects")
 setNavigationButtons("/", "/environment-setup/python.html");
 
 const stepSlider = {

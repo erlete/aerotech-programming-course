@@ -1,5 +1,6 @@
-import { setNavigationButtons } from "/scripts/modules/common_templates.js";
+import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
 
+setTitle("Python Setup", "Unlocking the power of programming, the easy way")
 setNavigationButtons("/environment-setup/git.html", "/environment-setup/visual-studio-code.html");
 
 const stepSliderWindows = {

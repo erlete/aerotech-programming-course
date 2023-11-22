@@ -1,5 +1,6 @@
-import { setNavigationButtons } from "/scripts/modules/common_templates.js";
+import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
 
+setTitle("GitHub Desktop Setup", "Simplify Git version control with a graphical interface")
 setNavigationButtons("/environment-setup/visual-studio-code.html", "/environment-setup/section-exercise.html");
 
 const stepSlider = {

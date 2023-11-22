@@ -1,5 +1,6 @@
-import { setNavigationButtons } from "/scripts/modules/common_templates.js";
+import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
 
+setTitle("Visual Studio Code Setup", "A powerful, open source editor suitable most development needs");
 setNavigationButtons("/environment-setup/python.html", "/environment-setup/github-desktop.html");
 
 Handlebars.partials = Handlebars.templates;
