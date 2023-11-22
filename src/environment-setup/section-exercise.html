@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="prevent-select no-scrollbar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/styles/output.css">
+
+  <!-- Handlebars scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
+
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script defer src="/scripts/pages/environment-setup/section_exercise.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+</head>
+
+<body class="h-full w-full">
+  <!-- Header placeholder -->
+  <div id="header"></div>
+
+  <!-- Background -->
+  <div class="h-full absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
+    <div
+      class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#6366f1] to-primary-500 opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+      style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%, 74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
+
+      <!-- Title -->
+      <div class="mb-12 text-center">
+        <h1 class="text-center">
+          Section Exercise
+        </h1>
+        <h5 class="text-text text-center max-w-[50%]">
+          Complete the Environment Setup section by deploying a local server in a local copy of the course repository
+        </h5>
+      </div>
+
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h4>
+            Introduction
+          </h4>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+            In this exercise, you will use all the technologies you have installed through the Environment Setup section
+            to deploy a local server in a local copy of the course repository. This will allow you to see the course
+            content in your browser and interact with it in an <em>editable</em> mode, which is mandatory for the
+            remaining exercises and project.
+          </div>
+          <hr>
+
+          <h4>
+            Objective
+          </h4>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+            This section exercise aims to ensure that you have successfully installed all the required technologies and
+            that you are able to interact with them in a minimal way. If you are able to complete this exercise, you
+            will be granted access to the remaining sections of the course.
+          </div>
+
+          <div class="relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
+            <div class="w-full">
+              <h5 class="mx-1 mb-2 mt-0 font-semibold">
+                How to solve the exercise?
+              </h5>
+              <p class="mx-1 mt-2 text-base text-text">
+                Use the side navigation buttons to move between steps. Each step contains a set of instructions that
+                you need to follow to solve the exercise.
+              </p>
+            </div>
+            <div class="flex items-center justify-between mt-4 transition-all">
+              <div class="h-full flex items-center justify-between text-justify">
+                <a onclick="previousStep()"
+                  class="group relative overflow-hidden border-transparent border-2 hover:border-secondary-500 transition-all duration-1000 bg-primary-500 hover:bg-secondary-500 inline-flex items-center p-4 rounded-lg justify-center">
+                  <svg
+                    class="z-40 w-6 h-6 fill-secondary-500 transition-all duration-500 group-hover:-translate-x-1 group-hover:fill-primary-500"
+                    fill="currentColor" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <div
+                    class="absolute h-[400%] w-[400%] rotate-45 translate-x-[70%] bg-primary-300 transition-all group-hover:scale-100 group-hover:-rotate-45 group-hover: group-hover:bg-secondary-300 z-20 duration-1000">
+                  </div>
+                </a>
+              </div>
+              <p id="step-text"
+                class="h-auto mx-8 my-4 transition-all duration-300 block antialiased font-sans text-base leading-relaxed font-normal text-text">
+              </p>
+              <div class="h-full flex items-center justify-between text-justify">
+                <a onclick="nextStep()"
+                  class="group relative overflow-hidden border-transparent border-2 hover:border-secondary-500 transition-all duration-1000 bg-primary-500 hover:bg-secondary-500 inline-flex items-center p-4 rounded-lg justify-center">
+                  <svg
+                    class="z-40 w-6 h-6 fill-secondary-500 transition-all duration-500 group-hover:translate-x-1 group-hover:fill-primary-500"
+                    fill="currentColor" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <div
+                    class="absolute h-[400%] w-[400%] rotate-45 -translate-x-[70%] bg-primary-300 transition-all group-hover:scale-100 group-hover:-rotate-45 group-hover: group-hover:bg-secondary-300 z-20 duration-1000">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Input form placeholder -->
+          <div id="input-form" class="mt-8"></div>
+          <a id="input-form-link"></a>
+
+          <!-- Navigation buttons placeholder -->
+          <div class="flex items-start mt-8">
+            <a href="/environment-setup/github-desktop.html"
+              class="group relative overflow-hidden bg-primary-500 inline-flex items-center px-7 py-2.5 rounded-lg text-title font-semibold justify-center">
+              <svg class="z-40 mr-2 -ml-1 w-3 h-3 transition-all duration-300 group-hover:-translate-x-1"
+                fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+              <span class="z-40">Previous page</span>
+              <div
+                class="absolute inset-0 h-[200%] w-[200%] rotate-45 -translate-x-[-70%] transition-all group-hover:scale-100 bg-primary-100/50 group-hover:-translate-x-[70%] z-20 duration-1000">
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
+    </section>
+  </div>
+</body>
+
+</html>
