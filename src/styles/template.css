@@ -2,6 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-sans font-semibold text-title antialiased block relative leading-tight tracking-normal max-w-4xl text-left mx-auto my-4;
+    }
+    h1 {
+        @apply text-5xl font-bold;
+    }
+    h2 {
+        @apply text-4xl;
+    }
+    h3 {
+        @apply text-3xl;
+    }
+    h4 {
+        @apply text-2xl;
+    }
+    h5 {
+        @apply text-xl;
+    }
+    h6 {
+        @apply text-lg;
+    }
+    p {
+        @apply text-base;
+    }
+    hr {
+        @apply my-6 border-subtitle;
+    }
+    .mermaid-container {
+        @apply bg-secondary-200 border-dashed border-4 border-secondary-800 flex items-center align-middle justify-center;
+    }
+    .text-block {
+        @apply block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4 text-justify;
+    }
+}
+
 /* Custom */
 
 /* Hide element */
@@ -99,32 +135,3 @@ a:hover {
     font-family: 'Flow Block', sans-serif;
 }
 
-@layer components {
-    h1, h2, h3, h4, h5, h6 {
-        @apply font-sans font-semibold text-title antialiased block relative leading-tight tracking-normal max-w-4xl text-left mx-auto my-4;
-    }
-    h1 {
-        @apply text-5xl font-bold;
-    }
-    h2 {
-        @apply text-4xl;
-    }
-    h3 {
-        @apply text-3xl;
-    }
-    h4 {
-        @apply text-2xl;
-    }
-    h5 {
-        @apply text-xl;
-    }
-    h6 {
-        @apply text-lg;
-    }
-    p {
-        @apply text-base;
-    }
-    hr {
-        @apply my-6 border-subtitle;
-    }
-}
