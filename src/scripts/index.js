@@ -132,35 +132,35 @@ document.getElementById("py_content_cards").innerHTML = template(pyContentCardsD
 const verContentCards = [
     {
         img_source: "./public/icons8/repositories.png",
-        title: "Repositories",
+        title: "Git Repositories",
         description: "Understand what a repository is, both locally and remotely",
         issue_link: generateURL("version-control", "repositories"),
         link: "/version-control/repositories.html"
     },
     {
         img_source: "./public/icons8/commits.png",
-        title: "Commits",
+        title: "Git Commits",
         description: "Learn about the minimal unit of change in version control",
         issue_link: generateURL("version-control", "commits"),
         link: "/version-control/commits.html"
     },
     {
         img_source: "./public/icons8/branches.png",
-        title: "Branches",
+        title: "Git Branches",
         description: "Understand how branches work and how to use them",
         issue_link: generateURL("version-control", "branches"),
         link: "/version-control/branches.html"
     },
     {
         img_source: "./public/icons8/forks.png",
-        title: "Forks",
+        title: "Git Forks",
         description: "Learn how to fork a repository and how to use it",
         issue_link: generateURL("version-control", "forks"),
         link: "/version-control/forks.html"
     },
     {
         img_source: "./public/icons8/merge-requests.png",
-        title: "Merge requests",
+        title: "Git Merge requests",
         description: "Study how to merge requests operate and how their conflicts are resolved",
         issue_link: generateURL("version-control", "merge-requests"),
         link: "/version-control/merge-requests.html"
