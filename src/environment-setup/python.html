@@ -40,7 +40,7 @@
           <h4>
             Introduction
           </h4>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text">
+          <div class="text-block">
             Python is a programming language that lets you work quickly and integrate systems more effectively. It is a
             high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly
             readable. It uses English keywords frequently whereas other languages use punctuation, and it has fewer
@@ -51,7 +51,7 @@
           <h4>
             Why is Python important?
           </h4>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text">
+          <div class="text-block">
             Python lets you do heavy work in just a few, easy-to-write lines of code. Since it is multi-paradigm
             (although OOP-dominant), you can use whichever programming style you are used to (e.g. functional). It is
             not the fastest of languages out there, but for sure the one that gives you more results for less effort.
@@ -61,14 +61,14 @@
           <h4>
             Managing Python versions
           </h4>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block text-text">
             Since the language is constantly evolving, there are several versions of Python available, with the most
             recent being the 3.13.0. This constant upgrade troubles many Python users due to a very simple problem: they
             do not know how to properly manage Python versions. This is why in this course, you will use a tool named
             <code>pyenv</code> (a simple Python version manager).
           </div>
 
-          <div class="w-full flex items-center justify-center mb-4">
+          <div class="mx-4 my-8 flex items-center justify-center">
             <div x-data="{ openTab: 1 }" class="w-full">
               <div class="w-full">
                 <div class="mb-4 flex space-x-4 p-2 bg-secondary-100 rounded-lg shadow-md">
@@ -85,13 +85,13 @@
                 </div>
 
                 <div x-show="openTab === 1"
-                  class="transition-all duration-300 bg-secondary-100 p-4 rounded-lg shadow-md border-l-4 border-secondary-900">
+                  class="transition-all duration-300 bg-secondary-100 py-1 rounded-lg shadow-md border-l-4 border-secondary-900">
                   <!-- Pyenv installation (Windows) placeholder -->
                   <div id="setup_step_slider_windows"></div>
                 </div>
 
                 <div x-show="openTab === 2"
-                  class="transition-all duration-300 bg-secondary-100 p-4 rounded-lg shadow-md border-l-4 border-secondary-900">
+                  class="transition-all duration-300 bg-secondary-100 py-1 rounded-lg shadow-md border-l-4 border-secondary-900">
                   <!-- Pyenv installation (UNIX/macOS) placeholder -->
                   <div id="setup_step_slider_unix_macos"></div>
                 </div>
