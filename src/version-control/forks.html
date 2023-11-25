@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="prevent-select no-scrollbar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/styles/output.css">
+
+  <!-- Handlebars scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
+
+  <!-- Mermaid scripts -->
+  <script type="module" src="/scripts/modules/mermaid.js"></script>
+
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script type="module">
+    import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
+    setTitle("Git Forks", "Deep copies of a repository");
+    setNavigationButtons("/version-control/branches.html", "/version-control/merge-requests.html")
+  </script>
+  <script defer src="/scripts/pages/version-control/forks.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+</head>
+
+<body class="h-full w-full">
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Background -->
+  <div id="background"></div>
+
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
+
+      <!-- Title -->
+      <div id="title" class="mb-12 text-center"></div>
+
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h4>
+            Introduction
+          </h4>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+            A <b>fork</b> is a <b>copy of a repository</b> that is independent from the original one. Forks are usually
+            used to <b>propose changes</b> to the original repository, which can then be <b>merged</b> into it. They are
+            also used to <b>create new repositories</b> based on an existing one for custom functionalities'
+            implementation. A key difference between a repository fork and a clone is that a fork keeps the Git history
+            of the original repository, while a clone does not (while also giving credit to the original repository
+            author).
+          </div>
+          <div class="mx-4 my-8">
+            <pre class="mermaid bg-secondary-200 border-dashed border-4 border-secondary-800">
+              gitGraph
+                commit id: "Initial commit"
+                commit id: "Add theory" tag: "v0.1.0"
+                commit id: "Add exercises" tag: "v1.0.0"
+                branch "presentation-rework"
+
+                checkout "presentation-rework"
+                commit id: "Update UI"
+                branch "lkubi:presentation-rework"
+
+                checkout "lkubi:presentation-rework"
+                commit id: "Add new styles"
+
+                checkout "stable"
+                commit id: "Update dependencies" tag: "v1.0.1"
+
+                checkout "presentation-rework"
+                commit id: "Add new layout"
+
+                checkout "lkubi:presentation-rework"
+                commit id: "Fix bug"
+            </pre>
+            <p class="my-2 mx-8 text-text text-sm text-center">
+              <em>
+                Example of a repository with two branches (<b>stable</b> and <b>presentation-rework</b>) and another
+                branch from a fork of the repository (<b>lkubi:presentation-rework</b>), all with their own commits
+              </em>
+            </p>
+          </div>
+          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-8">
+            Branches from a forked repository are referenced as <code>username:branch-name</code>, where
+            <code>username</code> is the username of the user who forked the repository. This way, external
+            contributions to a repository can be easily identified. For example, if a user named <code>lkubi</code>
+            forks the <code>aerotech-programming-course</code>, which contains a branch named
+            <code>presentation-rework</code>, the branch from the forked repository will be referenced as
+            <code>lkubi:presentation-rework</code>.
+          </div>
+
+          <!-- Navigation buttons placeholder -->
+          <div id="navigation_buttons"></div>
+
+        </div>
+      </div>
+
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
+    </section>
+  </div>
+</body>
+
+</html>
