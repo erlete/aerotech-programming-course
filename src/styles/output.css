@@ -954,6 +954,10 @@ hr {
   margin-right: -0.25rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1006,6 +1010,10 @@ hr {
   margin-right: 0.5rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
@@ -1032,14 +1040,6 @@ hr {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .block {
@@ -1515,6 +1515,71 @@ hr {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+
+.py-\[10\%\] {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.py-\[1em\] {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.py-\[\.25em\] {
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+.py-\[0\.25em\] {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.py-\[2\%\] {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.py-\[0\.1em\] {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+.py-\[0\.05em\] {
+  padding-top: 0.05em;
+  padding-bottom: 0.05em;
+}
+
+.py-\[0\.01em\] {
+  padding-top: 0.01em;
+  padding-bottom: 0.01em;
+}
+
+.py-\[0\.01\%\] {
+  padding-top: 0.01%;
+  padding-bottom: 0.01%;
+}
+
+.py-\[0\.00001\%\] {
+  padding-top: 0.00001%;
+  padding-bottom: 0.00001%;
+}
+
+.py-\[0\.001\%\] {
+  padding-top: 0.001%;
+  padding-bottom: 0.001%;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 .pt-0 {
