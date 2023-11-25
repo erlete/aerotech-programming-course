@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="prevent-select no-scrollbar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/styles/output.css">
+
+  <!-- Handlebars scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
+
+  <!-- Mermaid scripts -->
+  <script type="module" src="/scripts/modules/mermaid.js"></script>
+
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script type="module">
+    import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
+    setTitle("Git Merge Requests", "Unite changes from different branches into a single one");
+    setNavigationButtons("/version-control/forks.html", "/version-control/issues.html")
+  </script>
+  <script defer src="/scripts/pages/version-control/merge-requests.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+</head>
+
+<body class="h-full w-full">
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Background -->
+  <div id="background"></div>
+
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
+
+      <!-- Title -->
+      <div id="title" class="mb-12 text-center"></div>
+
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h4>
+            Introduction
+          </h4>
+          <div class="text-block">
+            A merge request is a <b>low-level petition to merge a branch into another one</b>. A merge request is
+            composed of a <b>base</b> branch and a <b>source</b> one. The base branch is the one that will receive the
+            changes, while the source branch is the one that will be merged into the base branch.
+          </div>
+
+          <div class="mx-4 my-8">
+            <pre class="mermaid bg-secondary-200 border-dashed border-4 border-secondary-800">
+              gitGraph
+                commit id: "Initial commit"
+                commit id: "Add theory" tag: "v0.1.0"
+                commit id: "Add exercises" tag: "v1.0.0"
+                branch "presentation-rework"
+
+                checkout "presentation-rework"
+                commit id: "Update UI"
+                branch "lkubi:presentation-rework"
+
+                checkout "lkubi:presentation-rework"
+                commit id: "Add new styles"
+
+                checkout "stable"
+                commit id: "Update dependencies" tag: "v1.0.1"
+
+                checkout "presentation-rework"
+                commit id: "Add new layout"
+
+                checkout "lkubi:presentation-rework"
+                merge "presentation-rework" id: "Merge erlete:presentation-rework"
+
+                checkout "lkubi:presentation-rework"
+                commit id: "Fix bug"
+
+                checkout "presentation-rework"
+                merge "stable" id: "Merge stable"
+                merge "lkubi:presentation-rework" id: "Merge lkubi's fork branch"
+
+                checkout "stable"
+                merge "presentation-rework" id: "Implement feature" tag: "v2.0.0"
+            </pre>
+            <p class="my-2 mx-8 text-text text-sm text-center">
+              <em>
+                Example of a complete merge process from two branches of a repository (<b>stable</b> and
+                <b>presentation-rework</b>) and a branch from a fork of the repository
+                (<b>lkubi:presentation-rework</b>)
+              </em>
+            </p>
+          </div>
+          <hr>
+
+          <h4>
+            Merge strategies
+          </h4>
+          <div class="text-block">
+            There are <b>three</b> types of merge requests (<b>merge strategies</b>). Let's try to understand them with
+            some examples derived from the following scenario:
+
+            <div class="mx-4 my-8">
+              <pre
+                class="mermaid mermaid-container">
+              gitGraph
+                commit id: "Initial commit"
+                branch "dev"
+
+                commit id: "Change 1"
+                checkout "stable"
+                commit id: "Change 2"
+                checkout "dev"
+                commit id: "Change 3"
+                checkout "stable"
+                merge "dev" id: "Merge 'dev' into 'stable'"
+            </pre>
+              <p class="my-2 mx-8 text-text text-sm text-center">
+                <em>
+                  Example of a repository with two branches (<b>stable</b> and <b>dev</b>) and a merge request from
+                  <b>dev</b> into <b>stable</b>
+                </em>
+              </p>
+            </div>
+
+            <b>Depending on the selected merge strategy, the resulting commit history will be different</b>:
+
+            <ul class="mt-4 ml-8 list-disc list-inside">
+              <li>
+                <b>Standard (linear)</b>: add each commit from <code>dev</code> to <code>stable</code> respecting the
+                timeline on both branches
+                <div class="mx-4 my-8 mr-8">
+                  <pre
+                    class="mermaid mermaid-container">
+                    gitGraph
+                      commit id: "Initial commit"
+                      commit id: "Change 1" type: HIGHLIGHT
+                      commit id: "Change 2"
+                      commit id: "Change 3" type: HIGHLIGHT
+                      commit id: "Merge 'dev' into 'stable'"
+                  </pre>
+                  <p class="my-2 mx-8 text-text text-sm text-center">
+                    <em>
+                      Changes from the <code>dev</code> branch are stored in the <b>"Change 1"</b> and <b>"Change 3"</b>
+                      commits, respectively
+                    </em>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <b>Squash (non-linear)</b>: add all commits from <code>dev</code> to <code>stable</code> as a single
+                commit at the
+                end of the timeline
+                <div class="mx-4 my-8 mr-8">
+                  <pre
+                    class="mermaid mermaid-container">
+                    gitGraph
+                      commit id: "Initial commit"
+                      commit id: "Change 2"
+                      commit id: "Merge 'dev' into 'stable'" type: HIGHLIGHT
+                  </pre>
+                  <p class="my-2 mx-8 text-text text-sm text-center">
+                    <em>
+                      Changes from the <code>dev</code> branch are stored in the <b>"Merge 'dev' into 'stable'"</b>
+                      commit itself
+                    </em>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <b>Rebase (non-linear)</b>: add each commit from <code>dev</code> to <code>stable</code>, pushing the
+                incoming changes forward in the timeline, on top of all the commits on the <code>stable</code> branch
+                <div class="mx-4 my-8 mr-8">
+                  <pre
+                    class="mermaid mermaid-container">
+                    gitGraph
+                      commit id: "Initial commit"
+                      commit id: "Change 2"
+                      commit id: "Merge 'dev' into 'stable'"
+                      commit id: "Change 1" type: HIGHLIGHT
+                      commit id: "Change 3" type: HIGHLIGHT
+                  </pre>
+                  <p class="my-2 mx-8 text-text text-sm text-center">
+                    <em>
+                      Changes from the <code>dev</code> branch are stored in the <b>"Change 1"</b> and <b>"Change
+                        3"</b>, which are pushed forward in the timeline, in front of all the commits on the
+                      <code>stable</code> branch
+                    </em>
+                  </p>
+                </div>
+              </li>
+          </div>
+          <hr>
+
+          <h4>
+            Merge conflicts
+          </h4>
+          <div class="text-block">
+            In some scenarios, <b>Git is not able to automatically merge two branches</b>. This is called a <b>merge
+              conflict</b>. This happens when the same file is modified in both branches, and Git is not able to
+            determine which changes should be kept. In this case, Git will <b>stop the merge process</b> and will ask
+            the user to <b>manually solve the conflict</b>. Basically, the user is prompted to delete some lines of code
+            and keep others. Once the conflict is solved, the user can continue with the merge process.
+          </div>
+
+          <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
+            <h5 class="mx-1 mt-0 mb-4 font-semibold">
+              Exercise: Branches
+            </h5>
+            <div class="flex items-center justify-between mt-0 transition-all">
+              <div class="h-full flex items-center justify-between text-justify">
+                <a onclick="previousStep()"
+                  class="group relative overflow-hidden border-transparent border-2 hover:border-secondary-500 transition-all duration-1000 bg-primary-500 hover:bg-secondary-500 inline-flex items-center p-4 rounded-lg justify-center">
+                  <svg
+                    class="z-40 w-6 h-6 fill-secondary-500 transition-all duration-500 group-hover:-translate-x-1 group-hover:fill-primary-500"
+                    fill="currentColor" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <div
+                    class="absolute h-[400%] w-[400%] rotate-45 translate-x-[70%] bg-primary-300 transition-all group-hover:scale-100 group-hover:-rotate-45 group-hover: group-hover:bg-secondary-300 z-20 duration-1000">
+                  </div>
+                </a>
+              </div>
+              <p id="step-text"
+                class="h-auto mx-8 my-4 transition-all duration-300 block antialiased font-sans text-base leading-relaxed font-normal text-text">
+              </p>
+              <div class="h-full flex items-center justify-between text-justify">
+                <a onclick="nextStep()"
+                  class="group relative overflow-hidden border-transparent border-2 hover:border-secondary-500 transition-all duration-1000 bg-primary-500 hover:bg-secondary-500 inline-flex items-center p-4 rounded-lg justify-center">
+                  <svg
+                    class="z-40 w-6 h-6 fill-secondary-500 transition-all duration-500 group-hover:translate-x-1 group-hover:fill-primary-500"
+                    fill="currentColor" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <div
+                    class="absolute h-[400%] w-[400%] rotate-45 -translate-x-[70%] bg-primary-300 transition-all group-hover:scale-100 group-hover:-rotate-45 group-hover: group-hover:bg-secondary-300 z-20 duration-1000">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation buttons placeholder -->
+          <div id="navigation_buttons"></div>
+
+        </div>
+      </div>
+
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
+    </section>
+  </div>
+</body>
+
+</html>
