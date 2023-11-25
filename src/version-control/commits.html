@@ -14,23 +14,18 @@
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="/scripts/templates.js"></script>
 
+  <!-- Mermaid scripts -->
+  <script type="module" src="/scripts/modules/mermaid.js"></script>
+
   <!-- Other scripts -->
   <script defer src="/scripts/modules/static_elements_setup.js"></script>
   <script type="module">
     import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
     setTitle("Git Commits", "The minimal unit of change in version control")
-    setNavigationButtons("/version-control/repositories.html", "/version-control/branches.html")
+    setNavigationButtons("/version-control/repositories.html", "/version-control/tags.html")
   </script>
   <script defer src="/scripts/pages/version-control/commits.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
-
-  <!-- User path file named .user-path -->
-  <script type="file" src="/src/.user-path"></script>
-  <!-- Read file contents -->
-  <script>
-    document.querySelector("script[type=file]").addEventListener;
-
-  </script>
 </head>
 
 <body class="h-full w-full">
@@ -54,28 +49,31 @@
             Introduction
           </h4>
           <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
-            Commits are the core of Git. They are the way Git keeps track of the changes that happen to your
-            files. A commit is a <b>snapshot of your project at a certain point in time</b>. It can contain
-            one or more changes to your files, and it is identified by a unique hash. Furthermore, commits
-            contain a title and a description. <b>Titles are mandatory</b> and should not exceed 50
-            characters. <b>Descriptions are optional</b> and can be as long as they need to be.
+            Commits are the core of Git. They are the way Git keeps track of the changes that happen to your files. A
+            commit is a <b>snapshot of your project at a certain point in time</b>. It can contain one or more changes
+            to your files, and it is identified by a unique hash. Furthermore, commits contain a <b>summary
+              (mandatory)</b> and a <b>description (optional)</b>. The summary should never exceed 50 characters,
+            whereas descriptions can be as long as required.
           </div>
-          <hr>
-
-          <h4>
-            Why are repositories important?
-          </h4>
+          <div class="mx-4 my-8">
+            <pre class="mermaid bg-secondary-200 border-dashed border-4 border-secondary-800">
+              gitGraph
+                commit id: "Initial commit"
+                commit id: "Add theory"
+                commit id: "Add exercises"
+            </pre>
+            <p class="my-2 mx-8 text-text text-sm text-center">
+              <em>
+                Example of three commits in the main branch (<b>stable</b>) of a repository
+              </em>
+            </p>
+          </div>
           <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
-            Since the contents of a commit can be <b>selectively applied</b> to the version control process,
-            commits offer the possibility of keeping track of <b>small, independent changes</b> (e.g. a typo
-            fix, a missing semicolon, etc.) <b>or complex ones</b> (e.g. website UI redesign, new feature,
-            etc.). <b>This depends solely on the developer's criteria.</b>
-            <br><br>
-            Furthermore, selective commits are very useful when working on unstable features, since if
-            something breaks, it is easy to identify the commit that caused the issue and revert the state
-            of the project to the previous one.
+            It is always a good practice to <b>maxify the amount of information given in a commit</b> (summary abd
+            description), <b>while minimizing the amount of changes</b>. This is due to the fact that having multiple,
+            well-described changes on the project makes it easier to revert it to a previous state, or to identify the
+            commit that caused a bug.
           </div>
-
           <div class="relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
             <h5 class="mx-1 mt-0 mb-4 font-semibold">
               Exercise: Commits
