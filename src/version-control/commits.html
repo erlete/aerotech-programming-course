@@ -48,7 +48,7 @@
           <h4>
             Introduction
           </h4>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block">
             Commits are the core of Git. They are the way Git keeps track of the changes that happen to your files. A
             commit is a <b>snapshot of your project at a certain point in time</b>. It can contain one or more changes
             to your files, and it is identified by a unique hash. Furthermore, commits contain a <b>summary
@@ -56,7 +56,7 @@
             whereas descriptions can be as long as required.
           </div>
           <div class="mx-4 my-8">
-            <pre class="mermaid bg-secondary-200 border-dashed border-4 border-secondary-800">
+            <pre class="mermaid mermaid-container">
               gitGraph
                 commit id: "Initial commit"
                 commit id: "Add theory"
@@ -68,13 +68,14 @@
               </em>
             </p>
           </div>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block">
             It is always a good practice to <b>maxify the amount of information given in a commit</b> (summary abd
             description), <b>while minimizing the amount of changes</b>. This is due to the fact that having multiple,
             well-described changes on the project makes it easier to revert it to a previous state, or to identify the
             commit that caused a bug.
           </div>
-          <div class="relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
+
+          <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
             <h5 class="mx-1 mt-0 mb-4 font-semibold">
               Exercise: Commits
             </h5>

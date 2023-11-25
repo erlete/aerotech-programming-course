@@ -48,7 +48,7 @@
           <h4>
             Introduction
           </h4>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block">
             Tags are a way to <b>mark specific commits</b> in a repository. They are used to <b>signify important
               milestones</b> in a project, such as a release. Tags are <b>immutable</b>, meaning that they cannot be
             changed once they are created. They allow developers to offer a <b>stable (release) version of their
@@ -58,7 +58,7 @@
               3.11 is itself a tag</a> that marks a commit in the Python repository.
           </div>
           <div class="mx-4 my-8">
-            <pre class="mermaid bg-secondary-200 border-dashed border-4 border-secondary-800">
+            <pre class="mermaid mermaid-container">
               gitGraph
                 commit id: "Initial commit"
                 commit id: "Add theory" tag: "v0.1.0"
@@ -70,7 +70,7 @@
               </em>
             </p>
           </div>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block">
             While there are plenty of tag naming conventions, the most common one is <b>semantic versioning</b>. This
             convention consists of three numbers separated by dots, such as <code>1.0.0</code>. The first number
             represents the <b>major version</b>, the second the <b>minor version</b>, and the third the <b>patch
@@ -79,7 +79,8 @@
             there are <b>bug fixes</b>. Furthermore, it is recommended to use a <b>leading "v" character</b> to signify
             that the tag is a <em><b>v</b>ersion</em> number (e.g., <code>v1.0.0</code>).
           </div>
-          <div class="relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
+
+          <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
             <h5 class="mx-1 mt-0 mb-4 font-semibold">
               Exercise: Tags
             </h5>

@@ -48,7 +48,7 @@
           <h4>
             Introduction
           </h4>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block">
             Branches are <b>parallel versions of any given state of a repository</b>. They are the key to collaborative
             development, since <b>they allow multiple developers to work on the same repository without affecting each
               other's work</b>. Branches are created from a given commit in another branch, and they can be merged back
@@ -59,7 +59,7 @@
           </div>
 
           <div class="mx-4 my-8">
-            <pre class="mermaid bg-secondary-200 border-dashed border-4 border-secondary-800">
+            <pre class="mermaid-container mermaid">
               gitGraph
                 commit id: "Initial commit"
                 commit id: "Add theory" tag: "v0.1.0"
@@ -82,14 +82,14 @@
               </em>
             </p>
           </div>
-          <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
+          <div class="text-block">
             Branches' ability to <b>isolate changes</b> is what makes them so important. They allow developers to work
             on the same repository without affecting each other's work, and even to separate different features into
             corresponding branches. This way, <b>changes can be tested and reviewed before being merged into the main
               branch</b>.
           </div>
 
-          <div class="relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
+          <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
             <h5 class="mx-1 mt-0 mb-4 font-semibold flex">
               Exercise: Branches
             </h5>

@@ -2,77 +2,77 @@
 <html lang="en" class="prevent-select no-scrollbar">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
-    <link rel="icon" href="/public/aerotech/icon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/styles/output.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/styles/output.css">
 
-    <!-- Handlebars scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-    <script src="/scripts/templates.js"></script>
+  <!-- Handlebars scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
 
-    <!-- Other scripts -->
-    <script defer src="/scripts/modules/static_elements_setup.js"></script>
-    <script defer type="module" src="/scripts/pages/version-control/repositories.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script defer type="module" src="/scripts/pages/version-control/repositories.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
 </head>
 
 <body class="h-full w-full">
-    <!-- Header -->
-    <div id="header"></div>
+  <!-- Header -->
+  <div id="header"></div>
 
-    <!-- Background -->
-    <div id="background"></div>
+  <!-- Background -->
+  <div id="background"></div>
 
-    <!-- Content -->
-    <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
-        <section class="px-40">
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
 
-            <!-- Title -->
-            <div id="title" class="mb-12 text-center"></div>
+      <!-- Title -->
+      <div id="title" class="mb-12 text-center"></div>
 
-            <!-- Content blocks -->
-            <div class="grid grid-cols-12">
-                <div class="col-span-12 lg:col-start-4 lg:col-span-6">
-                    <h4>
-                        Introduction
-                    </h4>
-                    <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
-                        At a local level, a repository is just a directory on your computer with some special files in
-                        it, such as the <code>.git</code> directory. The <code>.git</code> directory contains all the
-                        information that is required for Git to track the history of your project and notice any changes
-                        that happen to the files in it.
-                        <br><br>
-                        A remote repository is exactly the same as a local repository, except that it is stored on a
-                        remote server. This remote server can be a dedicated Git hosting service, such as GitHub or
-                        GitLab, or it can be a server that you have set up yourself (even an external storage device
-                        can work as a <em><code>git</code> server</em>).
-                    </div>
-                    <hr>
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h4>
+            Introduction
+          </h4>
+          <div class="text-block">
+            At a local level, a repository is just a directory on your computer with some special files in it, such as
+            the <code>.git</code> directory. The <code>.git</code> directory contains all the information that is
+            required for Git to track the history of your project and notice any changes that happen to the files in it.
+          </div>
+          <div class="text-block">
+            A remote repository is exactly the same as a local repository, except that it is stored on a remote server.
+            This remote server can be a dedicated Git hosting service, such as GitHub or GitLab, or it can be a server
+            that you have set up yourself (even an external storage device can work as a <em><code>git</code>
+              server</em>).
+          </div>
+          <hr>
 
-                    <h4>
-                        Why are repositories important?
-                    </h4>
-                    <div class="block antialiased font-sans text-base leading-relaxed font-normal text-text mb-4">
-                        As it has been said before, repositories are not just directories. They offer extra
-                        functionalities that can be very useful for developers that want to keep track of their code
-                        changes, collaborate with other developers, and deploy their code to isolated production
-                        environments. After all, without repositories, there would be no version control.
-                    </div>
+          <h4>
+            Why are repositories important?
+          </h4>
+          <div class="text-block">
+            As it has been said before, repositories are not just directories. They offer extra functionalities that can
+            be very useful for developers that want to keep track of their code changes, collaborate with other
+            developers, and deploy their code to isolated production environments. After all, without repositories,
+            there would be no version control.
+          </div>
 
-                    <!-- Navigation buttons placeholder -->
-                    <div id="navigation_buttons"></div>
+          <!-- Navigation buttons placeholder -->
+          <div id="navigation_buttons"></div>
 
-                </div>
-            </div>
+        </div>
+      </div>
 
-            <!-- Footer placeholder -->
-            <div id="footer"></div>
-        </section>
-    </div>
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
+    </section>
+  </div>
 </body>
 
 </html>
