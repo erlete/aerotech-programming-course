@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="prevent-select no-scrollbar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link rel="icon" href="/public/aerotech/icon.ico">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/styles/output.css">
+
+  <!-- Handlebars scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="/scripts/templates.js"></script>
+
+  <!-- Mermaid scripts -->
+  <script type="module" src="/scripts/modules/mermaid.js"></script>
+
+  <!-- Other scripts -->
+  <script defer src="/scripts/modules/static_elements_setup.js"></script>
+  <script type="module">
+    import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
+    setTitle("GitHub Pull Requests", "Suggest implementations for branches in a project");
+    setNavigationButtons("/version-control/discussions.html", "/version-control/actions.html")
+  </script>
+  <script defer src="/scripts/pages/version-control/pull-requests.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+</head>
+
+<body class="h-full w-full">
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Background -->
+  <div id="background"></div>
+
+  <!-- Content -->
+  <div class="flex absolute inset-x-0 top-20 min-h-screen items-center justify-center">
+    <section class="px-40">
+
+      <!-- Title -->
+      <div id="title" class="mb-12 text-center"></div>
+
+      <!-- Content blocks -->
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-start-4 lg:col-span-6">
+          <h4>
+            Introduction
+          </h4>
+          <div class="text-block">
+            TODO: Intro
+          </div>
+          <hr>
+
+          <div class="text-block">
+            TODO: Description
+          </div>
+
+          <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
+            <h5 class="mx-1 mt-0 mb-4 font-semibold flex">
+              Exercise: Pull requests
+            </h5>
+            <div class="flex items-center justify-between mt-0 transition-all">
+              <div class="h-full flex items-center justify-between text-justify">
+                <a onclick="previousStep()"
+                  class="group relative overflow-hidden border-transparent border-2 hover:border-secondary-500 transition-all duration-1000 bg-primary-500 hover:bg-secondary-500 inline-flex items-center p-4 rounded-lg justify-center">
+                  <svg
+                    class="z-40 w-6 h-6 fill-secondary-500 transition-all duration-500 group-hover:-translate-x-1 group-hover:fill-primary-500"
+                    fill="currentColor" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <div
+                    class="absolute h-[400%] w-[400%] rotate-45 translate-x-[70%] bg-primary-300 transition-all group-hover:scale-100 group-hover:-rotate-45 group-hover: group-hover:bg-secondary-300 z-20 duration-1000">
+                  </div>
+                </a>
+              </div>
+              <p id="step-text"
+                class="h-auto mx-8 my-4 transition-all duration-300 block antialiased font-sans text-base leading-relaxed font-normal text-text">
+              </p>
+              <div class="h-full flex items-center justify-between text-justify">
+                <a onclick="nextStep()"
+                  class="group relative overflow-hidden border-transparent border-2 hover:border-secondary-500 transition-all duration-1000 bg-primary-500 hover:bg-secondary-500 inline-flex items-center p-4 rounded-lg justify-center">
+                  <svg
+                    class="z-40 w-6 h-6 fill-secondary-500 transition-all duration-500 group-hover:translate-x-1 group-hover:fill-primary-500"
+                    fill="currentColor" viewBox="0 -0.5 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <div
+                    class="absolute h-[400%] w-[400%] rotate-45 -translate-x-[70%] bg-primary-300 transition-all group-hover:scale-100 group-hover:-rotate-45 group-hover: group-hover:bg-secondary-300 z-20 duration-1000">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation buttons placeholder -->
+          <div id="navigation_buttons"></div>
+
+        </div>
+      </div>
+
+      <!-- Footer placeholder -->
+      <div id="footer"></div>
+    </section>
+  </div>
+</body>
+
+</html>
