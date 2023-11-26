@@ -49,12 +49,30 @@
             Introduction
           </h4>
           <div class="text-block">
-            TODO: Intro
+            Actions are <b>the key for project automation and constant development</b>. They are scripts of code that
+            are executed upon specific events during the development process (e.g. a commit that has been pushed to the
+            remote repository, a branch that has been merged into another one, a PR has been created, etc.).
+          </div>
+          <div class="text-block">
+            Since Actions are executed in remote virtual machines, they can be used to <b>build, test, package and
+              deploy</b> your projects with minimal effort. They can also be used to <b>automate repetitive tasks</b>
+            that would otherwise be done manually, such as <b><a
+                href="https://the-turing-way.netlify.app/reproducible-research/code-quality/code-quality-style.html"
+                target="_blank">code formatting, linting</a>, etc.</b>
           </div>
           <hr>
 
+          <h4>
+            Actions and PRs: the perfect match
+          </h4>
           <div class="text-block">
-            TODO: Description
+            Actions become extremely useful when used along <a
+              href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches"
+              target="_blank">branch protection rules</a>, since they allow repository maintainers to <b>enforce
+              certain rules</b> (e.g. code formatting, linting, etc.) before merging a PR into a protected branch. This
+            can greatly improve the quality of the codebase and the overall development process, while also reducing the
+            amount of potential bugs thanks to the implementation of automatic <a
+              href="https://the-turing-way.netlify.app/reproducible-research/testing" target="_blank">code testing</a>.
           </div>
 
           <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
