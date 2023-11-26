@@ -166,25 +166,11 @@ const verContentCards = [
         link: "/version-control/merge-requests.html"
     },
     {
-        img_source: "./public/icons8/pull-requests.png",
-        title: "GitHub Pull requests",
-        description: "Understand why GitHub Pull Requests play a significant role in open-source projects",
-        issue_link: generateURL("version-control", "pull-requests"),
-        link: "/version-control/pull-requests.html"
-    },
-    {
         img_source: "./public/icons8/issues.png",
         title: "GitHub Issues",
         description: "Learn how to create a GitHub Issue and what to include in it",
         issue_link: generateURL("version-control", "issues"),
         link: "/version-control/issues.html"
-    },
-    {
-        img_source: "./public/icons8/projects.png",
-        title: "GitHub Projects",
-        description: "Understand how GitHub Projects influence the development of a repository",
-        issue_link: generateURL("version-control", "projects"),
-        link: "/version-control/projects.html"
     },
     {
         img_source: "./public/icons8/discussions.png",
@@ -194,11 +180,25 @@ const verContentCards = [
         link: "/version-control/discussions.html"
     },
     {
+        img_source: "./public/icons8/pull-requests.png",
+        title: "GitHub Pull requests",
+        description: "Understand why GitHub Pull Requests play a significant role in open-source projects",
+        issue_link: generateURL("version-control", "pull-requests"),
+        link: "/version-control/pull-requests.html"
+    },
+    {
         img_source: "./public/icons8/actions.png",
         title: "GitHub Actions",
         description: "Learn the potential of GitHub Actions and how to use them",
         issue_link: generateURL("version-control", "actions"),
         link: "/version-control/actions.html"
+    },
+    {
+        img_source: "./public/icons8/projects.png",
+        title: "GitHub Projects",
+        description: "Understand how GitHub Projects influence the development of a repository",
+        issue_link: generateURL("version-control", "projects"),
+        link: "/version-control/projects.html"
     }
 ];
 verContentCards.forEach((card, index) => card.title = `${index + 1}. ${card.title}`);
