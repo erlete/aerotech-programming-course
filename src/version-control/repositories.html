@@ -16,7 +16,12 @@
 
   <!-- Other scripts -->
   <script defer src="/scripts/modules/static_elements_setup.js"></script>
-  <script defer type="module" src="/scripts/pages/version-control/repositories.js"></script>
+  <script type="module">
+    import { setNavigationButtons, setTitle } from "/scripts/modules/common_templates.js";
+
+    setTitle("Git Repositories", "A way to organize and version snapshots of your code");
+    setNavigationButtons("/", "/version-control/commits.html");
+  </script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
 </head>
 
