@@ -14,14 +14,12 @@
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="/scripts/templates.js"></script>
 
-  <!-- Mermaid scripts -->
-  <script type="module" src="/scripts/modules/mermaid.js"></script>
-
   <!-- Other scripts -->
   <script defer src="/scripts/modules/static_elements_setup.js"></script>
   <script type="module">
     import { setTitle } from "/scripts/modules/common_templates.js";
-    setTitle("Section Exercise", "Test your knowledge of the current section contents");
+
+    setTitle("Section Exercise", "Complete the Version Control section by commiting, pushing and merging changes into the course repository");
   </script>
   <script defer src="/scripts/pages/version-control/section_exercise.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
@@ -48,16 +46,23 @@
             Introduction
           </h4>
           <div class="text-block">
-            TODO: Intro
+            In this exercise, you will put your recently acquired Git and GitHub skills to the test by completing a
+            series of tasks that will require you to modify and commit a file to a newly created branch, push that
+            branch to the remote repository and finally merge it into the main branch.
           </div>
           <hr>
 
+          <h4>
+            Objective
+          </h4>
           <div class="text-block">
-            TODO: Description
+            This section exercise aims to ensure that you have successfully understood how Git-based version control
+            works and how to interact with GitHub resources for easier contributions to remote repositories. If you are
+            able to complete this exercise, you will be granted access to the remaining sections of the course.
           </div>
 
           <div class="my-8 relative flex w-full flex-col rounded-xl bg-secondary-100 bg-clip-border p-4 shadow-xl">
-            <h5 class="mx-1 mt-0 mb-4 font-semibold flex">
+            <h5 class="mx-1 mt-0 mb-4 font-semibold">
               Exercise: Version Control
             </h5>
             <div class="flex items-center justify-between mt-0 transition-all">
@@ -98,7 +103,7 @@
 
           <!-- Navigation buttons placeholder -->
           <div class="flex items-start mt-8">
-            <a href="/version-control/projects.html"
+            <a href="/environment-setup/github-desktop.html"
               class="group relative overflow-hidden bg-primary-500 inline-flex items-center px-7 py-2.5 rounded-lg text-title font-semibold justify-center">
               <svg class="z-40 mr-2 -ml-1 w-3 h-3 transition-all duration-300 group-hover:-translate-x-1"
                 fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
