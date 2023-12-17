@@ -1,6 +1,6 @@
 {
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.organizeImports": "explicit"
     },
     "editor.codeLensFontFamily": "Fira Code",
     "editor.fontFamily": "Fira Code",
