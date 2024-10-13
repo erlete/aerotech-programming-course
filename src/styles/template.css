@@ -47,9 +47,9 @@
 
 /* Prevent text selection */
 .prevent-select {
-    -webkit-user-select: none;
+    /* -webkit-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: none; */
 }
 
 /* Allow all text selection */
@@ -134,4 +134,3 @@ a:hover {
 .locked {
     font-family: 'Flow Block', sans-serif;
 }
-
