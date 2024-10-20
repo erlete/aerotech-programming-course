@@ -1,5 +1,9 @@
 # *UVigo Aerotech* Programming Course
 
+> [!IMPORTANT]  
+> **This repository has been deprecated** in favor of the development of [PyLearningLab](https://pylearninglab.erlete.dev) as it contains newer and significantly better content.
+> This means that support in this repository has been completely disabled. Issues, PRs and discussions will not receive any further attention.
+
 > ***Estimated completion time: 5 minutes***
 
 Welcome to the ***UVigo Aerotech*** basic formation course! This repository contains all necessary resources to achieve a basic formation in **common development practices**, **Python programming** and **code editing skills**.
